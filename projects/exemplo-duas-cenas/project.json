@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "title": "Lia no café - exercício de continuidade",
+  "surface": "flow",
+  "model": "veo-3.1-fast",
+  "mode": "references-to-video",
+  "aspect_ratio": "16:9",
+  "reference_version": "v1-pendente",
+  "generation": {
+    "budget_credits": 0,
+    "authorization": null,
+    "resolution": null,
+    "audio": {"intent": "ambient", "language": null},
+    "results_per_attempt": 1,
+    "cost_per_result_credits": null,
+    "ui_verified": false,
+    "ui_verified_on": null,
+    "ui_evidence": null,
+    "ui_plan_sha256": null
+  },
+  "assets": [
+    {"handle": "@Lia", "kind": "character", "description": "Especificação desejada: mulher adulta fictícia, cerca de 30 anos, rosto oval, olhos castanhos, cabelo preto liso até os ombros com risca central; camisa lisa azul-marinho de mangas longas, sem joias. Identidade visual pendente.", "path": null, "approved": false, "sha256": null},
+    {"handle": "@Cafe", "kind": "location", "description": "Especificação desejada: café vazio, mesa retangular de madeira no primeiro plano, janela à esquerda da imagem, parede verde-clara, uma planta no fundo à direita; luz diurna difusa da esquerda, câmera frontal fixa à altura dos olhos. Aparência visual pendente.", "path": null, "approved": false, "sha256": null},
+    {"handle": "@Caneca", "kind": "prop", "description": "Especificação desejada: uma caneca de cerâmica branca lisa, sem marca, uma alça à direita da imagem; mão direita de Lia na altura do peito. Forma e escala visuais pendentes.", "path": null, "approved": false, "sha256": null}
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "duration_seconds": 8,
+      "prompt": "prompts/cena-01.md",
+      "storyboard_spec": "storyboards/cena-01.json",
+      "storyboard_prompt": "storyboards/cena-01.md",
+      "review_plan": "review-plans/cena-01.json",
+      "required_references": ["@Lia", "@Cafe", "@Caneca"],
+      "bindings": {},
+      "transition": "opening",
+      "state_in": {"character": "@Lia", "wardrobe": "camisa azul-marinho", "pose": "sentada frontal", "gaze": "frontal", "expression": "neutra", "right_hand": "@Caneca na altura do peito", "left_hand": "repousando na mesa", "mug_count": 1, "mug_handle": "direita da imagem", "set": "@Cafe janela esquerda planta fundo direito", "camera": "frontal fixa altura dos olhos", "light": "diurna difusa da esquerda"},
+      "state_out": {"character": "@Lia", "wardrobe": "camisa azul-marinho", "pose": "sentada frontal", "gaze": "frontal", "expression": "neutra", "right_hand": "@Caneca na altura do peito", "left_hand": "repousando na mesa", "mug_count": 1, "mug_handle": "direita da imagem", "set": "@Cafe janela esquerda planta fundo direito", "camera": "frontal fixa altura dos olhos", "light": "diurna difusa da esquerda"}
+    },
+    {
+      "id": "02",
+      "duration_seconds": 8,
+      "prompt": "prompts/cena-02.md",
+      "storyboard_spec": "storyboards/cena-02.json",
+      "storyboard_prompt": "storyboards/cena-02.md",
+      "review_plan": "review-plans/cena-02.json",
+      "required_references": ["@Lia", "@Cafe", "@Caneca"],
+      "bindings": {},
+      "transition": "cut",
+      "state_in": {"character": "@Lia", "wardrobe": "camisa azul-marinho", "pose": "sentada frontal", "gaze": "frontal", "expression": "neutra", "right_hand": "@Caneca na altura do peito", "left_hand": "repousando na mesa", "mug_count": 1, "mug_handle": "direita da imagem", "set": "@Cafe janela esquerda planta fundo direito", "camera": "frontal fixa altura dos olhos", "light": "diurna difusa da esquerda"},
+      "state_out": {"character": "@Lia", "wardrobe": "camisa azul-marinho", "pose": "sentada frontal", "gaze": "frontal", "expression": "neutra", "right_hand": "@Caneca na altura do peito", "left_hand": "repousando na mesa", "mug_count": 1, "mug_handle": "direita da imagem", "set": "@Cafe janela esquerda planta fundo direito", "camera": "frontal fixa altura dos olhos", "light": "diurna difusa da esquerda"}
+    }
+  ]
+}

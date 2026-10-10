@@ -1,0 +1,882 @@
+{
+  "schema_version": 1,
+  "source_id": "fal-ai-skills",
+  "commit": "9ca850412943251fc9a466c4c29fdaf7a303a3d8",
+  "coverage": "all-git-tracked-files",
+  "duplicate_policy": "Manter todas as origens e caminhos, inclusive SHA-256 repetidos.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "a788ac6848c44a5e096b4b660304c0e4f06dde5230c6a20fa7b1eb54cde0af41",
+      "category": "infraestrutura",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "README.md",
+      "sha256": "5fd965e6fce5b781443bb74783b2ab071fa03317d55e2a6aacab2b104c813914",
+      "category": "documentacao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "scripts/build-skills-index.py",
+      "sha256": "34c71e17572db8bddccf2c5c978557844a4f0819a12c1726257ec9a04d806e25",
+      "category": "infraestrutura",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/character-design/SKILL.md",
+      "sha256": "1f62641d84b3dc0f2c0e13663afbb71cd9682483e82b920cc53450713c5f5d57",
+      "category": "continuidade",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/character-design/references/anchor-system.md",
+      "sha256": "397f23ee81160990aad789931649aded955314c583539665fb89f1bf15831acd",
+      "category": "continuidade",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/character-design/references/examples.md",
+      "sha256": "1980d83b82d2ee18417aa3d704a30c4ad17b17e93a3676ed0be1508e64dd849f",
+      "category": "continuidade",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/character-design/references/prompt-patterns.md",
+      "sha256": "256ba5364c0b9b52538774e1c307ec1e8dbeffcd5cd85950e2b3551bcac382bc",
+      "category": "continuidade",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/cinematography/SKILL.md",
+      "sha256": "8d23b4836a7621e1c9715def480d95e3b4b2135bfd7995e2800013949fc8eba7",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/cinematography/references/examples.md",
+      "sha256": "e143734e15f79411240056f22b9def4d8053b11cb54958213e68eec9899778c8",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/cinematography/references/lighting-lens-color.md",
+      "sha256": "e9bbe4c61c98c0cf98cb652101b0e16f670184d7236e5509e9abc2e8de195f2a",
+      "category": "graficos",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/graficos.md",
+      "reason": "Extrair somente princípios conceituais de graficos em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/cinematography/references/shot-language.md",
+      "sha256": "21ca47d38ae6388293c410c4181fd2d84f8058fbcd36bf3db5d1643179e3faaf",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/commercial/SKILL.md",
+      "sha256": "be01bc3eabf0cd1004b9ce6a1bf9725aa0bb308a3c499483971ce423e392e3b6",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/commercial/references/examples.md",
+      "sha256": "529a12813026c6f77c5171b99cfb966b57c81b36594626e8dd7a5eed81c7ba15",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/commercial/references/prompt-patterns.md",
+      "sha256": "491aaf66cac663b453d395b0a3c690f3da1a11a93292361b6589a6d6fec26be4",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/commercial/references/workflows.md",
+      "sha256": "e1cd239afb8a1b8f3bf5e7ae46d063b15a2cc73e0b9a28373b1d0acb344f135f",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-gamedev/SKILL.md",
+      "sha256": "5b78fd483bd46b0783ad1decfd60617c4000cd7b52610455bfd4d4bf396758c2",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo gamedev específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/SKILL.md",
+      "sha256": "13582586677b5afff1beaa7a3ac2306c59a3ab7ca6b7b2be0492a9af21b46de1",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/audio-to-text.md",
+      "sha256": "2a55433dd4b0293d324f75deadd86451ba1ec676fc82e3dc52a16cab137fa5ee",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/image-to-3d.md",
+      "sha256": "33a10b6fbd7ad300871e4bbe924f9050cb5add7f3c80494ffa72ae833af72edf",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/image-to-image.md",
+      "sha256": "71011dd3a3bad2893d99f0ed70f240a335d571226280dbf54d0bdad9abdc04f6",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/image-to-text.md",
+      "sha256": "7e777fe6c80980edb0c1a9f2e2623c9eabde40c9b77f29e55ca6fe9d264bc1a5",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/image-to-video.md",
+      "sha256": "8d9c1cc8e2e68d897ccdffdd2ebd7df627f851db77bc54e8e418e98f9afbea64",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/text-to-3d.md",
+      "sha256": "d6bfdcbfeadb24bac5b90db55511bba86b9e677c75c83392ad95935ec0e99250",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/text-to-audio.md",
+      "sha256": "1b9bfa86945d0eee286b691e637e631baa07088ae26de8c096f20ed188e084b1",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/text-to-image.md",
+      "sha256": "860cbfa182cb45a9da9e8e9c2f8982ef8724c92dcc145e2ff0bd08bd093f77eb",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/text-to-video.md",
+      "sha256": "1840fc2ba3b392fb46fea3240727ebf198fc9d8f0c627ed42aef41f6d856e619",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-models-catalog/references/video-to-video.md",
+      "sha256": "3282c3084a7c3ffce07f8ecc4c8595168a133553a9638245fc1e3916c7ed96c8",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-models específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-prompting/SKILL.md",
+      "sha256": "e9e88c6b5ccac9367353ab9a829ce764c7a253ae3b93f1306bb247eabafde1d7",
+      "category": "documentacao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-prompting/references/gpt-image-2.md",
+      "sha256": "50430650b1b03ca83ee80ff5fef9844bb27ed56e0e621c280f0353ea18cdd84b",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo gpt-image específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-prompting/references/happy-horse.md",
+      "sha256": "82bc895cfbf4f42b2672f329f069a5130ecf77a09500b9d4127e5acd296b17f7",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo happy-horse específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-prompting/references/kling.md",
+      "sha256": "cd0653d33aead4b622753aa84f8f47be816932a4cfe222da8c6962f05068929e",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo kling específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-recipes/SKILL.md",
+      "sha256": "2c6a99b5cf427b89436f65836f00e8ac25d8dabf0871127e5ee196e5faf4c98a",
+      "category": "documentacao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/character-design.md",
+      "sha256": "a432f10ee2b8e84bebc506af285748ef9c56c9b3f5c205201190b88f2fcb1022",
+      "category": "continuidade",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/character-lipsync.md",
+      "sha256": "7cd5e02b5df35ed6989672848c6789ff24e5e40f914af4205ade68dc2c030e4b",
+      "category": "continuidade",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/cinematography.md",
+      "sha256": "e2092269cb9acb10795f8676fea634d69c0ddc597fd9f6a9ed2c53a62d466ba6",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/commercial.md",
+      "sha256": "f02bb04518a2c63535535760927dbc72e1583e67db60c83ac04d2133078de2b2",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/image-restoration.md",
+      "sha256": "48adc6893479c37265c9fbaa8454d2b51b0797948097f1d13272f7d01fa078f8",
+      "category": "continuidade",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/product-shot.md",
+      "sha256": "2f27f791b3d1ce1e82a79ae3bdd84c84f2cd9b166d4dd03482ce6f4e67f36a12",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/realism.md",
+      "sha256": "f735907a0853ff7dcd0160c44232c9b1981bc8f7f4f90bde1c7ef1cb8b5670c2",
+      "category": "documentacao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/storytelling.md",
+      "sha256": "0026c1486c095412f36f8093bb90eec163218c8c6a607faf4db1cfc6144716d4",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/video-with-audio.md",
+      "sha256": "f454c1de0b8e66a24bc509e3dc569f539cf5c614131c89f9405f61e8b6cdafec",
+      "category": "audio",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/audio.md",
+      "reason": "Extrair somente princípios conceituais de audio em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-recipes/references/virtual-tryon.md",
+      "sha256": "302827b8db12f95838757861fa9f4cd6cf88d6ec9f78116886084fa2ee0b724c",
+      "category": "documentacao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fal-redesign/.gitignore",
+      "sha256": "89c3ddc6773e07af2a3b0f84e6ccc6e5ac3f7b63c7c37a6c8aa76ab47d3feffa",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/DEMO.md",
+      "sha256": "35e7fd13940bc8a6bc3f3938da87c67fce35fb021964792b155ca91d5b8a3a36",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-redesign específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-redesign/LICENSE",
+      "sha256": "33042e7805bc7e62e174e852d8e1c9fc9b179d94b4a25d98aca1f12b8587a0e2",
+      "category": "licenca",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Preservar atribuição e limites jurídicos; não confundir licença raiz com dependências de terceiros."
+    },
+    {
+      "path": "skills/fal-redesign/README.md",
+      "sha256": "3ede2fa7db0cf37e0c050c2fccdb1c122d22873b30541aa8a00b13265336552f",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-redesign específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-redesign/SKILL.md",
+      "sha256": "71a23a7384ecaa2db2b8ffccd39d7c936563de6aebc243cc2a52c5edca512afd",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-redesign específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/.gitignore",
+      "sha256": "d1a53295017269e4a82d276d0b5a00204935a60a53a4d21d9adbfb0db111cd6a",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/README.md",
+      "sha256": "58dfac061d323836619e798576731748fab2a5930ec6241dd4149894c1fbdf93",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-redesign específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/bin/fal-site.mjs",
+      "sha256": "d78e7eab390b88aacc4813084dde2d1919091f347318a395ccf0982560cdf463",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/package-lock.json",
+      "sha256": "59d58fd3d0f7c241d77f31482be149a7648c00bca5b9ed0a595ad08746fa7216",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/package.json",
+      "sha256": "f050e2024d5f126071fcfe6afb55582acadbac94794d313917a06d20c83d3a4c",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/brief.mjs",
+      "sha256": "597a9da2cb62ba27774c50baeba7f638142d0aa896b5e3990c679f32fdf6ed15",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/directions.mjs",
+      "sha256": "1f59c863a4fca9a17e037dbd8cf438323a1d582e909b40121b54e3c57cd89a94",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/fal.mjs",
+      "sha256": "a911be88c360cb92b882913917f23b83c8f0334469bd41da346c460601388f2d",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/hero.mjs",
+      "sha256": "7c8abc11d32227b6bda8218d7c3b71856167b6c48abe0f5de8d7214d7daf0536",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/implement.mjs",
+      "sha256": "5f9c681885e4632b3f93cd893a2386e82762b35b9cf5f831acd627015417170f",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/mockup.mjs",
+      "sha256": "97ffa7e691c0926444cab214dcb68e26677a6fca271579bd42116234b5791e3a",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/review.mjs",
+      "sha256": "ccc1a34a31d480780aded96e0f68d1f16a31843017bebdafaf21197c30608001",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/upgrade.mjs",
+      "sha256": "850e8a799c34c021afe766cd3a90a46134dc038af96c223c4e8256d0b8a3ec47",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/variants.mjs",
+      "sha256": "6ed740b8b9f94ec5dc30e160e42cc4f1a24994d7ca8b7c0acff3f8368743bd63",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-redesign/runtime/src/video.mjs",
+      "sha256": "f624aa0d625e537f961753756229cfc8f2ccb5d939016b2c64f7ca6427a7e28c",
+      "category": "infraestrutura",
+      "observed_license": "Aviso local skills/fal-redesign/LICENSE; conferir termos antes de reutilizar",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/fal-regenerate-3d/SKILL.md",
+      "sha256": "e9716e331cc0d811f3ff44d3d4ccfbb87c20fca61ad08f0b59d567c2c15853df",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-regenerate específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/SKILL.md",
+      "sha256": "a079894cc2c31b161cb4eca6f9396d84f40e45608607107085a57ac2ea9eb5f4",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/EXAMPLES.md",
+      "sha256": "8447d3f495da275f374c572f5bcc78bdceda8115a44fef7f89d8143e7d202d89",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/MODELS.md",
+      "sha256": "b1d7faaa11a80acd9dbcea1a4916440db0091617de706d283ed8918ff219e49c",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/PATTERNS.md",
+      "sha256": "bce02988722326ad405519627bab1dbbef6f34ea31758d6f66570c55ddb218fa",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/WORKFLOWS.md",
+      "sha256": "98e4da942e75a6c193599954158600e3ff3a011363c5bfb7dbdd048a300b5082",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/node-rules.md",
+      "sha256": "cf449fe1aa4bf0338ae1cc0a226fcb675eebf9597017e04eb4f52083a3b57fef",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/pipeline-patterns.md",
+      "sha256": "dcfe4b87b0a3b02883ff98c3437f91145d933e5b669caccab736c1f9e6c40988",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/recipes.md",
+      "sha256": "c5b332b61fc557595ce2e9e992ec9e9944936008db9ac064b9872d12696a4a7e",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fal-workflow/references/utility-endpoints.md",
+      "sha256": "c1921d500107659236c401451ecc1e9655576b5b35fb5e7bb1f8a308f0287501",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo fal-workflow específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fan-cam/SKILL.md",
+      "sha256": "d7d62c369e3f57a6de59c4384d315e55719be4c02f2ae66f92af3997f3c25d18",
+      "category": "documentacao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fan-cam/references/examples.md",
+      "sha256": "4346d4c5d5d9ed97b4649ae05555e9db429fdcfa0c47380a11bf02e4ef3335ce",
+      "category": "documentacao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/fan-cam/references/genmedia-commands.md",
+      "sha256": "e859c353004bbb6db7a489f65e0c5a2f891b29a1ac2f28063b63c0b36ce83f20",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/fan-cam/references/prompt-contract.md",
+      "sha256": "a59615f4ea52711a89cad657a6792952ee8aacbbb8f2aeb870b378b580e58b5f",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/genmedia-workflow/SKILL.md",
+      "sha256": "450e1d49500917ee199d981b2e8e45cc9a8d7caf408f6c7eed5dfbd065e16195",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/genmedia-workflow/references/node-rules.md",
+      "sha256": "cf449fe1aa4bf0338ae1cc0a226fcb675eebf9597017e04eb4f52083a3b57fef",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/genmedia-workflow/references/pipeline-patterns.md",
+      "sha256": "dcfe4b87b0a3b02883ff98c3437f91145d933e5b669caccab736c1f9e6c40988",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/genmedia-workflow/references/recipes.md",
+      "sha256": "c5b332b61fc557595ce2e9e992ec9e9944936008db9ac064b9872d12696a4a7e",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/genmedia-workflow/references/utility-endpoints.md",
+      "sha256": "c1921d500107659236c401451ecc1e9655576b5b35fb5e7bb1f8a308f0287501",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/genmedia/SKILL.md",
+      "sha256": "2e982b5d6a169761a1b260aacce60cce2a47111591eab14d231fa6351f7d96a9",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/genmedia/references/full-reference.md",
+      "sha256": "98ef94144b47d2501066705a32929bf728c7d6d36eb488e8fd16c738d266681a",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo genmedia específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/index.json",
+      "sha256": "981ace4148dad1da00a7e93855cfdf9de0c40b86ff040bc71861e3b2e6c4205b",
+      "category": "infraestrutura",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/marketing/SKILL.md",
+      "sha256": "18d5f0e69cdef6e4e1e6b60d9d96e21770c98cd9f4d1341deef56ccb3b60b2e9",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/marketing/references/campaign-patterns.md",
+      "sha256": "b071e24144829cd01c50e14e1e9498573af884200421a466c4c0f6baddfbc98b",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/marketing/references/examples.md",
+      "sha256": "f6f54eda43693e6f6be397d77bd49668cb2781b04e86c36924aa4de4e55e60b9",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/marketing/references/workflows.md",
+      "sha256": "63c3dada851269d55a653f1a7f67dc2094862a0479b94ea61a4aac92f777fd11",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/model-routing/SKILL.md",
+      "sha256": "6d3f6b555d37e758aec32ab66e7ce549aadfb8613cf030baee968705f277fbe0",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo model-routing específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "skills/storytelling/SKILL.md",
+      "sha256": "84db6699346718074e2c3c9e6ac1f9cd650e97f588023d9050ba8cf04d11b0f6",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/storytelling/references/examples.md",
+      "sha256": "1b882303a6e7546896c4045a0b57f70cb2cd60afb8217ff8266865215ef0e507",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/storytelling/references/shot-planning.md",
+      "sha256": "8ceccbda8fdeab87f1c4c5f1303562d3d37eca8f461e219e3650e22eb280ba4c",
+      "category": "direcao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/direcao.md",
+      "reason": "Extrair somente princípios conceituais de direcao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/storytelling/references/workflows.md",
+      "sha256": "618762ee0c9304f1a1065dc8f10de6bcd41242a59334b2a6f8e77badfa51afee",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/ugc/SKILL.md",
+      "sha256": "a70d5de3b17aebad5c9175039729f6935745a2e7600c512300176731c2fbc2e9",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/ugc/references/examples.md",
+      "sha256": "f2f5a70efeb975421a0b433408df2a1021b27bb6ceae3fcca4547d1de784ad7c",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/ugc/references/formats.md",
+      "sha256": "84a0a35623662553f88ea1dbb54dc77115dd541091c3b4c64c3abb70ab5041db",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/ugc/references/workflows.md",
+      "sha256": "e0831dd6ea3d1eccafa35d09e73103c10f3af0f867fc0b725300d3eff935e3b7",
+      "category": "pre-producao",
+      "observed_license": "MIT declarada no README; sem LICENSE global",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/pre-producao.md",
+      "reason": "Extrair somente princípios conceituais de pre-producao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    }
+  ]
+}

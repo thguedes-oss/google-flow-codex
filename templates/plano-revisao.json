@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "direction": {
+    "purpose": "PREENCHER a função deste plano conforme o brief",
+    "action_result": "PREENCHER ação e resultado observável",
+    "camera_intent": "PREENCHER enquadramento e motivo da câmera",
+    "graphics_intent": "PREENCHER gráficos previstos ou declarar sua ausência"
+  },
+  "moments": [
+    {"seconds": 0, "criterion": "face", "expected": "PREENCHER conforme o brief"}
+  ]
+}

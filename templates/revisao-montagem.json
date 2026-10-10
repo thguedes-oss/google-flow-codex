@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "reviewer": null,
+  "decision": null,
+  "visual_inspection_completed": false,
+  "playback_completed": false,
+  "audio_review": null,
+  "audio_reason": null,
+  "observations": null
+}

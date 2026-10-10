@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "path": "C:\\Users\\thgue\\Documents\\ChatGPT\\FLOW\\vendor\\google-flow-scripting-skill",
+  "errors": []
+}

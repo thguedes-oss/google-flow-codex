@@ -1,0 +1,5532 @@
+{
+  "schema_version": 1,
+  "upstream_commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155",
+  "effects": [
+    {
+      "id": "gl.AdvancedMosaic",
+      "name": "AdvancedMosaic",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/AdvancedMosaic.glsl",
+        "sha256": "ecdcc9adabc621ddcd900e417cfa33ebd5d871c011238782a16cd2508a01dd4c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Sergey Kosarevsky"
+      ],
+      "parameters": [
+        {
+          "name": "pixelSize",
+          "type": "float",
+          "source_type": "float",
+          "default": 50.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/AdvancedMosaic.wgsl",
+        "sha256": "639ca19aefd3fa422a5dd8c8be02b5f1862e8bff0da167e98d163a5bff81efc5"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.AdvancedMosaic",
+        "implementation_sha256": "639ca19aefd3fa422a5dd8c8be02b5f1862e8bff0da167e98d163a5bff81efc5"
+      }
+    },
+    {
+      "id": "gl.angular",
+      "name": "angular",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/angular.glsl",
+        "sha256": "bd7e6168eec558178685c6ea4ad4f7e0902c3feb904e39b7435f24971409dee3",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Fernando Kuteken"
+      ],
+      "parameters": [
+        {
+          "name": "startingAngle",
+          "type": "float",
+          "source_type": "float",
+          "default": 90.0,
+          "min": 0.0,
+          "max": 360.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/angular.wgsl",
+        "sha256": "ae3a650e3dfa149dc1179ca6c1acb27cfcce5e57bbe310acb17c8987dd745ea3"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.angular",
+        "implementation_sha256": "ae3a650e3dfa149dc1179ca6c1acb27cfcce5e57bbe310acb17c8987dd745ea3"
+      }
+    },
+    {
+      "id": "gl.BlockDissolve",
+      "name": "BlockDissolve",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/BlockDissolve.glsl",
+        "sha256": "aa6093b2909dd58a778842921e3f30e798359ccf5537da43f3d5fa24c3c43d32",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "nwoeanhinnogaehr"
+      ],
+      "parameters": [
+        {
+          "name": "blocksize",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.02
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/BlockDissolve.wgsl",
+        "sha256": "3e127800fccbb11bebaa5c0bd86f54db746b680a76bf0e160977e9838ed31575"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.BlockDissolve",
+        "implementation_sha256": "3e127800fccbb11bebaa5c0bd86f54db746b680a76bf0e160977e9838ed31575"
+      }
+    },
+    {
+      "id": "gl.BookFlip",
+      "name": "BookFlip",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/BookFlip.glsl",
+        "sha256": "9ad879d44c84b47f5c077030d3a6301fb2542ecc4835a5b4300a95be4e71bc74",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "hong"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/BookFlip.wgsl",
+        "sha256": "51b41c3d9e8bc6239587dd624d1592862bee8f7fa7cc1d95469c0a9ba64480a4"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.BookFlip",
+        "implementation_sha256": "51b41c3d9e8bc6239587dd624d1592862bee8f7fa7cc1d95469c0a9ba64480a4"
+      }
+    },
+    {
+      "id": "gl.Bounce",
+      "name": "Bounce",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Bounce.glsl",
+        "sha256": "527e83c588f03e249c3da4d610ef1c07f27c1d77c490beaea090694d852a1cb4",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Adrian Purser"
+      ],
+      "parameters": [
+        {
+          "name": "shadow_colour",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.0,
+            0.0,
+            0.0,
+            0.6
+          ]
+        },
+        {
+          "name": "shadow_height",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.075,
+          "min": 0.01,
+          "max": 0.5
+        },
+        {
+          "name": "bounces",
+          "type": "float",
+          "source_type": "float",
+          "default": 3.0,
+          "min": 1.0,
+          "max": 10.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Bounce.wgsl",
+        "sha256": "45adc8377ec26b4057b34d9116433acdfded5c52a2b3e5f36543aa7f023d4061"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Bounce",
+        "implementation_sha256": "45adc8377ec26b4057b34d9116433acdfded5c52a2b3e5f36543aa7f023d4061"
+      }
+    },
+    {
+      "id": "gl.BowTieHorizontal",
+      "name": "BowTieHorizontal",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/BowTieHorizontal.glsl",
+        "sha256": "fcd134626185864b9c9dd0eb7d713f367e63afc445ace442ace6849a4700ec59",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "huynx"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/BowTieHorizontal.wgsl",
+        "sha256": "b7794ecf093f2ce5a094a88252acaa7bf9f57a8abda9322c98c5f533677586bb"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.BowTieHorizontal",
+        "implementation_sha256": "b7794ecf093f2ce5a094a88252acaa7bf9f57a8abda9322c98c5f533677586bb"
+      }
+    },
+    {
+      "id": "gl.BowTieVertical",
+      "name": "BowTieVertical",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/BowTieVertical.glsl",
+        "sha256": "7def307476298a8aba4a02ad0673ce228e40ad8ebf21e92e828db5cae54fef3e",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "huynx"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/BowTieVertical.wgsl",
+        "sha256": "ffc75af458aed9063c162a67efcb73144bebe4247cb7da6840da4f346d56358f"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.BowTieVertical",
+        "implementation_sha256": "ffc75af458aed9063c162a67efcb73144bebe4247cb7da6840da4f346d56358f"
+      }
+    },
+    {
+      "id": "gl.BowTieWithParameter",
+      "name": "BowTieWithParameter",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/BowTieWithParameter.glsl",
+        "sha256": "5c7b0e25b066bda5c4b28a0f5b7986f2840937c92077818254b930495841d2e0",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "KMojek"
+      ],
+      "parameters": [
+        {
+          "name": "adjust",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        },
+        {
+          "name": "reverse",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/BowTieWithParameter.wgsl",
+        "sha256": "d984dbb90a0d0f9ce96da597cb2f9a48c50e6c7ae0500fa983d1989739d5aa6e"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.BowTieWithParameter",
+        "implementation_sha256": "d984dbb90a0d0f9ce96da597cb2f9a48c50e6c7ae0500fa983d1989739d5aa6e"
+      }
+    },
+    {
+      "id": "gl.Box",
+      "name": "Box",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Box.glsl",
+        "sha256": "9e5221d3645d90c85ce9abfe5193d3c947fcacc2428b6a22d75d240806b4ece5",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "lql"
+      ],
+      "parameters": [
+        {
+          "name": "rectIn",
+          "type": "int",
+          "source_type": "int",
+          "default": 1
+        },
+        {
+          "name": "location",
+          "type": "int",
+          "source_type": "int",
+          "default": 0,
+          "min": 0.0,
+          "max": 4.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Box.wgsl",
+        "sha256": "d28a2c1251cffd5233924a8397e28f7011ded4f32f8dfa1baea079a0066b35d9"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Box",
+        "implementation_sha256": "d28a2c1251cffd5233924a8397e28f7011ded4f32f8dfa1baea079a0066b35d9"
+      }
+    },
+    {
+      "id": "gl.burn",
+      "name": "burn",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/burn.glsl",
+        "sha256": "0274aa48dda4368dfabe62a0fc77367019851e20c40391d4a53a051a479be83a",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "color",
+          "type": "vec3",
+          "source_type": "vec3",
+          "default": [
+            0.9,
+            0.4,
+            0.2
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/burn.wgsl",
+        "sha256": "7b4e6ae1f5e8dd786e5cd0cc86f668f07aceec0408720cb6eb945ff0f794b076"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.burn",
+        "implementation_sha256": "7b4e6ae1f5e8dd786e5cd0cc86f668f07aceec0408720cb6eb945ff0f794b076"
+      }
+    },
+    {
+      "id": "gl.burn0",
+      "name": "burn0",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/burn0.glsl",
+        "sha256": "d572b6d93c74292c14c1feb3cf55eccfc03ffb98a6bfa3b0900162295f6aa0e9",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "liubailin2020@gmail.com"
+      ],
+      "parameters": [
+        {
+          "name": "burnColor",
+          "type": "vec3",
+          "source_type": "vec3",
+          "default": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/burn0.wgsl",
+        "sha256": "6111c3a2335668b007b7fc3cc278532e3234b9bb4c572194c4f0b34cff0b7efe"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.burn0",
+        "implementation_sha256": "6111c3a2335668b007b7fc3cc278532e3234b9bb4c572194c4f0b34cff0b7efe"
+      }
+    },
+    {
+      "id": "gl.ButterflyWaveScrawler",
+      "name": "ButterflyWaveScrawler",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/ButterflyWaveScrawler.glsl",
+        "sha256": "985beba91c1dd105aa4ae9df94efe22648e2028d7bae9b5e4bcc64ff2a8f2c82",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "mandubian"
+      ],
+      "parameters": [
+        {
+          "name": "amplitude",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "waves",
+          "type": "float",
+          "source_type": "float",
+          "default": 30.0
+        },
+        {
+          "name": "colorSeparation",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.3
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/ButterflyWaveScrawler.wgsl",
+        "sha256": "245ccc3a96efabcb388fcdbabc9c5e3d89aedf527b61c5b4c2da3273fc121691"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.ButterflyWaveScrawler",
+        "implementation_sha256": "245ccc3a96efabcb388fcdbabc9c5e3d89aedf527b61c5b4c2da3273fc121691"
+      }
+    },
+    {
+      "id": "gl.cannabisleaf",
+      "name": "cannabisleaf",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/cannabisleaf.glsl",
+        "sha256": "75a23e58ad84d604a2c46c7acc97463d5434efe9658a929e7397d7592dd58b18",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "@Flexi23"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/cannabisleaf.wgsl",
+        "sha256": "75386e6521f0d9e04a6bd08520b0de098697cf595fa45fb4c5e9d412e264edb5"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.cannabisleaf",
+        "implementation_sha256": "75386e6521f0d9e04a6bd08520b0de098697cf595fa45fb4c5e9d412e264edb5"
+      }
+    },
+    {
+      "id": "gl.chessboard",
+      "name": "chessboard",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/chessboard.glsl",
+        "sha256": "4e56fa83ae55978d4687a8a23b7d362c67682af11d7177d8038515b88c1b7915",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "lql"
+      ],
+      "parameters": [
+        {
+          "name": "grid_num",
+          "type": "float",
+          "source_type": "float",
+          "default": 10.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/chessboard.wgsl",
+        "sha256": "19034e6a7795975aac55b9ad32aba122c339e6e9d74e047dbf0e91d2918883ce"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.chessboard",
+        "implementation_sha256": "19034e6a7795975aac55b9ad32aba122c339e6e9d74e047dbf0e91d2918883ce"
+      }
+    },
+    {
+      "id": "gl.circle",
+      "name": "circle",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/circle.glsl",
+        "sha256": "374633d64f9fd5c7a9b948520255c90f9ab1f59ce542e5ecd5e2484e5a5efa41",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Fernando Kuteken"
+      ],
+      "parameters": [
+        {
+          "name": "center",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "backColor",
+          "type": "vec3",
+          "source_type": "vec3",
+          "default": [
+            0.1,
+            0.1,
+            0.1
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/circle.wgsl",
+        "sha256": "735b6eb982624c79d65ac76797c4c5144c84afafa530102dd8976a3c045e8af2"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.circle",
+        "implementation_sha256": "735b6eb982624c79d65ac76797c4c5144c84afafa530102dd8976a3c045e8af2"
+      }
+    },
+    {
+      "id": "gl.CircleCrop",
+      "name": "CircleCrop",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/CircleCrop.glsl",
+        "sha256": "27521661da2516567e5000ee9d7175dd37af7d922c9ff85cf2c6835e85ac364a",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "fkuteken"
+      ],
+      "parameters": [
+        {
+          "name": "bgcolor",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/CircleCrop.wgsl",
+        "sha256": "e5f7bf3f94b522e7aac9ccc2f562491cc046a61ad07a2e84d28c07da74b9f348"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.CircleCrop",
+        "implementation_sha256": "e5f7bf3f94b522e7aac9ccc2f562491cc046a61ad07a2e84d28c07da74b9f348"
+      }
+    },
+    {
+      "id": "gl.circleopen",
+      "name": "circleopen",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/circleopen.glsl",
+        "sha256": "f50be414d91a67965db1733abc664a2340ccbc215531bc263511bd206a1c93f7",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.3
+        },
+        {
+          "name": "opening",
+          "type": "bool",
+          "source_type": "bool",
+          "default": true
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/circleopen.wgsl",
+        "sha256": "9bb7f11f4c4d1d2bf2d401d391c0bdf2839e065e6dd9a1997cc42d79d98c6624"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.circleopen",
+        "implementation_sha256": "9bb7f11f4c4d1d2bf2d401d391c0bdf2839e065e6dd9a1997cc42d79d98c6624"
+      }
+    },
+    {
+      "id": "gl.colorphase",
+      "name": "colorphase",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/colorphase.glsl",
+        "sha256": "464c552944723e9d62bcd0bdcaeca67523e4b7c85a3a5591bc062e0056a5fd34",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "fromStep",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.0,
+            0.2,
+            0.4,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "name": "toStep",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.6,
+            0.8,
+            1.0,
+            1.0
+          ],
+          "min": 0.0,
+          "max": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/colorphase.wgsl",
+        "sha256": "f4462f4d433597877519714ff1a90d32e38164a6e080b623cfaf3696476d305c"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.colorphase",
+        "implementation_sha256": "f4462f4d433597877519714ff1a90d32e38164a6e080b623cfaf3696476d305c"
+      }
+    },
+    {
+      "id": "gl.ColourDistance",
+      "name": "ColourDistance",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/ColourDistance.glsl",
+        "sha256": "23fe510bb77ab400098ef7c50d032ed834add102b192e629ba0f966beb72ec58",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "P-Seebauer"
+      ],
+      "parameters": [
+        {
+          "name": "power",
+          "type": "float",
+          "source_type": "float",
+          "default": 5.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/ColourDistance.wgsl",
+        "sha256": "c0b98f0ce125465035c0015efa1ba01fa3ec1a9937f459e3c09811fdc7a37d0c"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.ColourDistance",
+        "implementation_sha256": "c0b98f0ce125465035c0015efa1ba01fa3ec1a9937f459e3c09811fdc7a37d0c"
+      }
+    },
+    {
+      "id": "gl.coord-from-in",
+      "name": "coord-from-in",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/coord-from-in.glsl",
+        "sha256": "3e234018be5dfe9feb12f8f4a551f8f6e409bf85cb826d3384cec0e4b89a1fd4",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "haiyoucuv"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/coord-from-in.wgsl",
+        "sha256": "40bf6f734dea9ad49a4f4b94bcddc4d9c51f1cd8088953461da99f35e9b69dd3"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.coord-from-in",
+        "implementation_sha256": "40bf6f734dea9ad49a4f4b94bcddc4d9c51f1cd8088953461da99f35e9b69dd3"
+      }
+    },
+    {
+      "id": "gl.CrazyParametricFun",
+      "name": "CrazyParametricFun",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/CrazyParametricFun.glsl",
+        "sha256": "116645084d197df4a50a737bcfaa126d76f6289aff59dccce9bf28929284379d",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "mandubian"
+      ],
+      "parameters": [
+        {
+          "name": "a",
+          "type": "float",
+          "source_type": "float",
+          "default": 4.0
+        },
+        {
+          "name": "b",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "amplitude",
+          "type": "float",
+          "source_type": "float",
+          "default": 120.0
+        },
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/CrazyParametricFun.wgsl",
+        "sha256": "86383b14d15eb1ce485f05ffb1b3dc5075b179a90c93d3b3b17c082a2dad7152"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.CrazyParametricFun",
+        "implementation_sha256": "86383b14d15eb1ce485f05ffb1b3dc5075b179a90c93d3b3b17c082a2dad7152"
+      }
+    },
+    {
+      "id": "gl.crosshatch",
+      "name": "crosshatch",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/crosshatch.glsl",
+        "sha256": "8066e3d78c79a6be454bae058ff69d3fef87596d562826bddc638a461e1d032c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "pthrasher"
+      ],
+      "parameters": [
+        {
+          "name": "center",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "threshold",
+          "type": "float",
+          "source_type": "float",
+          "default": 3.0
+        },
+        {
+          "name": "fadeEdge",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/crosshatch.wgsl",
+        "sha256": "0ecb23efa049619de1260d4da6cf5c44670af415187d93ade06c104c6e43ee1d"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.crosshatch",
+        "implementation_sha256": "0ecb23efa049619de1260d4da6cf5c44670af415187d93ade06c104c6e43ee1d"
+      }
+    },
+    {
+      "id": "gl.crosswarp",
+      "name": "crosswarp",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/crosswarp.glsl",
+        "sha256": "a3a8a4800489f26f8ff3be6b63ccef2ab53279d97df16d469db3d4f57b7df381",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Eke PÃ©ter <peterekepeter@gmail.com>"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/crosswarp.wgsl",
+        "sha256": "0dfe0bd0a225aa62870b20297c760b33b17a030e508964ae169606043ecb7e6c"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.crosswarp",
+        "implementation_sha256": "0dfe0bd0a225aa62870b20297c760b33b17a030e508964ae169606043ecb7e6c"
+      }
+    },
+    {
+      "id": "gl.CrossZoom",
+      "name": "CrossZoom",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/CrossZoom.glsl",
+        "sha256": "a30adba2a78deac0ac114a30ea285e972fdd7d488ed0cde90e15bc0eef333e84",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "rectalogic"
+      ],
+      "parameters": [
+        {
+          "name": "strength",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.4,
+          "min": 0.0,
+          "max": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/CrossZoom.wgsl",
+        "sha256": "bafe765640b464a768789e877abf2751d2e68c540584e2a3589bfc1c9a984083"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.CrossZoom",
+        "implementation_sha256": "bafe765640b464a768789e877abf2751d2e68c540584e2a3589bfc1c9a984083"
+      }
+    },
+    {
+      "id": "gl.cube",
+      "name": "cube",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/cube.glsl",
+        "sha256": "8b3f864fefaa8cc4d30a58c4e17654f886828a9e58789b86daa31e4f99c91c28",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "persp",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.7,
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "name": "unzoom",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.3
+        },
+        {
+          "name": "reflection",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.4,
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "name": "floating",
+          "type": "float",
+          "source_type": "float",
+          "default": 3.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/cube.wgsl",
+        "sha256": "1effa5ba8ff81e4277281a32fa428dbd8029c2834e050b7146cf15fd52a39b78"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.cube",
+        "implementation_sha256": "1effa5ba8ff81e4277281a32fa428dbd8029c2834e050b7146cf15fd52a39b78"
+      }
+    },
+    {
+      "id": "gl.DefocusBlur",
+      "name": "DefocusBlur",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/DefocusBlur.glsl",
+        "sha256": "9fdd45ebf44c532644e2c27ef589666fa962f70c53195c0ca802dd275dac4761",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Sergey Kosarevsky"
+      ],
+      "parameters": [
+        {
+          "name": "blurSize",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.02
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/DefocusBlur.wgsl",
+        "sha256": "6da5869bc744182ed78956e6bda07e93f64d61910d2bcecf0078e60a380c4b27"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.DefocusBlur",
+        "implementation_sha256": "6da5869bc744182ed78956e6bda07e93f64d61910d2bcecf0078e60a380c4b27"
+      }
+    },
+    {
+      "id": "gl.Directional",
+      "name": "Directional",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Directional.glsl",
+        "sha256": "fd217e157ec516a0770d4cf4e343b5d92b147b88ea3075842f16adcc5c3e7341",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "GaÃ«tan Renaudeau"
+      ],
+      "parameters": [
+        {
+          "name": "direction",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Directional.wgsl",
+        "sha256": "bf36ed57259a795688f75c071ca2dd857d03605cb78f06daa87c138b94465282"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Directional",
+        "implementation_sha256": "bf36ed57259a795688f75c071ca2dd857d03605cb78f06daa87c138b94465282"
+      }
+    },
+    {
+      "id": "gl.directional-easing",
+      "name": "directional-easing",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/directional-easing.glsl",
+        "sha256": "20aeaac21aa4cf192ac808163aa0121f5ddf966a1c487e045a94e7ca9d7e321c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Max Plotnikov"
+      ],
+      "parameters": [
+        {
+          "name": "direction",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/directional-easing.wgsl",
+        "sha256": "5625ea54ab74be97a691894ef23c92115de2598b37eef10e62191d78859cc578"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.directional-easing",
+        "implementation_sha256": "5625ea54ab74be97a691894ef23c92115de2598b37eef10e62191d78859cc578"
+      }
+    },
+    {
+      "id": "gl.DirectionalScaled",
+      "name": "DirectionalScaled",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/DirectionalScaled.glsl",
+        "sha256": "3ccff0df6ca18f1c4011ece47d4c041ac8be7eb3ec7ab707396e4f4999a9cbf9",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Thibaut Foussard"
+      ],
+      "parameters": [
+        {
+          "name": "direction",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "scale",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.7
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/DirectionalScaled.wgsl",
+        "sha256": "c79e1a98b1f832be94a053fc246a107f40ca2a66000d3c87b3e1c59e3b4f01a5"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.DirectionalScaled",
+        "implementation_sha256": "c79e1a98b1f832be94a053fc246a107f40ca2a66000d3c87b3e1c59e3b4f01a5"
+      }
+    },
+    {
+      "id": "gl.directionalwarp",
+      "name": "directionalwarp",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/directionalwarp.glsl",
+        "sha256": "9b4988a12affa2fc89a7a1d87ad2df8c8bfaf185fc83e958188e5c674dbf03ce",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "pschroen"
+      ],
+      "parameters": [
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        },
+        {
+          "name": "direction",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/directionalwarp.wgsl",
+        "sha256": "0cfe34fdc53ec052ffeff4749a036a5ab5a0a263410ebda1f152e28a093d182a"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.directionalwarp",
+        "implementation_sha256": "0cfe34fdc53ec052ffeff4749a036a5ab5a0a263410ebda1f152e28a093d182a"
+      }
+    },
+    {
+      "id": "gl.directionalwipe",
+      "name": "directionalwipe",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/directionalwipe.glsl",
+        "sha256": "ab13a278d9a62400fb54ac3c1df98d06b57172ec72f79ec4e8d185614ecfdb52",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "direction",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            1.0,
+            -1.0
+          ]
+        },
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/directionalwipe.wgsl",
+        "sha256": "318085240b0725960065c704c01636342b29dcb1704124e925f762c7b3b0395d"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.directionalwipe",
+        "implementation_sha256": "318085240b0725960065c704c01636342b29dcb1704124e925f762c7b3b0395d"
+      }
+    },
+    {
+      "id": "gl.displacement",
+      "name": "displacement",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/displacement.glsl",
+        "sha256": "ef090908787642ad5c43104d84562b57ee3ac80b51c787bd67b88016e2674290",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Travis Fischer"
+      ],
+      "parameters": [
+        {
+          "name": "strength",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        },
+        {
+          "name": "displacementMap",
+          "description": "Additional upstream grayscale map; required",
+          "kind": "image"
+        }
+      ],
+      "sources_min": 3,
+      "sources_max": 3,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/displacement.wgsl",
+        "sha256": "3aba0f8def7762cc31bc04abb69f05e079e2b67d998ef3527736a9b259def396"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.displacement",
+        "implementation_sha256": "3aba0f8def7762cc31bc04abb69f05e079e2b67d998ef3527736a9b259def396"
+      }
+    },
+    {
+      "id": "gl.dissolve",
+      "name": "dissolve",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/dissolve.glsl",
+        "sha256": "b58aabb0e4cb4ae7ff4b166c9b4e5f807bdaf0020d29c87fe1eaafb9b8e5d0f5",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "hjm1fb"
+      ],
+      "parameters": [
+        {
+          "name": "uLineWidth",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        },
+        {
+          "name": "uSpreadClr",
+          "type": "vec3",
+          "source_type": "vec3",
+          "default": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "uHotClr",
+          "type": "vec3",
+          "source_type": "vec3",
+          "default": [
+            0.9,
+            0.9,
+            0.2
+          ]
+        },
+        {
+          "name": "uPow",
+          "type": "float",
+          "source_type": "float",
+          "default": 5.0
+        },
+        {
+          "name": "uIntensity",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/dissolve.wgsl",
+        "sha256": "4559efa77ecf5a345cb26bd7b65b954585f4ed15d4bbee5fcbf85e083ecab3b4"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.dissolve",
+        "implementation_sha256": "4559efa77ecf5a345cb26bd7b65b954585f4ed15d4bbee5fcbf85e083ecab3b4"
+      }
+    },
+    {
+      "id": "gl.DoomScreenTransition",
+      "name": "DoomScreenTransition",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/DoomScreenTransition.glsl",
+        "sha256": "fa526e5c56977d85d321fd2363bc643101b294334d0619664fcfc1194f01543d",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Zeh Fernando"
+      ],
+      "parameters": [
+        {
+          "name": "bars",
+          "type": "int",
+          "source_type": "int",
+          "default": 30
+        },
+        {
+          "name": "amplitude",
+          "type": "float",
+          "source_type": "float",
+          "default": 2.0
+        },
+        {
+          "name": "noise",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        },
+        {
+          "name": "frequency",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        },
+        {
+          "name": "dripScale",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/DoomScreenTransition.wgsl",
+        "sha256": "7eb20f8ab277ad4fad25b353046bed079c95a9ba2bd4f9ffe3139bc8c8b48c4b"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.DoomScreenTransition",
+        "implementation_sha256": "7eb20f8ab277ad4fad25b353046bed079c95a9ba2bd4f9ffe3139bc8c8b48c4b"
+      }
+    },
+    {
+      "id": "gl.doorway",
+      "name": "doorway",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/doorway.glsl",
+        "sha256": "eb385cbd79544620154913dcf2a7004d1056b50848a1a05cca77fe7f4747b397",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "reflection",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.4
+        },
+        {
+          "name": "perspective",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.4
+        },
+        {
+          "name": "depth",
+          "type": "float",
+          "source_type": "float",
+          "default": 3.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/doorway.wgsl",
+        "sha256": "4c38db7e133779c30c516fedc61546b86520575fa89b6117e27df5e9a4540488"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.doorway",
+        "implementation_sha256": "4c38db7e133779c30c516fedc61546b86520575fa89b6117e27df5e9a4540488"
+      }
+    },
+    {
+      "id": "gl.Dreamy",
+      "name": "Dreamy",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Dreamy.glsl",
+        "sha256": "ad95fba01344f89815da3deb1c023478800af04a25c4d56f2ff291448138ae4c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "mikolalysenko"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Dreamy.wgsl",
+        "sha256": "e4eaa6bf5ed86d5296df0001920a484a603d06791385d93d887b102399ba0c13"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Dreamy",
+        "implementation_sha256": "e4eaa6bf5ed86d5296df0001920a484a603d06791385d93d887b102399ba0c13"
+      }
+    },
+    {
+      "id": "gl.DreamyZoom",
+      "name": "DreamyZoom",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/DreamyZoom.glsl",
+        "sha256": "0ae348c409a29220ef5320db063c8ebd71757bafff533a72a852250328d01bb9",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Zeh Fernando"
+      ],
+      "parameters": [
+        {
+          "name": "rotation",
+          "type": "float",
+          "source_type": "float",
+          "default": 6.0
+        },
+        {
+          "name": "scale",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.2
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/DreamyZoom.wgsl",
+        "sha256": "5c427d640f20e94bb759c265a79f5685d577eba6f9f3c7d8ad0d37586e2a91e4"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.DreamyZoom",
+        "implementation_sha256": "5c427d640f20e94bb759c265a79f5685d577eba6f9f3c7d8ad0d37586e2a91e4"
+      }
+    },
+    {
+      "id": "gl.Drop_Zone_Flicker",
+      "name": "Drop_Zone_Flicker",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Drop_Zone_Flicker.glsl",
+        "sha256": "6a9be7ee75c747899bc86366bd99b4842af08ea39311811ca3ef9610b644b854",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "bread"
+      ],
+      "parameters": [
+        {
+          "name": "frameRate",
+          "type": "float",
+          "source_type": "float",
+          "default": 24.0
+        },
+        {
+          "name": "rgbOffset",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.014
+        },
+        {
+          "name": "blockAmount",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.72
+        },
+        {
+          "name": "ghostAmount",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.62
+        },
+        {
+          "name": "redCyan",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.58
+        },
+        {
+          "name": "scanline",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.075
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Drop_Zone_Flicker.wgsl",
+        "sha256": "a886e2f59b4a7cd376017065ecd0eccc6d890e392b2624eeb3c091a7b2b03471"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Drop_Zone_Flicker",
+        "implementation_sha256": "a886e2f59b4a7cd376017065ecd0eccc6d890e392b2624eeb3c091a7b2b03471"
+      }
+    },
+    {
+      "id": "gl.EdgeTransition",
+      "name": "EdgeTransition",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/EdgeTransition.glsl",
+        "sha256": "2849ced1825813d4895168f0e314c5812ebf122297c7d600fcd14065f0b85080",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Woohyun Kim"
+      ],
+      "parameters": [
+        {
+          "name": "edge_thickness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.001
+        },
+        {
+          "name": "edge_brightness",
+          "type": "float",
+          "source_type": "float",
+          "default": 8.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/EdgeTransition.wgsl",
+        "sha256": "de7ea859d716ea0c5be5d6afa2d8b03264e3940077eb75cb12460575d3025cce"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.EdgeTransition",
+        "implementation_sha256": "de7ea859d716ea0c5be5d6afa2d8b03264e3940077eb75cb12460575d3025cce"
+      }
+    },
+    {
+      "id": "gl.fade",
+      "name": "fade",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/fade.glsl",
+        "sha256": "4fbafcd1e5b536b37e256c27a6d7a3d217460b3a6dea0cfee343c3db8b06c5ed",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/fade.wgsl",
+        "sha256": "4cd23afd7672f1f3103a3090c0b505ef825aee66369b545946f3be0bd626d811"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.fade",
+        "implementation_sha256": "4cd23afd7672f1f3103a3090c0b505ef825aee66369b545946f3be0bd626d811"
+      }
+    },
+    {
+      "id": "gl.fadecolor",
+      "name": "fadecolor",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/fadecolor.glsl",
+        "sha256": "62f989f1a578ae1f66bf5a3588ba2072aac72d8d77589ac53808550285af1c06",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "color",
+          "type": "vec3",
+          "source_type": "vec3",
+          "default": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "colorPhase",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.4,
+          "min": 0.0,
+          "max": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/fadecolor.wgsl",
+        "sha256": "730a492d2655c3a549f9b48423004114a34ed8bd66fa6025603ee6156c7dfb7a"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.fadecolor",
+        "implementation_sha256": "730a492d2655c3a549f9b48423004114a34ed8bd66fa6025603ee6156c7dfb7a"
+      }
+    },
+    {
+      "id": "gl.fadegrayscale",
+      "name": "fadegrayscale",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/fadegrayscale.glsl",
+        "sha256": "519806f8c9bca6fc32a441398343433dca0399cde2b72ad30ea4ec2dc5648dfc",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "intensity",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.3,
+          "min": 0.0,
+          "max": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/fadegrayscale.wgsl",
+        "sha256": "5a38b7767a8062898e4562b6ceeda8ffbfc1f9280606295444902d6cc4e605dc"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.fadegrayscale",
+        "implementation_sha256": "5a38b7767a8062898e4562b6ceeda8ffbfc1f9280606295444902d6cc4e605dc"
+      }
+    },
+    {
+      "id": "gl.FilmBurn",
+      "name": "FilmBurn",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/FilmBurn.glsl",
+        "sha256": "cbd7ffe97b9e582bb0d775f81ddf309a263746d4d48bae08777e788118cb9dac",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Anastasia Dunbar"
+      ],
+      "parameters": [
+        {
+          "name": "Seed",
+          "type": "float",
+          "source_type": "float",
+          "default": 2.31
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/FilmBurn.wgsl",
+        "sha256": "20a7d3c3c1d8e0cf5e065c65c3cc37e72525d9de8a320cf8c708f9b55d4b9ac1"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.FilmBurn",
+        "implementation_sha256": "20a7d3c3c1d8e0cf5e065c65c3cc37e72525d9de8a320cf8c708f9b55d4b9ac1"
+      }
+    },
+    {
+      "id": "gl.flyeye",
+      "name": "flyeye",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/flyeye.glsl",
+        "sha256": "d076819aeebff919e5db9ba983fdfc85f016307d2de97a7a44b6f14aae75608f",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "size",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.04
+        },
+        {
+          "name": "zoom",
+          "type": "float",
+          "source_type": "float",
+          "default": 50.0
+        },
+        {
+          "name": "colorSeparation",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.3
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/flyeye.wgsl",
+        "sha256": "8896e492557711cb0f4fb6d9fe16fb6c5e4c245ce021d8ac2e579e8fd7e181f2"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.flyeye",
+        "implementation_sha256": "8896e492557711cb0f4fb6d9fe16fb6c5e4c245ce021d8ac2e579e8fd7e181f2"
+      }
+    },
+    {
+      "id": "gl.Fold",
+      "name": "Fold",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Fold.glsl",
+        "sha256": "402b1ce24ae2ac62b28390817568fafb83329dc480d150411c9a8085bf959264",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "nwoeanhinnogaehr"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Fold.wgsl",
+        "sha256": "7b0df8616e3a12d34f4c9e9c94a424cc87524631190e82976695725c30c94bf3"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Fold",
+        "implementation_sha256": "7b0df8616e3a12d34f4c9e9c94a424cc87524631190e82976695725c30c94bf3"
+      }
+    },
+    {
+      "id": "gl.fragment",
+      "name": "fragment",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/fragment.glsl",
+        "sha256": "7e119f40247737b0b703fc1d79a2fb5d72aa96b910584086b1d73c865100a93b",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "lbl"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/fragment.wgsl",
+        "sha256": "59571ea816342bdce15fcd9217e6e6230640e5bcb1aa0d1da5c7a5f1cbcf540b"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.fragment",
+        "implementation_sha256": "59571ea816342bdce15fcd9217e6e6230640e5bcb1aa0d1da5c7a5f1cbcf540b"
+      }
+    },
+    {
+      "id": "gl.GlitchDisplace",
+      "name": "GlitchDisplace",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/GlitchDisplace.glsl",
+        "sha256": "4c168036dc866b057e01aa8443901aa58b689ed65421a0154439822ce0502e87",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Matt DesLauriers"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/GlitchDisplace.wgsl",
+        "sha256": "7662f0b780dbafa55c3eeab91accc8d1dd652eda3233a5b43f658351e5f65bf9"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.GlitchDisplace",
+        "implementation_sha256": "7662f0b780dbafa55c3eeab91accc8d1dd652eda3233a5b43f658351e5f65bf9"
+      }
+    },
+    {
+      "id": "gl.GlitchMemories",
+      "name": "GlitchMemories",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/GlitchMemories.glsl",
+        "sha256": "27cca2daf0ca247eb371a852da3cc455f1c764ada992bc5d33061a155614308f",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Gunnar Roth"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/GlitchMemories.wgsl",
+        "sha256": "3e3e3da6a4b57b0fa8b101f1475a7f637cbaf9359116a64b5138c533dc4f945f"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.GlitchMemories",
+        "implementation_sha256": "3e3e3da6a4b57b0fa8b101f1475a7f637cbaf9359116a64b5138c533dc4f945f"
+      }
+    },
+    {
+      "id": "gl.GridFlip",
+      "name": "GridFlip",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/GridFlip.glsl",
+        "sha256": "f84096ffe6fc44808189a381a4e48dfde949beabed8df110fb45e68f6557810c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "TimDonselaar"
+      ],
+      "parameters": [
+        {
+          "name": "size",
+          "type": "vec2",
+          "source_type": "ivec2",
+          "default": [
+            4,
+            4
+          ]
+        },
+        {
+          "name": "pause",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        },
+        {
+          "name": "dividerWidth",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.05
+        },
+        {
+          "name": "bgcolor",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "randomness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/GridFlip.wgsl",
+        "sha256": "185b280ad8b852cbcb184d7b5f73aed0bf937e91eb4a4d2049de8f40a4d236ac"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.GridFlip",
+        "implementation_sha256": "185b280ad8b852cbcb184d7b5f73aed0bf937e91eb4a4d2049de8f40a4d236ac"
+      }
+    },
+    {
+      "id": "gl.heart",
+      "name": "heart",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/heart.glsl",
+        "sha256": "b8449852a155a7b44e07d2b409721dd1a149e789e5b08158cf6a6a5a2712c96d",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/heart.wgsl",
+        "sha256": "fa34b4924b319b65d401acc143aa922c9003ce357b242c9a42122f6e00975d6d"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.heart",
+        "implementation_sha256": "fa34b4924b319b65d401acc143aa922c9003ce357b242c9a42122f6e00975d6d"
+      }
+    },
+    {
+      "id": "gl.hexagonalize",
+      "name": "hexagonalize",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/hexagonalize.glsl",
+        "sha256": "abcac2efc147d397875a233ad010d72b03986237f0955ae2b18a214987d75c08",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Fernando Kuteken"
+      ],
+      "parameters": [
+        {
+          "name": "steps",
+          "type": "int",
+          "source_type": "int",
+          "default": 50
+        },
+        {
+          "name": "horizontalHexagons",
+          "type": "float",
+          "source_type": "float",
+          "default": 20.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/hexagonalize.wgsl",
+        "sha256": "51f44a9f720e14c5d844fcfe4fb1c3866a5c77c7a20c8d68ac72f03e3b8402c4"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.hexagonalize",
+        "implementation_sha256": "51f44a9f720e14c5d844fcfe4fb1c3866a5c77c7a20c8d68ac72f03e3b8402c4"
+      }
+    },
+    {
+      "id": "gl.HorizontalClose",
+      "name": "HorizontalClose",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/HorizontalClose.glsl",
+        "sha256": "5c55ac5442076047eab1c60ba18ce8b8dd21eef54079946bc4285a8588280c29",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "martiniti"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/HorizontalClose.wgsl",
+        "sha256": "8c68c179fea11a4eff747eda0c79b878665ca8798d55b2d39df855c7ae2fff68"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.HorizontalClose",
+        "implementation_sha256": "8c68c179fea11a4eff747eda0c79b878665ca8798d55b2d39df855c7ae2fff68"
+      }
+    },
+    {
+      "id": "gl.HorizontalOpen",
+      "name": "HorizontalOpen",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/HorizontalOpen.glsl",
+        "sha256": "5ee392050ae9d757dd8634796b25dccb4ce19f67d6d05ca2a6d66e0cfd0d1ddb",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "martiniti"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/HorizontalOpen.wgsl",
+        "sha256": "a91afb10d449d13ed5f44799f44c96ec99eed29b66e141f7d82614a7b3820be1"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.HorizontalOpen",
+        "implementation_sha256": "a91afb10d449d13ed5f44799f44c96ec99eed29b66e141f7d82614a7b3820be1"
+      }
+    },
+    {
+      "id": "gl.HSVfade",
+      "name": "HSVfade",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/HSVfade.glsl",
+        "sha256": "8640a0b40c67eb6999b8e619a514316e5d037440dfae9889e971f49e4833289d",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "nwoeanhinnogaehr"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/HSVfade.wgsl",
+        "sha256": "f9cc3e94b3e7aa09bd9981e5537b95fdef8884988aee9f2ef2f301d89defbd8e"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.HSVfade",
+        "implementation_sha256": "f9cc3e94b3e7aa09bd9981e5537b95fdef8884988aee9f2ef2f301d89defbd8e"
+      }
+    },
+    {
+      "id": "gl.InvertedPageCurl",
+      "name": "InvertedPageCurl",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/InvertedPageCurl.glsl",
+        "sha256": "94b573f129dcff2d85e106fd1c3193671d3dfe08f4d3fcd48bfa7bcc59a59858",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "BSD 3 Clause",
+      "authors": [
+        "Hewlett-Packard"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/InvertedPageCurl.wgsl",
+        "sha256": "f9b72e47a7a69ad2f6a088c2397754738b54647c261e1a3db7d317acb0d762f4"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.InvertedPageCurl",
+        "implementation_sha256": "f9b72e47a7a69ad2f6a088c2397754738b54647c261e1a3db7d317acb0d762f4"
+      }
+    },
+    {
+      "id": "gl.kaleidoscope",
+      "name": "kaleidoscope",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/kaleidoscope.glsl",
+        "sha256": "1abd2c1eed0a3b5aadcdb1023dbe05db1aa3dd2a9b31a62ba055e082bf3cc72b",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "nwoeanhinnogaehr"
+      ],
+      "parameters": [
+        {
+          "name": "speed",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "angle",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "power",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/kaleidoscope.wgsl",
+        "sha256": "a94dee97ffa6bbe183c1e80fe9c9e715caeee0e50231a4527533cc2aea46e2a8"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.kaleidoscope",
+        "implementation_sha256": "a94dee97ffa6bbe183c1e80fe9c9e715caeee0e50231a4527533cc2aea46e2a8"
+      }
+    },
+    {
+      "id": "gl.LeftRight",
+      "name": "LeftRight",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/LeftRight.glsl",
+        "sha256": "eb02f3d260f5d3902f69ee0de75d872e2cb8bc0267ad9b6438aa02f19b3a55e6",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "zhmy"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/LeftRight.wgsl",
+        "sha256": "38673da5f48335b37f05d21b12127d1e3638bfb90cf1f0da316d4ce5fc246dc9"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.LeftRight",
+        "implementation_sha256": "38673da5f48335b37f05d21b12127d1e3638bfb90cf1f0da316d4ce5fc246dc9"
+      }
+    },
+    {
+      "id": "gl.LinearBlur",
+      "name": "LinearBlur",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/LinearBlur.glsl",
+        "sha256": "67ff5b194878f35d5afd4a4feada8c8e5b36a0c36deab76d032b19f80e9352f2",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "intensity",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/LinearBlur.wgsl",
+        "sha256": "4712307239771442bb05c544b551e91c7e6e7306508fa39b769338f790bec970"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.LinearBlur",
+        "implementation_sha256": "4712307239771442bb05c544b551e91c7e6e7306508fa39b769338f790bec970"
+      }
+    },
+    {
+      "id": "gl.luma",
+      "name": "luma",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/luma.glsl",
+        "sha256": "63d4adf2851eeb9f136cf95f89e1e53edf4af1b47aab1e0df1fec0d188ccccda",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        },
+        {
+          "name": "luma",
+          "description": "Additional upstream grayscale map; required",
+          "kind": "image"
+        }
+      ],
+      "sources_min": 3,
+      "sources_max": 3,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/luma.wgsl",
+        "sha256": "ab6b25fcb6df001f1a4a6aed78c18939e8f2750a5eae262178809ba0ba343be8"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.luma",
+        "implementation_sha256": "ab6b25fcb6df001f1a4a6aed78c18939e8f2750a5eae262178809ba0ba343be8"
+      }
+    },
+    {
+      "id": "gl.luminance_melt",
+      "name": "luminance_melt",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/luminance_melt.glsl",
+        "sha256": "3980732a493577b250f8c5ff5fe38b3aad7af6fda8c2d67ef5abf974affa99a0",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "0gust1"
+      ],
+      "parameters": [
+        {
+          "name": "direction",
+          "type": "bool",
+          "source_type": "bool",
+          "default": true
+        },
+        {
+          "name": "l_threshold",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.8,
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "name": "above",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/luminance_melt.wgsl",
+        "sha256": "a550a61ecb9d21f7cad45a1b5e979665595b80abd0fdc8018dea83e79b33c235"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.luminance_melt",
+        "implementation_sha256": "a550a61ecb9d21f7cad45a1b5e979665595b80abd0fdc8018dea83e79b33c235"
+      }
+    },
+    {
+      "id": "gl.morph",
+      "name": "morph",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/morph.glsl",
+        "sha256": "be0b79ca27ba19dacd350a8f20988ab4b847937585fac878ac08ecc684fdcfba",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "paniq"
+      ],
+      "parameters": [
+        {
+          "name": "strength",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/morph.wgsl",
+        "sha256": "d4321379cb09f4c872ae3eb35ab4f638f1c72b348477f62ee66824cabe260d0e"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.morph",
+        "implementation_sha256": "d4321379cb09f4c872ae3eb35ab4f638f1c72b348477f62ee66824cabe260d0e"
+      }
+    },
+    {
+      "id": "gl.Mosaic",
+      "name": "Mosaic",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Mosaic.glsl",
+        "sha256": "0be8036eeeb346a3896445ba30b7e517f32dfb7674a9c690e66773e1e90160f9",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Xaychru"
+      ],
+      "parameters": [
+        {
+          "name": "endx",
+          "type": "int",
+          "source_type": "int",
+          "default": 2
+        },
+        {
+          "name": "endy",
+          "type": "int",
+          "source_type": "int",
+          "default": -1
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Mosaic.wgsl",
+        "sha256": "501b80e5c23f099e045f0ef437882a63c8c5cb58044d3aee4d8f30c386d8f3cb"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Mosaic",
+        "implementation_sha256": "501b80e5c23f099e045f0ef437882a63c8c5cb58044d3aee4d8f30c386d8f3cb"
+      }
+    },
+    {
+      "id": "gl.mosaic_transition",
+      "name": "mosaic_transition",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/mosaic_transition.glsl",
+        "sha256": "a926322d7545361e1ede5143fdc5f66e77c0742b69e02acd1d627e11b98eb5b7",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "YueDev"
+      ],
+      "parameters": [
+        {
+          "name": "mosaicNum",
+          "type": "float",
+          "source_type": "float",
+          "default": 10.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/mosaic_transition.wgsl",
+        "sha256": "3e4440a30a595b564ced94f3fa6b4a4818a5720456e8b0974c4d797ea8f581d1"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.mosaic_transition",
+        "implementation_sha256": "3e4440a30a595b564ced94f3fa6b4a4818a5720456e8b0974c4d797ea8f581d1"
+      }
+    },
+    {
+      "id": "gl.multiply_blend",
+      "name": "multiply_blend",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/multiply_blend.glsl",
+        "sha256": "881452e2099c875d281dae71c85152318c769f02e9acf8ad52c247bb22f4b1b8",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Fernando Kuteken"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/multiply_blend.wgsl",
+        "sha256": "443ee8762418f039a16f50edaf8cc75a91178bcb7bc38d23fc0ad4696f2f9def"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.multiply_blend",
+        "implementation_sha256": "443ee8762418f039a16f50edaf8cc75a91178bcb7bc38d23fc0ad4696f2f9def"
+      }
+    },
+    {
+      "id": "gl.old_tv_lost_signal",
+      "name": "old_tv_lost_signal",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/old_tv_lost_signal.glsl",
+        "sha256": "9fdf5df439eca16ff5e0aedc3765a37dd1b55a7b7a16a9991c3a41738a761e55",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "mernking (gitlab.com/Godswork)"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/old_tv_lost_signal.wgsl",
+        "sha256": "f011397513b885582fcde2b598c68d79f781e5c0f9d96373cf2dc5f9f5db99b5"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.old_tv_lost_signal",
+        "implementation_sha256": "f011397513b885582fcde2b598c68d79f781e5c0f9d96373cf2dc5f9f5db99b5"
+      }
+    },
+    {
+      "id": "gl.Overexposure",
+      "name": "Overexposure",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Overexposure.glsl",
+        "sha256": "fbae3411c39af59e0b0fa6536c9a9797c6be0702a7e69303c7db8bc087efe26c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Ben Zhang"
+      ],
+      "parameters": [
+        {
+          "name": "strength",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.6
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Overexposure.wgsl",
+        "sha256": "d4436cf9cd4b63cfa3b93428e5920b753bad91d272af9fda62cacc97294ae6a1"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Overexposure",
+        "implementation_sha256": "d4436cf9cd4b63cfa3b93428e5920b753bad91d272af9fda62cacc97294ae6a1"
+      }
+    },
+    {
+      "id": "gl.parametric_glitch",
+      "name": "parametric_glitch",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/parametric_glitch.glsl",
+        "sha256": "ca3130de774ed1e7df36d31730a2d84a7ff59812749897e3b1531e2cbeeeeb32",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Yoni Maltsman @friendlyspinach"
+      ],
+      "parameters": [
+        {
+          "name": "ampx",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "ampy",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/parametric_glitch.wgsl",
+        "sha256": "ae43cf9f5f19da834117b0743d08fb39e8550ca26e0a38eda9fe733e834d1d5b"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.parametric_glitch",
+        "implementation_sha256": "ae43cf9f5f19da834117b0743d08fb39e8550ca26e0a38eda9fe733e834d1d5b"
+      }
+    },
+    {
+      "id": "gl.perlin",
+      "name": "perlin",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/perlin.glsl",
+        "sha256": "14913f1110ab9fc2e0a8c08bf9cc566490e6399c1a0afb9300079dba4c0ca69a",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Rich Harris"
+      ],
+      "parameters": [
+        {
+          "name": "scale",
+          "type": "float",
+          "source_type": "float",
+          "default": 4.0
+        },
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.01
+        },
+        {
+          "name": "seed",
+          "type": "float",
+          "source_type": "float",
+          "default": 12.9898
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/perlin.wgsl",
+        "sha256": "7060cd861fd66fc6f36954038e3c370a189e977b4a7320eb1a38b7aa9fad87ab"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.perlin",
+        "implementation_sha256": "7060cd861fd66fc6f36954038e3c370a189e977b4a7320eb1a38b7aa9fad87ab"
+      }
+    },
+    {
+      "id": "gl.pinwheel",
+      "name": "pinwheel",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/pinwheel.glsl",
+        "sha256": "fb8dea2ecd066a23d683726714add1f40885e68ac124532be1d774f169b08d8d",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Mr Speaker"
+      ],
+      "parameters": [
+        {
+          "name": "speed",
+          "type": "float",
+          "source_type": "float",
+          "default": 2.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/pinwheel.wgsl",
+        "sha256": "696b7becb470f978caa8b33e67d03eaaacf26dc68e764b5beda33faf79200e3b"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.pinwheel",
+        "implementation_sha256": "696b7becb470f978caa8b33e67d03eaaacf26dc68e764b5beda33faf79200e3b"
+      }
+    },
+    {
+      "id": "gl.pixelize",
+      "name": "pixelize",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/pixelize.glsl",
+        "sha256": "f5c541b779364dcf92d71f4928efa07c414ffd83a5bfb5b8ca9280a1c73c8b32",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "squaresMin",
+          "type": "vec2",
+          "source_type": "ivec2",
+          "default": [
+            20,
+            20
+          ]
+        },
+        {
+          "name": "steps",
+          "type": "int",
+          "source_type": "int",
+          "default": 50
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/pixelize.wgsl",
+        "sha256": "c6f60c4b93780f26a82ccae1e556d382d04a181273da0c2038dec2c27026a08e"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.pixelize",
+        "implementation_sha256": "c6f60c4b93780f26a82ccae1e556d382d04a181273da0c2038dec2c27026a08e"
+      }
+    },
+    {
+      "id": "gl.polar_function",
+      "name": "polar_function",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/polar_function.glsl",
+        "sha256": "2c871b5ed66346789de03721d1eb20df3ba097341330d667cd37c53d43e3e1b0",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Fernando Kuteken"
+      ],
+      "parameters": [
+        {
+          "name": "segments",
+          "type": "int",
+          "source_type": "int",
+          "default": 5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/polar_function.wgsl",
+        "sha256": "78e0a178dea877b68151c233f860d61fad50f289ecd24dd50343f86b77422cbf"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.polar_function",
+        "implementation_sha256": "78e0a178dea877b68151c233f860d61fad50f289ecd24dd50343f86b77422cbf"
+      }
+    },
+    {
+      "id": "gl.PolkaDotsCurtain",
+      "name": "PolkaDotsCurtain",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/PolkaDotsCurtain.glsl",
+        "sha256": "1a11af446cf3c50bf58d1a2b1547092e386bdcf1b7dff71179661f6a4c71d29a",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "bobylito"
+      ],
+      "parameters": [
+        {
+          "name": "dots",
+          "type": "float",
+          "source_type": "float",
+          "default": 20.0
+        },
+        {
+          "name": "center",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/PolkaDotsCurtain.wgsl",
+        "sha256": "f5729665417b224d4d3a5bce3107f02a12fe354492002fe6f941de47b434edba"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.PolkaDotsCurtain",
+        "implementation_sha256": "f5729665417b224d4d3a5bce3107f02a12fe354492002fe6f941de47b434edba"
+      }
+    },
+    {
+      "id": "gl.powerKaleido",
+      "name": "powerKaleido",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/powerKaleido.glsl",
+        "sha256": "f6448f3aa5446f5f9ff623ffda299b5ab573522a69c863cbb2a8e4c63f3d7291",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Boundless"
+      ],
+      "parameters": [
+        {
+          "name": "scale",
+          "type": "float",
+          "source_type": "float",
+          "default": 2.0
+        },
+        {
+          "name": "z",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.5
+        },
+        {
+          "name": "speed",
+          "type": "float",
+          "source_type": "float",
+          "default": 5.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/powerKaleido.wgsl",
+        "sha256": "25f2d8e2a3e4af305574591a748db742e2f8eea6ec6fb25b1f324020ace7d916"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.powerKaleido",
+        "implementation_sha256": "25f2d8e2a3e4af305574591a748db742e2f8eea6ec6fb25b1f324020ace7d916"
+      }
+    },
+    {
+      "id": "gl.PuzzleRight",
+      "name": "PuzzleRight",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/PuzzleRight.glsl",
+        "sha256": "3bfa51661e90fb8f0e9e9dcd4778f72e2e37fbc9eae4f58f8135b83feff02869",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "JustKirillS"
+      ],
+      "parameters": [
+        {
+          "name": "size",
+          "type": "vec2",
+          "source_type": "ivec2",
+          "default": [
+            4,
+            4
+          ]
+        },
+        {
+          "name": "pause",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.1
+        },
+        {
+          "name": "dividerWidth",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.005
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/PuzzleRight.wgsl",
+        "sha256": "9a4df99da15b0947b0a211684bd5a1b61cc783f68ee40ca8d91dd1fb8ad7afc1"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.PuzzleRight",
+        "implementation_sha256": "9a4df99da15b0947b0a211684bd5a1b61cc783f68ee40ca8d91dd1fb8ad7afc1"
+      }
+    },
+    {
+      "id": "gl.Radial",
+      "name": "Radial",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Radial.glsl",
+        "sha256": "2cbfc2e12b26f59b6312cdc152df46c3648d3bdbcee5ea50bc0ef08aac1d932d",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Xaychru"
+      ],
+      "parameters": [
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Radial.wgsl",
+        "sha256": "1a76f2b7f7853c66c6fae3b531080e29ac50338bad8d77aafb4de78351ef5692"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Radial",
+        "implementation_sha256": "1a76f2b7f7853c66c6fae3b531080e29ac50338bad8d77aafb4de78351ef5692"
+      }
+    },
+    {
+      "id": "gl.randomNoisex",
+      "name": "randomNoisex",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/randomNoisex.glsl",
+        "sha256": "094522489c79dc7241d6809f7229838d8807c9fa569218109ca778b2297e40bd",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "towrabbit"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/randomNoisex.wgsl",
+        "sha256": "d9a5ab809ff5bac18228a7dc03b9232261f06f6000cd9e92b29f579db4c7743d"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.randomNoisex",
+        "implementation_sha256": "d9a5ab809ff5bac18228a7dc03b9232261f06f6000cd9e92b29f579db4c7743d"
+      }
+    },
+    {
+      "id": "gl.randomsquares",
+      "name": "randomsquares",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/randomsquares.glsl",
+        "sha256": "844211ca33ae9f126fddfa9f3987bc853933c7ee2f919ca2d09def7d8040cb6a",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "size",
+          "type": "vec2",
+          "source_type": "ivec2",
+          "default": [
+            10,
+            10
+          ]
+        },
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/randomsquares.wgsl",
+        "sha256": "b11ca3c29a8917a532881f0ef49423e27f435c7fac0ca394c0a7a050af487ef3"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.randomsquares",
+        "implementation_sha256": "b11ca3c29a8917a532881f0ef49423e27f435c7fac0ca394c0a7a050af487ef3"
+      }
+    },
+    {
+      "id": "gl.Rectangle",
+      "name": "Rectangle",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Rectangle.glsl",
+        "sha256": "abae2ef1148ae96a8b01ae4bc5b91127c328283dc3a88b43a15974e2efbe7b2d",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "martiniti"
+      ],
+      "parameters": [
+        {
+          "name": "bgcolor",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Rectangle.wgsl",
+        "sha256": "36cee45093e7b487d7baa35283cff938ad3225ce8c1fbf1d9687a467130ce5e2"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Rectangle",
+        "implementation_sha256": "36cee45093e7b487d7baa35283cff938ad3225ce8c1fbf1d9687a467130ce5e2"
+      }
+    },
+    {
+      "id": "gl.RectangleCrop",
+      "name": "RectangleCrop",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/RectangleCrop.glsl",
+        "sha256": "21d769de57567c4a428228181d6a619c9e5b0b066b34acc01854a40d780471f4",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "martiniti"
+      ],
+      "parameters": [
+        {
+          "name": "bgcolor",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/RectangleCrop.wgsl",
+        "sha256": "b6b40c3c1812c6dc05dcc2279f88237214f4b78f7de0655935f5d3da3d18b481"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.RectangleCrop",
+        "implementation_sha256": "b6b40c3c1812c6dc05dcc2279f88237214f4b78f7de0655935f5d3da3d18b481"
+      }
+    },
+    {
+      "id": "gl.Revolve_Left",
+      "name": "Revolve_Left",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Revolve_Left.glsl",
+        "sha256": "1653efd36293ce0371396bac077a845384963d9b260fd9e9e91dd1a6ccb09de3",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "bread"
+      ],
+      "parameters": [
+        {
+          "name": "center",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.46,
+            0.52
+          ]
+        },
+        {
+          "name": "direction",
+          "type": "float",
+          "source_type": "float",
+          "default": -1.0
+        },
+        {
+          "name": "maxRotation",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.95
+        },
+        {
+          "name": "peakZoom",
+          "type": "float",
+          "source_type": "float",
+          "default": 2.22
+        },
+        {
+          "name": "swirl",
+          "type": "float",
+          "source_type": "float",
+          "default": 2.85
+        },
+        {
+          "name": "barrel",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.38
+        },
+        {
+          "name": "motionBlur",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "switchStart",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.3
+        },
+        {
+          "name": "switchEnd",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        },
+        {
+          "name": "shadow",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.16
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Revolve_Left.wgsl",
+        "sha256": "119d4193770feddaff3a46faea9e4460af9729411d63cd0fa21013253327b106"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Revolve_Left",
+        "implementation_sha256": "119d4193770feddaff3a46faea9e4460af9729411d63cd0fa21013253327b106"
+      }
+    },
+    {
+      "id": "gl.ripple",
+      "name": "ripple",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/ripple.glsl",
+        "sha256": "3d71067791beccc32c0a388260ac099d8213e5fd312d896a4a46f1285b94b9d1",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "amplitude",
+          "type": "float",
+          "source_type": "float",
+          "default": 100.0
+        },
+        {
+          "name": "speed",
+          "type": "float",
+          "source_type": "float",
+          "default": 50.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/ripple.wgsl",
+        "sha256": "0dd75766427ea262ddc76670ebeebda12d2c8895daeeb169749ba08c790700dd"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.ripple",
+        "implementation_sha256": "0dd75766427ea262ddc76670ebeebda12d2c8895daeeb169749ba08c790700dd"
+      }
+    },
+    {
+      "id": "gl.Rolls",
+      "name": "Rolls",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Rolls.glsl",
+        "sha256": "30781dc66fa788977b19a549ca72cb754ccde4a6fdf990b5f082a3d5ae25f171",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Mark Craig"
+      ],
+      "parameters": [
+        {
+          "name": "type",
+          "type": "int",
+          "source_type": "int",
+          "default": 0,
+          "min": 0.0,
+          "max": 3.0
+        },
+        {
+          "name": "RotDown",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Rolls.wgsl",
+        "sha256": "287cbded5a6bb1023d3c888269700ef9c89eb45a7374a63b70418b7e3754aef8"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Rolls",
+        "implementation_sha256": "287cbded5a6bb1023d3c888269700ef9c89eb45a7374a63b70418b7e3754aef8"
+      }
+    },
+    {
+      "id": "gl.rotate_scale_fade",
+      "name": "rotate_scale_fade",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/rotate_scale_fade.glsl",
+        "sha256": "4484386f72f9d955851feea332d4c449c70e9e25de4cbcefda6e6764c6709144",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Fernando Kuteken"
+      ],
+      "parameters": [
+        {
+          "name": "center",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "rotations",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "scale",
+          "type": "float",
+          "source_type": "float",
+          "default": 8.0
+        },
+        {
+          "name": "backColor",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            0.15,
+            0.15,
+            0.15,
+            1.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/rotate_scale_fade.wgsl",
+        "sha256": "b47a9adf9303326a813c7ef5d488949e9026916f791fada18596c39cc78eb113"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.rotate_scale_fade",
+        "implementation_sha256": "b47a9adf9303326a813c7ef5d488949e9026916f791fada18596c39cc78eb113"
+      }
+    },
+    {
+      "id": "gl.RotateScaleVanish",
+      "name": "RotateScaleVanish",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/RotateScaleVanish.glsl",
+        "sha256": "c9db1f08501f5479bf8f74e6d5dd7607b55ef53b4e1c946c52e3ce0788ccbb01",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Mark Craig"
+      ],
+      "parameters": [
+        {
+          "name": "FadeInSecond",
+          "type": "bool",
+          "source_type": "bool",
+          "default": true
+        },
+        {
+          "name": "ReverseEffect",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        },
+        {
+          "name": "ReverseRotation",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/RotateScaleVanish.wgsl",
+        "sha256": "007b433d390450b65c12dbd961eb5cfa1928e849425f47be0ed52b73aa14c853"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.RotateScaleVanish",
+        "implementation_sha256": "007b433d390450b65c12dbd961eb5cfa1928e849425f47be0ed52b73aa14c853"
+      }
+    },
+    {
+      "id": "gl.rotateTransition",
+      "name": "rotateTransition",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/rotateTransition.glsl",
+        "sha256": "3e1abc5394801df9d44224217cf870203114a52b326b905e0d1b72891515d884",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "haiyoucuv"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/rotateTransition.wgsl",
+        "sha256": "a18d6c6f39e8b94c59d2651886348b0f791e46c231df8ee0381ab4ea1d5eebff"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.rotateTransition",
+        "implementation_sha256": "a18d6c6f39e8b94c59d2651886348b0f791e46c231df8ee0381ab4ea1d5eebff"
+      }
+    },
+    {
+      "id": "gl.scale-in",
+      "name": "scale-in",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/scale-in.glsl",
+        "sha256": "e450c0c8712dbe464dde15d5a89a8338d4df090523792beeb6d4c320928296d5",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "haiyoucuv"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/scale-in.wgsl",
+        "sha256": "7031e6a1ebc9f58469e028f0da069f24fd75d1f9d457b56406e6a25508e64809"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.scale-in",
+        "implementation_sha256": "7031e6a1ebc9f58469e028f0da069f24fd75d1f9d457b56406e6a25508e64809"
+      }
+    },
+    {
+      "id": "gl.SimpleFlip",
+      "name": "SimpleFlip",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/SimpleFlip.glsl",
+        "sha256": "45bb896e26dfa4a152c9f075e8699bd4d60e96a6c5642618d054a3aa85009321",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "nwoeanhinnogaehr"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/SimpleFlip.wgsl",
+        "sha256": "83e255ed4ba8004967e3114801944e0816a2035d1c6d6ec438990d91e5677970"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.SimpleFlip",
+        "implementation_sha256": "83e255ed4ba8004967e3114801944e0816a2035d1c6d6ec438990d91e5677970"
+      }
+    },
+    {
+      "id": "gl.SimpleZoom",
+      "name": "SimpleZoom",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/SimpleZoom.glsl",
+        "sha256": "3e971d871ba681b7d118c5c2d23baf3becc4ad63b0e18b482dc9a56cdc3ec16e",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "0gust1"
+      ],
+      "parameters": [
+        {
+          "name": "zoom_quickness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.8,
+          "min": 0.2,
+          "max": 1.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/SimpleZoom.wgsl",
+        "sha256": "bdd16e35d034f2ef840ad82c7a3375b20a0f16c9b663e5741ab731b5f0c9201e"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.SimpleZoom",
+        "implementation_sha256": "bdd16e35d034f2ef840ad82c7a3375b20a0f16c9b663e5741ab731b5f0c9201e"
+      }
+    },
+    {
+      "id": "gl.SimpleZoomOut",
+      "name": "SimpleZoomOut",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/SimpleZoomOut.glsl",
+        "sha256": "5ec96c4549092157e316783aa7aeee48a2898081cf9a2aa03e46efa648e84f53",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Tianshuo"
+      ],
+      "parameters": [
+        {
+          "name": "zoom_quickness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.8,
+          "min": 0.2,
+          "max": 1.0
+        },
+        {
+          "name": "fade",
+          "type": "bool",
+          "source_type": "bool",
+          "default": true
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/SimpleZoomOut.wgsl",
+        "sha256": "aa81e7d80118953ae1702a06a6a9dd893713d4d9e1af7d52c58d2677eb379027"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.SimpleZoomOut",
+        "implementation_sha256": "aa81e7d80118953ae1702a06a6a9dd893713d4d9e1af7d52c58d2677eb379027"
+      }
+    },
+    {
+      "id": "gl.Slides",
+      "name": "Slides",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Slides.glsl",
+        "sha256": "cd22cf496b485f7c4b9fcefca6f18bbcc6b7e01fbb93e4c01b0620e392bd1245",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Mark Craig"
+      ],
+      "parameters": [
+        {
+          "name": "type",
+          "type": "int",
+          "source_type": "int",
+          "default": 0
+        },
+        {
+          "name": "In",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Slides.wgsl",
+        "sha256": "cecd481b93156e8c75860c3da49bec675ced6700aa9f4a5d2712616c0d65da62"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Slides",
+        "implementation_sha256": "cecd481b93156e8c75860c3da49bec675ced6700aa9f4a5d2712616c0d65da62"
+      }
+    },
+    {
+      "id": "gl.splitSlideInHorizontal",
+      "name": "splitSlideInHorizontal",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/splitSlideInHorizontal.glsl",
+        "sha256": "e1d69a2bde5ad47c98bd32a7514239068458e9d602179db580e9112b450069cb",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "OllyOllyOlly"
+      ],
+      "parameters": [
+        {
+          "name": "reverse",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/splitSlideInHorizontal.wgsl",
+        "sha256": "b6c4fbbc4a0c0c66c11c832c859066cff357b1b2a207876731600475c74190e5"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.splitSlideInHorizontal",
+        "implementation_sha256": "b6c4fbbc4a0c0c66c11c832c859066cff357b1b2a207876731600475c74190e5"
+      }
+    },
+    {
+      "id": "gl.splitSlideInOutHorizontal",
+      "name": "splitSlideInOutHorizontal",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/splitSlideInOutHorizontal.glsl",
+        "sha256": "97986bf69c869fb3fd18eb67f9fc5eb6b2bad3e2e548cf711756992b3b0ae7eb",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "OllyOllyOlly"
+      ],
+      "parameters": [
+        {
+          "name": "reverse",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/splitSlideInOutHorizontal.wgsl",
+        "sha256": "fd36fc4d26adaba6155e9cd6f1d2f14ca4c98d23efa6bb73835ffeb7365b9e3e"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.splitSlideInOutHorizontal",
+        "implementation_sha256": "fd36fc4d26adaba6155e9cd6f1d2f14ca4c98d23efa6bb73835ffeb7365b9e3e"
+      }
+    },
+    {
+      "id": "gl.splitSlideInOutVertical",
+      "name": "splitSlideInOutVertical",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/splitSlideInOutVertical.glsl",
+        "sha256": "fcd1d4b1b6bbe67168d5e2c842f4ce58acdff2349eb7e0050cd41b94d915675c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "OllyOllyOlly"
+      ],
+      "parameters": [
+        {
+          "name": "reverse",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/splitSlideInOutVertical.wgsl",
+        "sha256": "216247ed3de2daa7c5f07d4774a660ef225bd5270dfa6ea277f9943751806fc1"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.splitSlideInOutVertical",
+        "implementation_sha256": "216247ed3de2daa7c5f07d4774a660ef225bd5270dfa6ea277f9943751806fc1"
+      }
+    },
+    {
+      "id": "gl.splitSlideInVertical",
+      "name": "splitSlideInVertical",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/splitSlideInVertical.glsl",
+        "sha256": "e1e38f4127539b7c54d60642ebdb18f5df7504edee0c5afc6e2cb09ef2056105",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "OllyOllyOlly"
+      ],
+      "parameters": [
+        {
+          "name": "reverse",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/splitSlideInVertical.wgsl",
+        "sha256": "6c3f7a1d3da961777315c7e813766692084332d85a0f96e9d3fc59f7645bce14"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.splitSlideInVertical",
+        "implementation_sha256": "6c3f7a1d3da961777315c7e813766692084332d85a0f96e9d3fc59f7645bce14"
+      }
+    },
+    {
+      "id": "gl.splitSlideOutHorizontal",
+      "name": "splitSlideOutHorizontal",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/splitSlideOutHorizontal.glsl",
+        "sha256": "db2906f53ffc0e825886755a927dbb0d25699b86ab4740aaa48496d690d42a20",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "OllyOllyOlly"
+      ],
+      "parameters": [
+        {
+          "name": "reverse",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/splitSlideOutHorizontal.wgsl",
+        "sha256": "31f2cfa708d552a407bf8af3a21ad1bc0ea743f77ba3d6a06e66cea821f00f02"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.splitSlideOutHorizontal",
+        "implementation_sha256": "31f2cfa708d552a407bf8af3a21ad1bc0ea743f77ba3d6a06e66cea821f00f02"
+      }
+    },
+    {
+      "id": "gl.splitSlideOutVertical",
+      "name": "splitSlideOutVertical",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/splitSlideOutVertical.glsl",
+        "sha256": "50a48ee3de8e739ba48d93d054bd8e97705c2009ecee89651805c573882a00b6",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "OllyOllyOlly"
+      ],
+      "parameters": [
+        {
+          "name": "reverse",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/splitSlideOutVertical.wgsl",
+        "sha256": "95b0f0d15e28189023fb1e919eb79ec3931cc5892c39bf9e293993bad27b4e7e"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.splitSlideOutVertical",
+        "implementation_sha256": "95b0f0d15e28189023fb1e919eb79ec3931cc5892c39bf9e293993bad27b4e7e"
+      }
+    },
+    {
+      "id": "gl.squareswire",
+      "name": "squareswire",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/squareswire.glsl",
+        "sha256": "32f24c18612a2e5647eedad26b65a02605be7e69871403d911323a9f13cbe9e3",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "squares",
+          "type": "vec2",
+          "source_type": "ivec2",
+          "default": [
+            10,
+            10
+          ]
+        },
+        {
+          "name": "direction",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            1.0,
+            -0.5
+          ]
+        },
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.6
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/squareswire.wgsl",
+        "sha256": "35f174700c6411db8e30fba5f818ef1a5bc47c53e611e574ebc93d20174f22fd"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.squareswire",
+        "implementation_sha256": "35f174700c6411db8e30fba5f818ef1a5bc47c53e611e574ebc93d20174f22fd"
+      }
+    },
+    {
+      "id": "gl.squeeze",
+      "name": "squeeze",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/squeeze.glsl",
+        "sha256": "e48ac3f52c807c1af39d1e8cbf359ac76ff833a8796e88806461a888582739ab",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "colorSeparation",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.04
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/squeeze.wgsl",
+        "sha256": "e2f6a009a591cf1851f04ebf7b2b57484df3396db2c3e147d2f9d0ba77a4ed44"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.squeeze",
+        "implementation_sha256": "e2f6a009a591cf1851f04ebf7b2b57484df3396db2c3e147d2f9d0ba77a4ed44"
+      }
+    },
+    {
+      "id": "gl.StarWipe",
+      "name": "StarWipe",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/StarWipe.glsl",
+        "sha256": "304c8cd4848b74c032a8a51907916af4b2f5f2d7ef9dd19a2b26752f3180c448",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Ben Lucas"
+      ],
+      "parameters": [
+        {
+          "name": "border_thickness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.01
+        },
+        {
+          "name": "star_rotation",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.75
+        },
+        {
+          "name": "border_color",
+          "type": "vec4",
+          "source_type": "vec4",
+          "default": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "star_center",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/StarWipe.wgsl",
+        "sha256": "547cf1920ea25e45038ea4eb639c3400ae6ff5938130a9cf18efef9b41e33425"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.StarWipe",
+        "implementation_sha256": "547cf1920ea25e45038ea4eb639c3400ae6ff5938130a9cf18efef9b41e33425"
+      }
+    },
+    {
+      "id": "gl.static_wipe",
+      "name": "static_wipe",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/static_wipe.glsl",
+        "sha256": "16eb1015402a7a15c44da28ebfdaa1efc3ee0f4ac6811b8dd839175538f0a932",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Ben Lucas"
+      ],
+      "parameters": [
+        {
+          "name": "u_transitionUpToDown",
+          "type": "bool",
+          "source_type": "bool",
+          "default": true
+        },
+        {
+          "name": "u_max_static_span",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/static_wipe.wgsl",
+        "sha256": "2398d2de6a84e4db5f904e33ad9d36ac0e3979e501ba5b7ef324576ddbf4a534"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.static_wipe",
+        "implementation_sha256": "2398d2de6a84e4db5f904e33ad9d36ac0e3979e501ba5b7ef324576ddbf4a534"
+      }
+    },
+    {
+      "id": "gl.StaticFade",
+      "name": "StaticFade",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/StaticFade.glsl",
+        "sha256": "18e1473fe42466eac3bee113b9d373c789dc603bad900e866399877006465495",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Ben Lucas"
+      ],
+      "parameters": [
+        {
+          "name": "n_noise_pixels",
+          "type": "float",
+          "source_type": "float",
+          "default": 200.0
+        },
+        {
+          "name": "static_luminosity",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.8
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/StaticFade.wgsl",
+        "sha256": "6f7bbc89578ed13addb9fff1130e05ddf1de6d4d85b6b4dba9b6d4bdbe306605"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.StaticFade",
+        "implementation_sha256": "6f7bbc89578ed13addb9fff1130e05ddf1de6d4d85b6b4dba9b6d4bdbe306605"
+      }
+    },
+    {
+      "id": "gl.StereoViewer",
+      "name": "StereoViewer",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/StereoViewer.glsl",
+        "sha256": "41ad611fde7308f72e3c045f6624b30c55ed2615cbf2a3114d6a848a1a0dd5e5",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "BSD 2 Clause",
+      "authors": [
+        "Ted Schundler"
+      ],
+      "parameters": [
+        {
+          "name": "zoom",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.88,
+          "min": 0.5,
+          "max": 1.0
+        },
+        {
+          "name": "corner_radius",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.22
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/StereoViewer.wgsl",
+        "sha256": "81c3930053e2425c954f55b4c8389fc690b9821345a6885febd9a1aee813ecc0"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.StereoViewer",
+        "implementation_sha256": "81c3930053e2425c954f55b4c8389fc690b9821345a6885febd9a1aee813ecc0"
+      }
+    },
+    {
+      "id": "gl.StripDatamoshGlitch",
+      "name": "StripDatamoshGlitch",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/StripDatamoshGlitch.glsl",
+        "sha256": "61f819c2ab5263828da3a13a3bfc6142b80485064f7cd23ec4733b2b4160ad81",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "bread"
+      ],
+      "parameters": [
+        {
+          "name": "strength",
+          "type": "float",
+          "source_type": "float",
+          "default": 1.0
+        },
+        {
+          "name": "horizontalBars",
+          "type": "float",
+          "source_type": "float",
+          "default": 42.0
+        },
+        {
+          "name": "verticalSlits",
+          "type": "float",
+          "source_type": "float",
+          "default": 18.0
+        },
+        {
+          "name": "tear",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.18
+        },
+        {
+          "name": "chroma",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.032
+        },
+        {
+          "name": "residue",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.62
+        },
+        {
+          "name": "noiseAmount",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.16
+        },
+        {
+          "name": "scanAmount",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.13
+        },
+        {
+          "name": "flashAmount",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.2
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/StripDatamoshGlitch.wgsl",
+        "sha256": "6503778d345d4a19244fd31d57f70de14b3e9c3b87765617f185b11eba812ba6"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.StripDatamoshGlitch",
+        "implementation_sha256": "6503778d345d4a19244fd31d57f70de14b3e9c3b87765617f185b11eba812ba6"
+      }
+    },
+    {
+      "id": "gl.swap",
+      "name": "swap",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/swap.glsl",
+        "sha256": "50e5f74bae4bad14f60e0a65691b560809ef3586b4eca4046c249941fa9e4625",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "reflection",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.4
+        },
+        {
+          "name": "perspective",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.2
+        },
+        {
+          "name": "depth",
+          "type": "float",
+          "source_type": "float",
+          "default": 3.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/swap.wgsl",
+        "sha256": "aec751676550522b3ccf33694ea27edbc8652136667f562ab102921f516e3a90"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.swap",
+        "implementation_sha256": "aec751676550522b3ccf33694ea27edbc8652136667f562ab102921f516e3a90"
+      }
+    },
+    {
+      "id": "gl.Swirl",
+      "name": "Swirl",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/Swirl.glsl",
+        "sha256": "fbbea8a885ed8cdf913fe481ee09e8897a79fd4f7c9ec6a1f459f6010147301e",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Sergey Kosarevsky"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/Swirl.wgsl",
+        "sha256": "fe2f82a06da59ce584156bcbeb57af37596266d8f7ed9b6de57507022bb93232"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.Swirl",
+        "implementation_sha256": "fe2f82a06da59ce584156bcbeb57af37596266d8f7ed9b6de57507022bb93232"
+      }
+    },
+    {
+      "id": "gl.tangentMotionBlur",
+      "name": "tangentMotionBlur",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/tangentMotionBlur.glsl",
+        "sha256": "ba9a577e37b2712bf900bfb79a144cf3d7c2faaf9de7a02c78184e03877de5b3",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "chenkai"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/tangentMotionBlur.wgsl",
+        "sha256": "36ca0d9db0d844ac0200adea3a12fa3bc08ff03b14591f1df72f592783733f3c"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.tangentMotionBlur",
+        "implementation_sha256": "36ca0d9db0d844ac0200adea3a12fa3bc08ff03b14591f1df72f592783733f3c"
+      }
+    },
+    {
+      "id": "gl.TilesWave",
+      "name": "TilesWave",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/TilesWave.glsl",
+        "sha256": "38516173c9f2ebf3ffd4d7fd3f57afd8fa7d679effde2f4e363eef5b03bb4f9a",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "numb3r23"
+      ],
+      "parameters": [
+        {
+          "name": "tileCount",
+          "type": "vec2",
+          "source_type": "ivec2",
+          "default": [
+            8,
+            8
+          ]
+        },
+        {
+          "name": "flipX",
+          "type": "bool",
+          "source_type": "bool",
+          "default": true
+        },
+        {
+          "name": "flipY",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/TilesWave.wgsl",
+        "sha256": "96c68dccd97f9e5a3aa91db0df92a2eb1df49ed28a39e6fbc4d94ff6ff64aeed"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.TilesWave",
+        "implementation_sha256": "96c68dccd97f9e5a3aa91db0df92a2eb1df49ed28a39e6fbc4d94ff6ff64aeed"
+      }
+    },
+    {
+      "id": "gl.TopBottom",
+      "name": "TopBottom",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/TopBottom.glsl",
+        "sha256": "a3bd3cb60b1ddf35d2b86cba289bf2433e12d224c07cb4649fae9f1ebbeebf95",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "zhmy"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/TopBottom.wgsl",
+        "sha256": "9a86e6814f05ac9cc73115a5ad0924eee5a2db8f3177031fa8c5f95747a7bf26"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.TopBottom",
+        "implementation_sha256": "9a86e6814f05ac9cc73115a5ad0924eee5a2db8f3177031fa8c5f95747a7bf26"
+      }
+    },
+    {
+      "id": "gl.TVStatic",
+      "name": "TVStatic",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/TVStatic.glsl",
+        "sha256": "2390cfce750fdf52efa2361fbefa20d15883e9c702f6b49ee4472b3fe4c9f3bf",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Brandon Anzaldi"
+      ],
+      "parameters": [
+        {
+          "name": "offset",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.05
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/TVStatic.wgsl",
+        "sha256": "e11170b0ea34b54a76301e469d518e72954cd0a988acd54c4e6f99c2633533c5"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.TVStatic",
+        "implementation_sha256": "e11170b0ea34b54a76301e469d518e72954cd0a988acd54c4e6f99c2633533c5"
+      }
+    },
+    {
+      "id": "gl.undulatingBurnOut",
+      "name": "undulatingBurnOut",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/undulatingBurnOut.glsl",
+        "sha256": "69e7d3e5edd4609c5aa3bdac2a1d2c4572bb7b13d77c6662939781a61e7b9567",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "pthrasher"
+      ],
+      "parameters": [
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.03
+        },
+        {
+          "name": "center",
+          "type": "vec2",
+          "source_type": "vec2",
+          "default": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "color",
+          "type": "vec3",
+          "source_type": "vec3",
+          "default": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/undulatingBurnOut.wgsl",
+        "sha256": "ee511de5bccb27e79ef66ff2a93d1e13f2db216900b4fa2c5c3371a25137589c"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.undulatingBurnOut",
+        "implementation_sha256": "ee511de5bccb27e79ef66ff2a93d1e13f2db216900b4fa2c5c3371a25137589c"
+      }
+    },
+    {
+      "id": "gl.VerticalClose",
+      "name": "VerticalClose",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/VerticalClose.glsl",
+        "sha256": "e59bf2cf60a971c86b919ce1777c592349cc79794c3ef9a3540e68d43e82c021",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "martiniti"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/VerticalClose.wgsl",
+        "sha256": "4437a0c5841c5a803c8620ca3a3f2ecc27b5329962d8e809fc8a77666f46dca2"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.VerticalClose",
+        "implementation_sha256": "4437a0c5841c5a803c8620ca3a3f2ecc27b5329962d8e809fc8a77666f46dca2"
+      }
+    },
+    {
+      "id": "gl.VerticalOpen",
+      "name": "VerticalOpen",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/VerticalOpen.glsl",
+        "sha256": "b50977b4591039c0cbad58da7126ae9732a6290a663260f9ffde1067beaf9f73",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "martiniti"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/VerticalOpen.wgsl",
+        "sha256": "1cd2479e08e1104d195da08e765e4b7d7a29ee8f80cb39e74607861cc3dffd55"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.VerticalOpen",
+        "implementation_sha256": "1cd2479e08e1104d195da08e765e4b7d7a29ee8f80cb39e74607861cc3dffd55"
+      }
+    },
+    {
+      "id": "gl.WaterDrop",
+      "name": "WaterDrop",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/WaterDrop.glsl",
+        "sha256": "35c80cdb1b528c3da5e5a993c4133dd0fef4d8c288909fb0d8daca4e4c74ef2b",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "PaweÅ‚ PÅ‚Ã³ciennik"
+      ],
+      "parameters": [
+        {
+          "name": "amplitude",
+          "type": "float",
+          "source_type": "float",
+          "default": 30.0
+        },
+        {
+          "name": "speed",
+          "type": "float",
+          "source_type": "float",
+          "default": 30.0
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/WaterDrop.wgsl",
+        "sha256": "684285a43f28b77ffc85e965269fc89e507d3223ebff04ce158738bd86075356"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.WaterDrop",
+        "implementation_sha256": "684285a43f28b77ffc85e965269fc89e507d3223ebff04ce158738bd86075356"
+      }
+    },
+    {
+      "id": "gl.wind",
+      "name": "wind",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/wind.glsl",
+        "sha256": "a6af68366cd1feb21da596e6503994da8bb052c616ec73d4346006837494a01f",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "size",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.2,
+          "min": 0.0,
+          "max": 1.0
+        },
+        {
+          "name": "reversed",
+          "type": "bool",
+          "source_type": "bool",
+          "default": false
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/wind.wgsl",
+        "sha256": "be25ad0df44ca9592f1b72104f918301046a1f9f1dc75087db24234da919b50b"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.wind",
+        "implementation_sha256": "be25ad0df44ca9592f1b72104f918301046a1f9f1dc75087db24234da919b50b"
+      }
+    },
+    {
+      "id": "gl.windowblinds",
+      "name": "windowblinds",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/windowblinds.glsl",
+        "sha256": "418d400c85cab13a0aa7235efb772fc8cd0da2d82d30518803861665b282edfd",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Fabien Benetou"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/windowblinds.wgsl",
+        "sha256": "21e33a7a28c6a09f04ef5b007b12cc498cb62ff0950003ecf85785d330ee1c9c"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.windowblinds",
+        "implementation_sha256": "21e33a7a28c6a09f04ef5b007b12cc498cb62ff0950003ecf85785d330ee1c9c"
+      }
+    },
+    {
+      "id": "gl.windowslice",
+      "name": "windowslice",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/windowslice.glsl",
+        "sha256": "128052b76eaa2802487cbc8940178daa54c2e91bfd0e157de69f2d6295e51449",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "gre"
+      ],
+      "parameters": [
+        {
+          "name": "count",
+          "type": "float",
+          "source_type": "float",
+          "default": 10.0
+        },
+        {
+          "name": "smoothness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.5
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/windowslice.wgsl",
+        "sha256": "3446224a9872a7cba6d838971afeedf2699436e4b826eda00220817de6defd1b"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.windowslice",
+        "implementation_sha256": "3446224a9872a7cba6d838971afeedf2699436e4b826eda00220817de6defd1b"
+      }
+    },
+    {
+      "id": "gl.wipeDown",
+      "name": "wipeDown",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/wipeDown.glsl",
+        "sha256": "04b04e7d06bc0830c5ef460ee7175557fdd79a446387fca1006e7805e33ee000",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Jake Nelson"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/wipeDown.wgsl",
+        "sha256": "b586163f065e624941814075eb43be570fdc78e4bcd9e9e7407290b614f1992a"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.wipeDown",
+        "implementation_sha256": "b586163f065e624941814075eb43be570fdc78e4bcd9e9e7407290b614f1992a"
+      }
+    },
+    {
+      "id": "gl.wipeLeft",
+      "name": "wipeLeft",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/wipeLeft.glsl",
+        "sha256": "f51fec57645912a6d8757c9d8cc13e5145e8a3d2d0b05daf6df3993c452b81e7",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Jake Nelson"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/wipeLeft.wgsl",
+        "sha256": "acf2f08c2502f632d8b4fd2b93671ab9d6569fa7fdbcb93931785377e3d580d8"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.wipeLeft",
+        "implementation_sha256": "acf2f08c2502f632d8b4fd2b93671ab9d6569fa7fdbcb93931785377e3d580d8"
+      }
+    },
+    {
+      "id": "gl.wipeRight",
+      "name": "wipeRight",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/wipeRight.glsl",
+        "sha256": "8d110fe3ddb3030f32b099562f301f726f228a2c92904cb3f5df7d49ab4a0ce6",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Jake Nelson"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/wipeRight.wgsl",
+        "sha256": "fb89a4ba0b871074649c103a74bb7b7817c8a1c0db2bf1fcdc96b1366cdf15d9"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.wipeRight",
+        "implementation_sha256": "fb89a4ba0b871074649c103a74bb7b7817c8a1c0db2bf1fcdc96b1366cdf15d9"
+      }
+    },
+    {
+      "id": "gl.wipeUp",
+      "name": "wipeUp",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/wipeUp.glsl",
+        "sha256": "0956346ef7f8cc6c1652a006eb99e0037f7ad10cb232a3d8756e566b3865513e",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Jake Nelson"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/wipeUp.wgsl",
+        "sha256": "b74271f178d09968fae392b794219feec4dcad6da60276fdcdf1ab822a93e744"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.wipeUp",
+        "implementation_sha256": "b74271f178d09968fae392b794219feec4dcad6da60276fdcdf1ab822a93e744"
+      }
+    },
+    {
+      "id": "gl.x_axis_translation",
+      "name": "x_axis_translation",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/x_axis_translation.glsl",
+        "sha256": "86b10d99bb1fb2b1861f31c57b018d85e8dd5c3f3feaa6721cb91d08db106289",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "lizhongjian"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/x_axis_translation.wgsl",
+        "sha256": "a2b659a973b4996e94b314db884925a10732974eec38350b17cb6c30134e6e21"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.x_axis_translation",
+        "implementation_sha256": "a2b659a973b4996e94b314db884925a10732974eec38350b17cb6c30134e6e21"
+      }
+    },
+    {
+      "id": "gl.ZoomInCircles",
+      "name": "ZoomInCircles",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/ZoomInCircles.glsl",
+        "sha256": "c042e9846b3aca993f4102c13c7aa32f92306bd13b7b3c98be3cbff93173ec0c",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "dycm8009"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/ZoomInCircles.wgsl",
+        "sha256": "51c3a1a672dc834b7e0fbaee89827eb7c038eee37798fef7ab2ee02703834493"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.ZoomInCircles",
+        "implementation_sha256": "51c3a1a672dc834b7e0fbaee89827eb7c038eee37798fef7ab2ee02703834493"
+      }
+    },
+    {
+      "id": "gl.zoomInOut",
+      "name": "zoomInOut",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/zoomInOut.glsl",
+        "sha256": "8d0cb76efed82130c90d50fd1c191391a462b1d79aa7f40c1f4511fa070d8d91",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "OllyOllyOlly"
+      ],
+      "parameters": [],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/zoomInOut.wgsl",
+        "sha256": "44fc8b77be42bc1dbd5d4d3b20627471b3bf18891554bac9ecf57080fba788c8"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.zoomInOut",
+        "implementation_sha256": "44fc8b77be42bc1dbd5d4d3b20627471b3bf18891554bac9ecf57080fba788c8"
+      }
+    },
+    {
+      "id": "gl.ZoomLeftWipe",
+      "name": "ZoomLeftWipe",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/ZoomLeftWipe.glsl",
+        "sha256": "6e51d2564ef6bb6f8c6addea5c53349f1c610970b91b16e6e4e9b85fd8804f3b",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Handk"
+      ],
+      "parameters": [
+        {
+          "name": "zoom_quickness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.8
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/ZoomLeftWipe.wgsl",
+        "sha256": "83bee31fc3910d591ae4101349176bdcaf090a1c8fd2724c264f565af966d834"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.ZoomLeftWipe",
+        "implementation_sha256": "83bee31fc3910d591ae4101349176bdcaf090a1c8fd2724c264f565af966d834"
+      }
+    },
+    {
+      "id": "gl.ZoomRigthWipe",
+      "name": "ZoomRigthWipe",
+      "source": {
+        "path": "vendor/gl-transitions/transitions/ZoomRigthWipe.glsl",
+        "sha256": "b7a9bc528a704218c1e1479dc7a5a4cc3dc217e349396dd9ef3a6a992db8f051",
+        "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155"
+      },
+      "license": "MIT",
+      "authors": [
+        "Handk"
+      ],
+      "parameters": [
+        {
+          "name": "zoom_quickness",
+          "type": "float",
+          "source_type": "float",
+          "default": 0.8
+        }
+      ],
+      "status": "enabled",
+      "texture_inputs": [
+        {
+          "name": "to",
+          "description": "Incoming image or video"
+        }
+      ],
+      "sources_min": 2,
+      "sources_max": 2,
+      "implementation": {
+        "kind": "customShader",
+        "path": "resources/gl-transitions/wgsl/ZoomRigthWipe.wgsl",
+        "sha256": "a8c67f475c473c65a2cefdaf9f49822f39daf95ce2d384196b325108675c434c"
+      },
+      "evidence": {
+        "report": "reports/gl-transitions-smoke.json",
+        "case_id": "gl.ZoomRigthWipe",
+        "implementation_sha256": "a8c67f475c473c65a2cefdaf9f49822f39daf95ce2d384196b325108675c434c"
+      }
+    }
+  ]
+}

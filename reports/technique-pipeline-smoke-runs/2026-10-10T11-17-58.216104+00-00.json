@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-10T11:17:11.137274+00:00",
+  "fixture_kind": "synthetic_temporary_only",
+  "generation_calls": 0,
+  "flow_credits_spent": 0,
+  "audio_listened": false,
+  "playback_completed": false,
+  "window_outside_mae": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "endpoint_mae": [
+    0.0,
+    0.16383744855967078
+  ],
+  "midpoint_distance_to_sources": [
+    54.239197530864196,
+    82.61747685185185
+  ],
+  "decoded_audio_byte_identical": true,
+  "helper_volumes": [
+    0,
+    0
+  ],
+  "frozen_technique_files": [
+    {
+      "path": "resources/gl-transitions/catalog.json",
+      "sha256": "c9c7d2b1730591139bd5cade2817324b82f350d98bb78abab3250372b9038104"
+    },
+    {
+      "path": "resources/gl-transitions/wgsl/fade.wgsl",
+      "sha256": "4cd23afd7672f1f3103a3090c0b505ef825aee66369b545946f3be0bd626d811"
+    },
+    {
+      "path": "resources/techniques/catalog.json",
+      "sha256": "01c30a4b9b3030893a72ffaf403424335faa9535bcd985ebae7ca4d14c71f8dc"
+    },
+    {
+      "path": "scripts/flow_techniques.py",
+      "sha256": "22f0f68cab26e77941eb7e2762255988e753d4a8858c03f56598aa600aa2ec9d"
+    }
+  ],
+  "video_sha256": "2f8adb9eed011873f3e2e1983ce3030583e2cdec499247834d4006e7e1e58e36",
+  "alpha_min": 127,
+  "alpha_max": 127,
+  "alpha_preview_sha256": "51df1dd2e1d77c317210427d2e85bce3e1996b5b23ee2760c60fa97776292560",
+  "fixture_generation_records_unchanged": true,
+  "status": "passed",
+  "temporary_previews": [
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-technique-integration-77yo9lrb\\alpha.png",
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-technique-integration-77yo9lrb\\projects\\technical\\outputs\\postproduction\\transition\\Project.tsrct"
+  ],
+  "production_files_unchanged": true,
+  "finished_at": "2026-10-10T11:17:58.216104+00:00",
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-technique-integration-77yo9lrb"
+}

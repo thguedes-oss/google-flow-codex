@@ -1,0 +1,1557 @@
+{
+  "schema_version": 1,
+  "source_id": "gl-transitions",
+  "commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155",
+  "coverage": "all-git-tracked-files",
+  "duplicate_policy": "Manter todas as origens e caminhos, inclusive SHA-256 repetidos.",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "sha256": "6d6796f174b736bcd7a68999e30d2f19a3719ad92355dcc0cfdfce8a66864553",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "18669871cbbc585e8d0afe6443050e81d5ef94d1d66f8c6e27ff132f6511f962",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "424a9a80f173ad054671e65d810397f62fb67e5081f6a35d8907b0cfd20e1bc3",
+      "category": "documentacao",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "b158e1dbc090e2986cce884a9788cde44a851728c3aa0b0c51413e2fd0b4f125",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "b518aa4b5bb415efd6cb8fef026b221025bc10c1cb8ebb0377b40b6f4fa667e0",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".github/workflows/preview-comment.yml",
+      "sha256": "9e355823c0ee3239a56af0218200ce2a505dcdcbf860df3d1f8e47844232da9c",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".github/workflows/preview.yml",
+      "sha256": "19237ff5344d1c89a8435b8aca8f85db84a567d4325538743aea39c6f8c6abd6",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".github/workflows/references.yml",
+      "sha256": "e9ba579438a609b84e6f0db09418bd10ac63f345f7c47754ca4e8b525324105a",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".github/workflows/test-preview.yml",
+      "sha256": "145677d176e56007d8eada4ca53bbf6b3bbb51f88d79fb73d1c881e69acf7ad5",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5965edb15d249a97bda614f176215cb177dd5deacfa151536866639709f8b728",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".nvmrc",
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".prettierrc.json",
+      "sha256": "a9931ec80b8f419c8582ce5d53c6a829cfba3ad094477ec221741b3e808a6f47",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "6d54910401bec105e5a273319a0b01a9d4b1f173497ab2fb8dee1a141bfc7eec",
+      "category": "documentacao",
+      "observed_license": "Header: MIT",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0db684e0150546743ae96d8ecf083be716786d834af7dbf8170ee8b6c247978d",
+      "category": "licenca",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Preservar atribuição e limites jurídicos; não confundir licença raiz com dependências de terceiros."
+    },
+    {
+      "path": "README.md",
+      "sha256": "6e513041358e400c6f89b58d01d2d21a9e72b8080ad6578eaf5b77b9910fe341",
+      "category": "documentacao",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "74c854a7dfc0e4d9d344b10c58e6c91c36dbe383527510ca69bf229500b032d7",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "package.json",
+      "sha256": "5c34f2cc2327c271cdf3a7e4f7ceafdfcd654bee29db5f1b33115b2ddb870707",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/README.md",
+      "sha256": "78cc508d12c97b1f29a8fa9c950e8f552168776c162afa6e88eb6989e55c2a73",
+      "category": "documentacao",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "scripts/agents/agent-docs.mjs",
+      "sha256": "8f147fa6161a1d8ea3ae00154843bcb0fc3d86a49552fa7283d1b00491bd5918",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/agents/agent-docs.test.mjs",
+      "sha256": "3ed5b8dd04f1e45aa56e22d17ecb309363a7637d2440c742f6c1d7a0583eaf9a",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/agents/build-agent-docs.mjs",
+      "sha256": "713192db9d9576b9d6c9e075ee81460c21d7d6ae3b70d1eda7e83ca75b120f4e",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/catalog/build-catalog.mjs",
+      "sha256": "439d3a7e319059870e77fe6ae1a71e93f6855ea22fec8d2e4732afbc146f0ba6",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/catalog/parse-transition.mjs",
+      "sha256": "5d86ddb9c0e0f6f385404ac38c9e97989732bc42615855f3a2e6aa136fad8c0a",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/catalog/transition-meta.mjs",
+      "sha256": "84169931bef9919583ad0860fef4d10996aefd88efe9267c351596e83f37040e",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/catalog/transition-meta.test.mjs",
+      "sha256": "55f47054104c285c2fc0c193e99449a81aabbde84be2c6ce1d5886adcc1fc82d",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/checks/encoding.mjs",
+      "sha256": "12099b7edd13a6abd10fc27ffdf02be21c39d01bb0f3c2ed4e5cc63114c29076",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/checks/lint-transitions.mjs",
+      "sha256": "9b4c0a5463d4c9a8cbe37ff75a28492b94fe86e7d28c0036e5794303b90af45e",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/checks/lint-transitions.test.mjs",
+      "sha256": "08b2ad04d652c63b0ec73d8aaa9b5c2c0d93a855950856e88c89a03568761cc3",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/checks/validate-transition.mjs",
+      "sha256": "e6d577bcbf97e2ddbbf6d9a4af04238e34896992bfe504dab3afcc50fafda2b4",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/npm-package/build.sh",
+      "sha256": "99ce99ccc43e5c6b0e9153a0a27527c7b5a77f841278f6c89958d7a272037ca0",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/npm-package/skeleton/README.md",
+      "sha256": "bcfcf51018ef2786a6420bba6b6accf57758fbf137995f0d45dff229ed2e36d6",
+      "category": "documentacao",
+      "observed_license": "Header: string,",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "scripts/npm-package/skeleton/index.d.ts",
+      "sha256": "0913342750062c34612f028e29059ebbae35a73cbfe2fdfc740384ac70abf2a2",
+      "category": "infraestrutura",
+      "observed_license": "Header: string;",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/npm-package/skeleton/package.json",
+      "sha256": "58648bee5ae8c6f7cdbd4b3f17d92fd2414493d341c7156de70932f63649f00e",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/rendering/reference-images.mjs",
+      "sha256": "cbbe137b10b4b711b3242e927b366bc40d6efdf14e4b83d6de2199c2381d3270",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/rendering/render-preview.mjs",
+      "sha256": "b8aa95a2d15c12ca3e6e642b1747c1c5f2c5f593b52b3a8631f46a6e63696671",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/rendering/render-references.mjs",
+      "sha256": "79f41a637f95d18d010475e0e9ebf2fc7e1d25a04b1ca32be6291928076d4206",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/rendering/sample-images/1.jpg",
+      "sha256": "8620afe99d25406a8a4edeec95e2933b78ee62d2a77522097b36a0d3b44589da",
+      "category": "midia-ou-modelo",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "scripts/rendering/sample-images/2.jpg",
+      "sha256": "948fd613ba45c63848d8f3602e83df3fdfc824ae06e13c145bcaa258c3f92409",
+      "category": "midia-ou-modelo",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "scripts/rendering/sample-images/3.jpg",
+      "sha256": "cf63944a1e2050063cf8ccd3605633fcc7028cbe8211398fffa9890dc7c87ae3",
+      "category": "midia-ou-modelo",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "scripts/targets/build-sksl.mjs",
+      "sha256": "51f6cd478f6689c3986674b430599f8010163efbdf5e34002d3e1a145416dc82",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/targets/glsl-preprocess.mjs",
+      "sha256": "ec8c23c469545353a1ca6b445f33223d4d526ac936d4be5c82b528c1d464b1e5",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/targets/sksl.mjs",
+      "sha256": "27fe02b0c12085d53606270be225fddd559379fdb3babbcad9c35c9086389ebc",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "scripts/targets/sksl.test.mjs",
+      "sha256": "8094c8fd1afaf9e364bfb100ac4a3c03f4e4424d0d9ac2cbe9859123db631e25",
+      "category": "infraestrutura",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "skills/gl-transitions/SKILL.md",
+      "sha256": "aba4c87685beb4913a57b631315fa1c81fd904470f87ade9abf85536beed77ca",
+      "category": "documentacao",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/gl-transitions/references/skia.md",
+      "sha256": "5e2c3f8629846dbd38d12e183f4e6c466cfc94550f3c4991ebb389c4f8eeafb7",
+      "category": "documentacao",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/gl-transitions/references/video.md",
+      "sha256": "5860974f5e34f9d58d0817f26904b7d164a00bacc1ab3f9fe397a631f13c588b",
+      "category": "documentacao",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "skills/gl-transitions/references/webgl.md",
+      "sha256": "2298190a35c3ed0de2a6d540c08b2e100a1223e9653f29631a7ab6ddb1e7d2dc",
+      "category": "documentacao",
+      "observed_license": "MIT raiz quando header não declara licença",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "transitions/AdvancedMosaic.glsl",
+      "sha256": "ecdcc9adabc621ddcd900e417cfa33ebd5d871c011238782a16cd2508a01dd4c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/BlockDissolve.glsl",
+      "sha256": "aa6093b2909dd58a778842921e3f30e798359ccf5537da43f3d5fa24c3c43d32",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/BookFlip.glsl",
+      "sha256": "9ad879d44c84b47f5c077030d3a6301fb2542ecc4835a5b4300a95be4e71bc74",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Bounce.glsl",
+      "sha256": "527e83c588f03e249c3da4d610ef1c07f27c1d77c490beaea090694d852a1cb4",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/BowTieHorizontal.glsl",
+      "sha256": "fcd134626185864b9c9dd0eb7d713f367e63afc445ace442ace6849a4700ec59",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/BowTieVertical.glsl",
+      "sha256": "7def307476298a8aba4a02ad0673ce228e40ad8ebf21e92e828db5cae54fef3e",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/BowTieWithParameter.glsl",
+      "sha256": "5c7b0e25b066bda5c4b28a0f5b7986f2840937c92077818254b930495841d2e0",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Box.glsl",
+      "sha256": "9e5221d3645d90c85ce9abfe5193d3c947fcacc2428b6a22d75d240806b4ece5",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/ButterflyWaveScrawler.glsl",
+      "sha256": "985beba91c1dd105aa4ae9df94efe22648e2028d7bae9b5e4bcc64ff2a8f2c82",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/CircleCrop.glsl",
+      "sha256": "27521661da2516567e5000ee9d7175dd37af7d922c9ff85cf2c6835e85ac364a",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/ColourDistance.glsl",
+      "sha256": "23fe510bb77ab400098ef7c50d032ed834add102b192e629ba0f966beb72ec58",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/CrazyParametricFun.glsl",
+      "sha256": "116645084d197df4a50a737bcfaa126d76f6289aff59dccce9bf28929284379d",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/CrossZoom.glsl",
+      "sha256": "a30adba2a78deac0ac114a30ea285e972fdd7d488ed0cde90e15bc0eef333e84",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/DefocusBlur.glsl",
+      "sha256": "9fdd45ebf44c532644e2c27ef589666fa962f70c53195c0ca802dd275dac4761",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Directional.glsl",
+      "sha256": "fd217e157ec516a0770d4cf4e343b5d92b147b88ea3075842f16adcc5c3e7341",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/DirectionalScaled.glsl",
+      "sha256": "3ccff0df6ca18f1c4011ece47d4c041ac8be7eb3ec7ab707396e4f4999a9cbf9",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/DoomScreenTransition.glsl",
+      "sha256": "fa526e5c56977d85d321fd2363bc643101b294334d0619664fcfc1194f01543d",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Dreamy.glsl",
+      "sha256": "ad95fba01344f89815da3deb1c023478800af04a25c4d56f2ff291448138ae4c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/DreamyZoom.glsl",
+      "sha256": "0ae348c409a29220ef5320db063c8ebd71757bafff533a72a852250328d01bb9",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Drop_Zone_Flicker.glsl",
+      "sha256": "6a9be7ee75c747899bc86366bd99b4842af08ea39311811ca3ef9610b644b854",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/EdgeTransition.glsl",
+      "sha256": "2849ced1825813d4895168f0e314c5812ebf122297c7d600fcd14065f0b85080",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/FilmBurn.glsl",
+      "sha256": "cbd7ffe97b9e582bb0d775f81ddf309a263746d4d48bae08777e788118cb9dac",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Fold.glsl",
+      "sha256": "402b1ce24ae2ac62b28390817568fafb83329dc480d150411c9a8085bf959264",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/GlitchDisplace.glsl",
+      "sha256": "4c168036dc866b057e01aa8443901aa58b689ed65421a0154439822ce0502e87",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/GlitchMemories.glsl",
+      "sha256": "27cca2daf0ca247eb371a852da3cc455f1c764ada992bc5d33061a155614308f",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/GridFlip.glsl",
+      "sha256": "f84096ffe6fc44808189a381a4e48dfde949beabed8df110fb45e68f6557810c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/HSVfade.glsl",
+      "sha256": "8640a0b40c67eb6999b8e619a514316e5d037440dfae9889e971f49e4833289d",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/HorizontalClose.glsl",
+      "sha256": "5c55ac5442076047eab1c60ba18ce8b8dd21eef54079946bc4285a8588280c29",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/HorizontalOpen.glsl",
+      "sha256": "5ee392050ae9d757dd8634796b25dccb4ce19f67d6d05ca2a6d66e0cfd0d1ddb",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/InvertedPageCurl.glsl",
+      "sha256": "94b573f129dcff2d85e106fd1c3193671d3dfe08f4d3fcd48bfa7bcc59a59858",
+      "category": "transicao-shader",
+      "observed_license": "Header: BSD 3 Clause",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/LeftRight.glsl",
+      "sha256": "eb02f3d260f5d3902f69ee0de75d872e2cb8bc0267ad9b6438aa02f19b3a55e6",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/LinearBlur.glsl",
+      "sha256": "67ff5b194878f35d5afd4a4feada8c8e5b36a0c36deab76d032b19f80e9352f2",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Mosaic.glsl",
+      "sha256": "0be8036eeeb346a3896445ba30b7e517f32dfb7674a9c690e66773e1e90160f9",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Overexposure.glsl",
+      "sha256": "fbae3411c39af59e0b0fa6536c9a9797c6be0702a7e69303c7db8bc087efe26c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/PolkaDotsCurtain.glsl",
+      "sha256": "1a11af446cf3c50bf58d1a2b1547092e386bdcf1b7dff71179661f6a4c71d29a",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/PuzzleRight.glsl",
+      "sha256": "3bfa51661e90fb8f0e9e9dcd4778f72e2e37fbc9eae4f58f8135b83feff02869",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Radial.glsl",
+      "sha256": "2cbfc2e12b26f59b6312cdc152df46c3648d3bdbcee5ea50bc0ef08aac1d932d",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Rectangle.glsl",
+      "sha256": "abae2ef1148ae96a8b01ae4bc5b91127c328283dc3a88b43a15974e2efbe7b2d",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/RectangleCrop.glsl",
+      "sha256": "21d769de57567c4a428228181d6a619c9e5b0b066b34acc01854a40d780471f4",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Revolve_Left.glsl",
+      "sha256": "1653efd36293ce0371396bac077a845384963d9b260fd9e9e91dd1a6ccb09de3",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Rolls.glsl",
+      "sha256": "30781dc66fa788977b19a549ca72cb754ccde4a6fdf990b5f082a3d5ae25f171",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/RotateScaleVanish.glsl",
+      "sha256": "c9db1f08501f5479bf8f74e6d5dd7607b55ef53b4e1c946c52e3ce0788ccbb01",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/SimpleFlip.glsl",
+      "sha256": "45bb896e26dfa4a152c9f075e8699bd4d60e96a6c5642618d054a3aa85009321",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/SimpleZoom.glsl",
+      "sha256": "3e971d871ba681b7d118c5c2d23baf3becc4ad63b0e18b482dc9a56cdc3ec16e",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/SimpleZoomOut.glsl",
+      "sha256": "5ec96c4549092157e316783aa7aeee48a2898081cf9a2aa03e46efa648e84f53",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Slides.glsl",
+      "sha256": "cd22cf496b485f7c4b9fcefca6f18bbcc6b7e01fbb93e4c01b0620e392bd1245",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/StarWipe.glsl",
+      "sha256": "304c8cd4848b74c032a8a51907916af4b2f5f2d7ef9dd19a2b26752f3180c448",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/StaticFade.glsl",
+      "sha256": "18e1473fe42466eac3bee113b9d373c789dc603bad900e866399877006465495",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/StereoViewer.glsl",
+      "sha256": "41ad611fde7308f72e3c045f6624b30c55ed2615cbf2a3114d6a848a1a0dd5e5",
+      "category": "transicao-shader",
+      "observed_license": "Header: BSD 2 Clause",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/StripDatamoshGlitch.glsl",
+      "sha256": "61f819c2ab5263828da3a13a3bfc6142b80485064f7cd23ec4733b2b4160ad81",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/Swirl.glsl",
+      "sha256": "fbbea8a885ed8cdf913fe481ee09e8897a79fd4f7c9ec6a1f459f6010147301e",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/TVStatic.glsl",
+      "sha256": "2390cfce750fdf52efa2361fbefa20d15883e9c702f6b49ee4472b3fe4c9f3bf",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/TilesWave.glsl",
+      "sha256": "38516173c9f2ebf3ffd4d7fd3f57afd8fa7d679effde2f4e363eef5b03bb4f9a",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/TopBottom.glsl",
+      "sha256": "a3bd3cb60b1ddf35d2b86cba289bf2433e12d224c07cb4649fae9f1ebbeebf95",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/VerticalClose.glsl",
+      "sha256": "e59bf2cf60a971c86b919ce1777c592349cc79794c3ef9a3540e68d43e82c021",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/VerticalOpen.glsl",
+      "sha256": "b50977b4591039c0cbad58da7126ae9732a6290a663260f9ffde1067beaf9f73",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/WaterDrop.glsl",
+      "sha256": "35c80cdb1b528c3da5e5a993c4133dd0fef4d8c288909fb0d8daca4e4c74ef2b",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/ZoomInCircles.glsl",
+      "sha256": "c042e9846b3aca993f4102c13c7aa32f92306bd13b7b3c98be3cbff93173ec0c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/ZoomLeftWipe.glsl",
+      "sha256": "6e51d2564ef6bb6f8c6addea5c53349f1c610970b91b16e6e4e9b85fd8804f3b",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/ZoomRigthWipe.glsl",
+      "sha256": "b7a9bc528a704218c1e1479dc7a5a4cc3dc217e349396dd9ef3a6a992db8f051",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/angular.glsl",
+      "sha256": "bd7e6168eec558178685c6ea4ad4f7e0902c3feb904e39b7435f24971409dee3",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/burn.glsl",
+      "sha256": "0274aa48dda4368dfabe62a0fc77367019851e20c40391d4a53a051a479be83a",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/burn0.glsl",
+      "sha256": "d572b6d93c74292c14c1feb3cf55eccfc03ffb98a6bfa3b0900162295f6aa0e9",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/cannabisleaf.glsl",
+      "sha256": "75a23e58ad84d604a2c46c7acc97463d5434efe9658a929e7397d7592dd58b18",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/chessboard.glsl",
+      "sha256": "4e56fa83ae55978d4687a8a23b7d362c67682af11d7177d8038515b88c1b7915",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/circle.glsl",
+      "sha256": "374633d64f9fd5c7a9b948520255c90f9ab1f59ce542e5ecd5e2484e5a5efa41",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/circleopen.glsl",
+      "sha256": "f50be414d91a67965db1733abc664a2340ccbc215531bc263511bd206a1c93f7",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/colorphase.glsl",
+      "sha256": "464c552944723e9d62bcd0bdcaeca67523e4b7c85a3a5591bc062e0056a5fd34",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/coord-from-in.glsl",
+      "sha256": "3e234018be5dfe9feb12f8f4a551f8f6e409bf85cb826d3384cec0e4b89a1fd4",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/crosshatch.glsl",
+      "sha256": "8066e3d78c79a6be454bae058ff69d3fef87596d562826bddc638a461e1d032c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/crosswarp.glsl",
+      "sha256": "a3a8a4800489f26f8ff3be6b63ccef2ab53279d97df16d469db3d4f57b7df381",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/cube.glsl",
+      "sha256": "8b3f864fefaa8cc4d30a58c4e17654f886828a9e58789b86daa31e4f99c91c28",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/directional-easing.glsl",
+      "sha256": "20aeaac21aa4cf192ac808163aa0121f5ddf966a1c487e045a94e7ca9d7e321c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/directionalwarp.glsl",
+      "sha256": "9b4988a12affa2fc89a7a1d87ad2df8c8bfaf185fc83e958188e5c674dbf03ce",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/directionalwipe.glsl",
+      "sha256": "ab13a278d9a62400fb54ac3c1df98d06b57172ec72f79ec4e8d185614ecfdb52",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/displacement.glsl",
+      "sha256": "ef090908787642ad5c43104d84562b57ee3ac80b51c787bd67b88016e2674290",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/dissolve.glsl",
+      "sha256": "b58aabb0e4cb4ae7ff4b166c9b4e5f807bdaf0020d29c87fe1eaafb9b8e5d0f5",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/doorway.glsl",
+      "sha256": "eb385cbd79544620154913dcf2a7004d1056b50848a1a05cca77fe7f4747b397",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/fade.glsl",
+      "sha256": "4fbafcd1e5b536b37e256c27a6d7a3d217460b3a6dea0cfee343c3db8b06c5ed",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/fadecolor.glsl",
+      "sha256": "62f989f1a578ae1f66bf5a3588ba2072aac72d8d77589ac53808550285af1c06",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/fadegrayscale.glsl",
+      "sha256": "519806f8c9bca6fc32a441398343433dca0399cde2b72ad30ea4ec2dc5648dfc",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/flyeye.glsl",
+      "sha256": "d076819aeebff919e5db9ba983fdfc85f016307d2de97a7a44b6f14aae75608f",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/fragment.glsl",
+      "sha256": "7e119f40247737b0b703fc1d79a2fb5d72aa96b910584086b1d73c865100a93b",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/heart.glsl",
+      "sha256": "b8449852a155a7b44e07d2b409721dd1a149e789e5b08158cf6a6a5a2712c96d",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/hexagonalize.glsl",
+      "sha256": "abcac2efc147d397875a233ad010d72b03986237f0955ae2b18a214987d75c08",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/kaleidoscope.glsl",
+      "sha256": "1abd2c1eed0a3b5aadcdb1023dbe05db1aa3dd2a9b31a62ba055e082bf3cc72b",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/luma.glsl",
+      "sha256": "63d4adf2851eeb9f136cf95f89e1e53edf4af1b47aab1e0df1fec0d188ccccda",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/luminance_melt.glsl",
+      "sha256": "3980732a493577b250f8c5ff5fe38b3aad7af6fda8c2d67ef5abf974affa99a0",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/morph.glsl",
+      "sha256": "be0b79ca27ba19dacd350a8f20988ab4b847937585fac878ac08ecc684fdcfba",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/mosaic_transition.glsl",
+      "sha256": "a926322d7545361e1ede5143fdc5f66e77c0742b69e02acd1d627e11b98eb5b7",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/multiply_blend.glsl",
+      "sha256": "881452e2099c875d281dae71c85152318c769f02e9acf8ad52c247bb22f4b1b8",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/old_tv_lost_signal.glsl",
+      "sha256": "9fdf5df439eca16ff5e0aedc3765a37dd1b55a7b7a16a9991c3a41738a761e55",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/parametric_glitch.glsl",
+      "sha256": "ca3130de774ed1e7df36d31730a2d84a7ff59812749897e3b1531e2cbeeeeb32",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/perlin.glsl",
+      "sha256": "14913f1110ab9fc2e0a8c08bf9cc566490e6399c1a0afb9300079dba4c0ca69a",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/pinwheel.glsl",
+      "sha256": "fb8dea2ecd066a23d683726714add1f40885e68ac124532be1d774f169b08d8d",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/pixelize.glsl",
+      "sha256": "f5c541b779364dcf92d71f4928efa07c414ffd83a5bfb5b8ca9280a1c73c8b32",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/polar_function.glsl",
+      "sha256": "2c871b5ed66346789de03721d1eb20df3ba097341330d667cd37c53d43e3e1b0",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/powerKaleido.glsl",
+      "sha256": "f6448f3aa5446f5f9ff623ffda299b5ab573522a69c863cbb2a8e4c63f3d7291",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/randomNoisex.glsl",
+      "sha256": "094522489c79dc7241d6809f7229838d8807c9fa569218109ca778b2297e40bd",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/randomsquares.glsl",
+      "sha256": "844211ca33ae9f126fddfa9f3987bc853933c7ee2f919ca2d09def7d8040cb6a",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/ripple.glsl",
+      "sha256": "3d71067791beccc32c0a388260ac099d8213e5fd312d896a4a46f1285b94b9d1",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/rotateTransition.glsl",
+      "sha256": "3e1abc5394801df9d44224217cf870203114a52b326b905e0d1b72891515d884",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/rotate_scale_fade.glsl",
+      "sha256": "4484386f72f9d955851feea332d4c449c70e9e25de4cbcefda6e6764c6709144",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/scale-in.glsl",
+      "sha256": "e450c0c8712dbe464dde15d5a89a8338d4df090523792beeb6d4c320928296d5",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/splitSlideInHorizontal.glsl",
+      "sha256": "e1d69a2bde5ad47c98bd32a7514239068458e9d602179db580e9112b450069cb",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/splitSlideInOutHorizontal.glsl",
+      "sha256": "97986bf69c869fb3fd18eb67f9fc5eb6b2bad3e2e548cf711756992b3b0ae7eb",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/splitSlideInOutVertical.glsl",
+      "sha256": "fcd1d4b1b6bbe67168d5e2c842f4ce58acdff2349eb7e0050cd41b94d915675c",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/splitSlideInVertical.glsl",
+      "sha256": "e1e38f4127539b7c54d60642ebdb18f5df7504edee0c5afc6e2cb09ef2056105",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/splitSlideOutHorizontal.glsl",
+      "sha256": "db2906f53ffc0e825886755a927dbb0d25699b86ab4740aaa48496d690d42a20",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/splitSlideOutVertical.glsl",
+      "sha256": "50a48ee3de8e739ba48d93d054bd8e97705c2009ecee89651805c573882a00b6",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/squareswire.glsl",
+      "sha256": "32f24c18612a2e5647eedad26b65a02605be7e69871403d911323a9f13cbe9e3",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/squeeze.glsl",
+      "sha256": "e48ac3f52c807c1af39d1e8cbf359ac76ff833a8796e88806461a888582739ab",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/static_wipe.glsl",
+      "sha256": "16eb1015402a7a15c44da28ebfdaa1efc3ee0f4ac6811b8dd839175538f0a932",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/swap.glsl",
+      "sha256": "50e5f74bae4bad14f60e0a65691b560809ef3586b4eca4046c249941fa9e4625",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/tangentMotionBlur.glsl",
+      "sha256": "ba9a577e37b2712bf900bfb79a144cf3d7c2faaf9de7a02c78184e03877de5b3",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/undulatingBurnOut.glsl",
+      "sha256": "69e7d3e5edd4609c5aa3bdac2a1d2c4572bb7b13d77c6662939781a61e7b9567",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/wind.glsl",
+      "sha256": "a6af68366cd1feb21da596e6503994da8bb052c616ec73d4346006837494a01f",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/windowblinds.glsl",
+      "sha256": "418d400c85cab13a0aa7235efb772fc8cd0da2d82d30518803861665b282edfd",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/windowslice.glsl",
+      "sha256": "128052b76eaa2802487cbc8940178daa54c2e91bfd0e157de69f2d6295e51449",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/wipeDown.glsl",
+      "sha256": "04b04e7d06bc0830c5ef460ee7175557fdd79a446387fca1006e7805e33ee000",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/wipeLeft.glsl",
+      "sha256": "f51fec57645912a6d8757c9d8cc13e5145e8a3d2d0b05daf6df3993c452b81e7",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/wipeRight.glsl",
+      "sha256": "8d110fe3ddb3030f32b099562f301f726f228a2c92904cb3f5df7d49ab4a0ce6",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/wipeUp.glsl",
+      "sha256": "0956346ef7f8cc6c1652a006eb99e0037f7ad10cb232a3d8756e566b3865513e",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/x_axis_translation.glsl",
+      "sha256": "86b10d99bb1fb2b1861f31c57b018d85e8dd5c3f3feaa6721cb91d08db106289",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    },
+    {
+      "path": "transitions/zoomInOut.glsl",
+      "sha256": "8d0cb76efed82130c90d50fd1c191391a462b1d79aa7f40c1f4511fa070d8d91",
+      "category": "transicao-shader",
+      "observed_license": "Header: MIT",
+      "applicability": "catalogo",
+      "destination": "resources/gl-transitions/catalog.json",
+      "reason": "Inventariar shader e licença; catálogo documental sem instalar engine ou prometer execução no Tesseract."
+    }
+  ]
+}

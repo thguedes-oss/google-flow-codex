@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "direction": {
+    "purpose": "Exercitar a continuidade de Lia, do café e da caneca durante um pequeno giro da cabeça.",
+    "action_result": "Lia olha brevemente para a janela à esquerda da imagem e volta à frente, neutra, mantendo tronco, mãos e caneca nas posições planejadas.",
+    "camera_intent": "Plano médio frontal fixo à altura dos olhos para conferir rosto, peito, ambas as mãos, caneca e âncoras do cenário.",
+    "graphics_intent": "Sem texto ou gráficos no clipe."
+  },
+  "moments": [
+    {"seconds": 0, "criterion": "face", "expected": "Lia frontal, expressão neutra; identidade visual ainda pendente."},
+    {"seconds": 5, "criterion": "hands", "expected": "Olhar para janela à esquerda; tronco, mãos e caneca imóveis."},
+    {"seconds": 8, "criterion": "handoff", "expected": "Olhar frontal neutro; caneca na mão direita à altura do peito, alça à direita da imagem."}
+  ]
+}

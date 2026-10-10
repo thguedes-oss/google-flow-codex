@@ -1,0 +1,276 @@
+{
+  "run_id": "20261008T111152040429Z-76b257c6",
+  "project": "projects/exemplo-duas-cenas",
+  "verified_at_utc": "2026-10-08T11:12:54.479656+00:00",
+  "python": "3.12.13",
+  "python_executable": "C:\\Users\\thgue\\AppData\\Roaming\\uv\\python\\cpython-3.12.13-windows-x86_64-none\\python.exe",
+  "source": {
+    "repository": "https://github.com/agbelemi/google-flow-scripting-skill.git",
+    "tag": "v1.6.0",
+    "commit": "2d6f1675c901d589300558cfd8a486046c9cdc47",
+    "directory": "vendor/google-flow-scripting-skill",
+    "license": "MIT",
+    "verified_on": "2026-10-06",
+    "checkout_line_endings": "LF",
+    "update_policy": "Revisar outra versão antes de mudar este arquivo; não acompanhar main automaticamente.",
+    "supplements": [
+      {
+        "id": "video-prompting",
+        "repository": "https://github.com/Square-Zero-Labs/video-prompting-skill.git",
+        "type": "git",
+        "commit": "8d72999ebe8bde390a658d3f6f8a79558b73bd5c",
+        "directory": "vendor/video-prompting-skill",
+        "license": "Apache-2.0",
+        "verified_on": "2026-10-07",
+        "files": [
+          {
+            "path": "LICENSE",
+            "source_path": "LICENSE",
+            "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+          },
+          {
+            "path": "video-prompting/references/workflows/character-sheets.md",
+            "source_path": "video-prompting/references/workflows/character-sheets.md",
+            "sha256": "5969f8c8ef9f29ac73ff1f36a0ba068be3df1734a44798a55aea03d417eb94c7"
+          },
+          {
+            "path": "video-prompting/references/models/veo3/prompting.md",
+            "source_path": "video-prompting/references/models/veo3/prompting.md",
+            "sha256": "f2c8ccbfd58b2335debfb118d3ae1624c0e01b121b9711cdacc5d7681061f6d8"
+          }
+        ]
+      },
+      {
+        "id": "veo-reference-notebook",
+        "repository": "https://github.com/GoogleCloudPlatform/generative-ai.git",
+        "type": "snapshot",
+        "commit": "8be2ec6e75ef92e5a010da3e6eb9fb25bd77a0eb",
+        "directory": "vendor/generative-ai-reference",
+        "license": "Apache-2.0",
+        "verified_on": "2026-10-07",
+        "files": [
+          {
+            "path": "LICENSE",
+            "source_path": "LICENSE",
+            "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+          },
+          {
+            "path": "veo3_reference_to_video.ipynb",
+            "source_path": "vision/getting-started/veo3_reference_to_video.ipynb",
+            "sha256": "3fb156ca71947b94207ca111988d25fd57e4dfb15010b4143cf9574d310d908f"
+          }
+        ]
+      },
+      {
+        "id": "claudia-wiki",
+        "type": "web-snapshot",
+        "url": "https://claudia.gallery/wiki/",
+        "directory": "vendor/claudia-wiki-2026-10-08",
+        "verified_on": "2026-10-08",
+        "retrieved_at_utc": "2026-10-08T10:13:46.681492+00:00",
+        "attribution": "Claudia wiki, direção de anabology; site e registros preparados com Claude.",
+        "license": "unspecified",
+        "rights_note": "Não foi identificada licença explícita para os textos da wiki. A página use.md permite uso da personagem e imagens; essa permissão não foi estendida aos textos. Cópia local para consulta; preservar atribuição e rever direitos antes de redistribuir.",
+        "update_policy": "Snapshot local fixado por bytes; nunca atualizar na verificação. Revisar e registrar outra versão datada antes de substituir.",
+        "files": [
+          {
+            "path": "start.md",
+            "source_url": "https://claudia.gallery/wiki/start.md",
+            "sha256": "d49a236e1cc5afe59a014a97aafa232b5f7f805426a8bd5b0f8432ad229406c3"
+          },
+          {
+            "path": "consistency.md",
+            "source_url": "https://claudia.gallery/wiki/consistency.md",
+            "sha256": "5514f876b36d2f7eed4de50de61ba713734be6571815b30c6b537876a20647d6"
+          },
+          {
+            "path": "storyboard.md",
+            "source_url": "https://claudia.gallery/wiki/storyboard.md",
+            "sha256": "9b7e0e5a618276994ea06031ce8fa250d1e4eb1ccd381c6bbddf0959d4fe7f40"
+          },
+          {
+            "path": "motion.md",
+            "source_url": "https://claudia.gallery/wiki/motion.md",
+            "sha256": "9c0790797d865690cf6747ac0cd55aeb8945bcc2ad9295021ed89714182bc073"
+          },
+          {
+            "path": "pipeline.md",
+            "source_url": "https://claudia.gallery/wiki/pipeline.md",
+            "sha256": "2b40f2284518cad67edb21a6b4de893c21d550bbc3a28d0be5aef49ee54b3b0f"
+          },
+          {
+            "path": "formats.md",
+            "source_url": "https://claudia.gallery/wiki/formats.md",
+            "sha256": "72516213f752a3580f778321660c46cb0d3180788368776d87fa4d2962e72e1b"
+          },
+          {
+            "path": "failures.md",
+            "source_url": "https://claudia.gallery/wiki/failures.md",
+            "sha256": "02d6eb1710e4c9730a18a309ea013724b1c975790307be60299b2450a0534a9d"
+          },
+          {
+            "path": "seedance.md",
+            "source_url": "https://claudia.gallery/wiki/seedance.md",
+            "sha256": "fa5e8c25d62f45444596a546694696213e8a19c3e1ceb96a74a2846802c2c66a"
+          },
+          {
+            "path": "use.md",
+            "source_url": "https://claudia.gallery/use.md",
+            "sha256": "fbe66a767f1eeba70d6f14dc39d4bee6265296aad09aef0ce9868761173f56b0"
+          }
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "source-commit",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/source-commit.txt"
+    },
+    {
+      "name": "source-clean",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/source-clean.txt"
+    },
+    {
+      "name": "source-integrity",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/source-integrity.txt"
+    },
+    {
+      "name": "supplement-integrity",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/supplement-integrity.txt"
+    },
+    {
+      "name": "library-integrity",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/library-integrity.txt"
+    },
+    {
+      "name": "record-integrity",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/record-integrity.txt"
+    },
+    {
+      "name": "local-tests",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/local-tests.txt"
+    },
+    {
+      "name": "upstream-tests",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/upstream-tests.txt"
+    },
+    {
+      "name": "scene-01-video",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/scene-01-video.txt"
+    },
+    {
+      "name": "scene-01-storyboard",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/scene-01-storyboard.txt"
+    },
+    {
+      "name": "scene-01-storyboard-render",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/scene-01-storyboard-render.txt"
+    },
+    {
+      "name": "scene-02-video",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/scene-02-video.txt"
+    },
+    {
+      "name": "scene-02-storyboard",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/scene-02-storyboard.txt"
+    },
+    {
+      "name": "scene-02-storyboard-render",
+      "passed": true,
+      "exit_code": 0,
+      "log": "reports/runs/20261008T111152040429Z-76b257c6/scene-02-storyboard-render.txt"
+    }
+  ],
+  "upstream_tests_requested": true,
+  "preflight": {
+    "project": "C:\\Users\\thgue\\Documents\\ChatGPT\\FLOW\\projects\\exemplo-duas-cenas",
+    "planning_passed": true,
+    "generation_ready": false,
+    "errors": [],
+    "blockers": [
+      "Revalidar a documentação de capacidades para o dia de produção.",
+      "@Lia: referência visual ainda não aprovada.",
+      "@Lia: arquivo visual ausente.",
+      "@Cafe: referência visual ainda não aprovada.",
+      "@Cafe: arquivo visual ausente.",
+      "@Caneca: referência visual ainda não aprovada.",
+      "@Caneca: arquivo visual ausente.",
+      "Cena 01: vinculação real de @Lia no Flow ainda não registrada.",
+      "Cena 01: vinculação real de @Cafe no Flow ainda não registrada.",
+      "Cena 01: vinculação real de @Caneca no Flow ainda não registrada.",
+      "Cena 02: vinculação real de @Lia no Flow ainda não registrada.",
+      "Cena 02: vinculação real de @Cafe no Flow ainda não registrada.",
+      "Cena 02: vinculação real de @Caneca no Flow ainda não registrada.",
+      "Orçamento de geração é zero.",
+      "Custo por resultado ainda não confirmado na interface.",
+      "Autorização de produção pelo usuário não registrada.",
+      "Resolução ainda não conferida na interface.",
+      "Preflight específico da interface ainda não registrado para hoje.",
+      "Configuração/prompts atuais ainda não vinculados ao preflight da interface."
+    ],
+    "credits_spent": 0,
+    "planned_video_credits": null,
+    "selected_scene": null,
+    "legacy_attempts_without_snapshot": [],
+    "plan_sha256": "b8164c16fbd2300414217ce2e1dcf7e94e14457ce33618c7dd104021a01f4b8c"
+  },
+  "planning_passed": true,
+  "generation_ready": false,
+  "postproduction": {
+    "configured": true,
+    "ready": false,
+    "blockers": [
+      "width precisa ser inteiro positivo."
+    ],
+    "tools": {
+      "schema_version": 1,
+      "tools": {
+        "tesseract": {
+          "available": true,
+          "executable": "C:\\Users\\thgue\\Documents\\ChatGPT\\FLOW\\.work\\tesseract\\tools\\tesseract-0.3.1\\tesseract-0.3.1-windows-x86_64\\bin\\tsrct.exe",
+          "telemetry": {
+            "enabled": false,
+            "retired": false
+          }
+        },
+        "converter": {
+          "available": true,
+          "executable": "C:\\Users\\thgue\\Documents\\ChatGPT\\FLOW\\.work\\tesseract\\tools\\converter-0.2.1\\Tesseract-Converter-0.2.1-windows-x86_64\\tsrct-conv.exe"
+        }
+      },
+      "ffmpeg": "C:\\Users\\thgue\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.2-full_build\\bin\\ffmpeg.EXE",
+      "ffprobe": "C:\\Users\\thgue\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.2-full_build\\bin\\ffprobe.EXE",
+      "generation_calls": 0
+    }
+  },
+  "media_generated_by_setup": 0,
+  "generation_credits_spent_by_setup": 0,
+  "note": "Validação local não comprova qualidade visual nem autoriza gastos no Flow."
+}

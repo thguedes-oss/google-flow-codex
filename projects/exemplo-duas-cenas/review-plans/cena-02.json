@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "direction": {
+    "purpose": "Exercitar a continuidade após o corte e durante a mudança discreta de expressão e olhar de Lia.",
+    "action_result": "Lia sorri suavemente, olha para a caneca e volta ao olhar frontal neutro, preservando a caneca na mão direita à altura do peito e a mão esquerda na mesa.",
+    "camera_intent": "Plano médio frontal fixo à altura dos olhos para comparar a entrada com a saída da cena 01 e acompanhar rosto, mãos, caneca e cenário.",
+    "graphics_intent": "Sem texto ou gráficos no clipe."
+  },
+  "moments": [
+    {"seconds": 0, "criterion": "handoff", "expected": "Entrada frontal neutra, compatível com a saída planejada da cena 01."},
+    {"seconds": 5, "criterion": "action", "expected": "Olhar breve para baixo em direção à caneca, preservando tronco, mãos e objeto imóveis."},
+    {"seconds": 8, "criterion": "prop", "expected": "Uma caneca branca na mão direita à altura do peito; mão esquerda na mesa."}
+  ]
+}

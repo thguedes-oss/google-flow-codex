@@ -1,0 +1,39 @@
+{
+  "surface": "flow",
+  "verified_on": "2026-10-06",
+  "source": "https://support.google.com/flow/answer/16352836?hl=pt-BR",
+  "aspect_ratios": ["16:9", "9:16"],
+  "models": {
+    "veo-3.1-lite": {
+      "text-to-video": [4, 6, 8],
+      "first-frame": [4, 6, 8],
+      "first-last-frame": [4, 6, 8],
+      "references-to-video": [8],
+      "extend": [8]
+    },
+    "veo-3.1-fast": {
+      "text-to-video": [4, 6, 8],
+      "first-frame": [4, 6, 8],
+      "first-last-frame": [4, 6, 8],
+      "references-to-video": [8]
+    },
+    "veo-3.1-quality": {
+      "text-to-video": [4, 6, 8],
+      "first-frame": [4, 6, 8],
+      "first-last-frame": [4, 6, 8]
+    },
+    "omni-flash-1.1": {
+      "text-to-video": [4, 6, 8, 10],
+      "first-frame": [4, 6, 8, 10],
+      "first-last-frame": [4, 6, 8, 10],
+      "references-to-video": [4, 6, 8, 10]
+    }
+  },
+  "notes": [
+    "Confirmar disponibilidade, resolução, quantidade de resultados e custo na interface antes de gerar; esta tabela não contém preços.",
+    "Veo Lite estende clipes elegíveis de 8 segundos de Veo Lite/Fast/Quality. Validar a mídia de origem antes da operação.",
+    "Omni suporta edição de vídeo de até 10 segundos; essa operação requer inspeção da mídia e não é validada por este preflight de cenas novas.",
+    "Extensão Omni está documentada como lançamento futuro.",
+    "Não reutilizar esta tabela como contrato da Gemini API."
+  ]
+}

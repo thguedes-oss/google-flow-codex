@@ -1,0 +1,33 @@
+{
+  "version": "1.6.0",
+  "passed": true,
+  "settings": {
+    "segment_length": 8,
+    "beat_mode": "coverage",
+    "surface": "unspecified",
+    "model": "unspecified",
+    "mode": "unspecified",
+    "require_audio": true
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\thgue\\Documents\\ChatGPT\\FLOW\\projects\\exemplo-duas-cenas\\prompts\\cena-01.md",
+      "skipped": false,
+      "passed": true,
+      "disabled_checks": [],
+      "checks": {
+        "backward_references": [],
+        "text_bleed_tokens": [],
+        "em_dashes": [],
+        "text_policy": [],
+        "reference_handles": [],
+        "storyboard_contract": [],
+        "unsupported_specifications": [],
+        "model_duration": [],
+        "veo_prompt_length": [],
+        "beat_timeline": [],
+        "audio_direction": []
+      }
+    }
+  ]
+}

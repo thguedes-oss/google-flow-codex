@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "at": "2026-10-10T12:55:15.801420+00:00",
+  "kind": "manual_editorial_desk_exercise_with_real_structural_validators",
+  "generation_calls": 0,
+  "flow_credits_spent": 0,
+  "production_approval": false,
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7",
+  "cases": [
+    {
+      "id": "aviso",
+      "fictional_brief": "Brief fictício: aviso interno, 16 s, horizontal, português; informar que uma área ilustrativa está temporariamente indisponível, sem data ou prazo inventados.",
+      "message": "Mostrar qual área evitar e indicar orientação no fecho.",
+      "codex_style_choice": "Linguagem clara, câmera estável e hierarquia de texto; escolha do Codex.",
+      "planned_scenes": [
+        {
+          "function": "Situar o aviso",
+          "action": "Mostrar a área vazia e a sinalização planejada.",
+          "states": "Área vazia → mesma área/sinalização; nenhuma pessoa/objeto adicional.",
+          "camera": "Geral frontal fixo para orientação espacial.",
+          "sound": "Sem fala; ambiente somente se fornecido/aprovado.",
+          "graphics": "Título exato proposto: Área temporariamente indisponível.",
+          "technique": "sem efeito",
+          "reason": "A informação já é estática; entrada chamativa competiria com a leitura.",
+          "review": "0 s: geografia; 4 s: título legível."
+        },
+        {
+          "function": "Orientar o público",
+          "action": "Sustentar a área e apresentar orientação.",
+          "states": "Mesma geografia/luz → mesma geografia; corte sem mudança de estado.",
+          "camera": "Manter enquadramento para evitar reaprender o espaço.",
+          "sound": "Preservar continuidade do ambiente aprovado.",
+          "graphics": "Texto proposto: Consulte a orientação no local.",
+          "technique": "sem efeito",
+          "reason": "Sustentar leitura e terminar sem sugerir prazo ou circulação não informados.",
+          "review": "8 s: continuidade; 12 s: leitura e ausência de data inventada."
+        }
+      ],
+      "editorial": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\aviso\\plano-editorial-v1.md",
+      "sha256": "51490aee556aa7605dd148caf73a939b1992e2fb2602b3edc1a407d65b304a49",
+      "techniques": [
+        "sem efeito",
+        "sem efeito"
+      ],
+      "review_plans": [
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\aviso\\review-01.json",
+          "sha256": "6bb168f22323a12ed631ab8b6ec01be94507c983a5052e4320d83a3509d5f275",
+          "planned_clip_timeline_start_seconds": 0,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 0,
+              "clip_local_seconds": 0,
+              "expected": "geografia"
+            },
+            {
+              "planned_timeline_seconds": 4,
+              "clip_local_seconds": 4,
+              "expected": "título legível."
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\aviso\\review-02.json",
+          "sha256": "72ab0b37f3ede3a07242389f350e54a279edb8ff79d70e05971ddebd307fd06d",
+          "planned_clip_timeline_start_seconds": 8,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 8,
+              "clip_local_seconds": 0,
+              "expected": "continuidade"
+            },
+            {
+              "planned_timeline_seconds": 12,
+              "clip_local_seconds": 4,
+              "expected": "leitura e ausência de data inventada."
+            }
+          ]
+        }
+      ],
+      "result": "planned_and_structurally_validated",
+      "observation": "pending_no_media",
+      "approval": "pending"
+    },
+    {
+      "id": "tutorial",
+      "fictional_brief": "Brief fictício: tutorial de 16 s, horizontal; mostrar encaixe de peça demonstrativa A em B. Sem texto técnico ou marca não fornecidos.",
+      "message": "Compreender orientação e encaixe, em ordem.",
+      "codex_style_choice": "Detalhes de ação e destaque progressivo; escolha do Codex.",
+      "planned_scenes": [
+        {
+          "function": "Identificar peças e orientação",
+          "action": "Mostrar peças separadas e mão direita posicionando A.",
+          "states": "A/B separadas; mão direita em A → A alinhada acima de B.",
+          "camera": "Detalhe fixo que mantenha mão e ponto de contato visíveis.",
+          "sound": "Fala não fornecida; planejar ausência de narração.",
+          "graphics": "Rótulos propostos: A e B; texto editável.",
+          "technique": "sem efeito",
+          "reason": "Alinhamento deve ser visto sem intervenção que o oculte.",
+          "review": "0 s: contagem; 4 s: mão/orientação."
+        },
+        {
+          "function": "Mostrar resultado",
+          "action": "Encaixar A em B e sustentar o conjunto.",
+          "states": "A alinhada → A encaixada; mesma mão/orientação, corte na ação planejado.",
+          "camera": "Detalhe correspondente, sem trocar eixo.",
+          "sound": "Som de contato apenas se existir e for aprovado; escuta pendente.",
+          "graphics": "Retângulo de destaque fora da mão, revelado após o encaixe.",
+          "technique": "native.shape-reveal",
+          "reason": "Destacar o resultado depois da ação, sem bloquear o contato.",
+          "review": "8 s: emenda; 12 s: encaixe e região do destaque."
+        }
+      ],
+      "editorial": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\tutorial\\plano-editorial-v1.md",
+      "sha256": "dd6d553f91f4816530f6c217f35be4d2753aacb61bf399bb0c8d30509b60d451",
+      "techniques": [
+        "sem efeito",
+        "native.shape-reveal"
+      ],
+      "review_plans": [
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\tutorial\\review-01.json",
+          "sha256": "06ccd8a04698f114c3b100591035d56ae51c06f57b96db881dc752256e45b2d6",
+          "planned_clip_timeline_start_seconds": 0,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 0,
+              "clip_local_seconds": 0,
+              "expected": "contagem"
+            },
+            {
+              "planned_timeline_seconds": 4,
+              "clip_local_seconds": 4,
+              "expected": "mão/orientação."
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\tutorial\\review-02.json",
+          "sha256": "e380f7f6bb16188c0ecfc90f0beb05fd2b891d0c18568f04f4fc19befb20b2f1",
+          "planned_clip_timeline_start_seconds": 8,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 8,
+              "clip_local_seconds": 0,
+              "expected": "emenda"
+            },
+            {
+              "planned_timeline_seconds": 12,
+              "clip_local_seconds": 4,
+              "expected": "encaixe e região do destaque."
+            }
+          ]
+        }
+      ],
+      "result": "planned_and_structurally_validated",
+      "observation": "pending_no_media",
+      "approval": "pending"
+    },
+    {
+      "id": "depoimento",
+      "fictional_brief": "Brief fictício: cena roteirizada de 16 s com personagem fictícia falando sobre organizar o dia; não é testemunho real nem prova de produto.",
+      "message": "Ouvir uma reflexão completa sem distrações.",
+      "codex_style_choice": "Plano médio estável e pausas; escolha do Codex.",
+      "planned_scenes": [
+        {
+          "function": "Apresentar a reflexão",
+          "action": "Personagem diz: Eu gosto de começar o dia com calma.",
+          "states": "Sentada, mãos sobre mesa → mesma posição; rosto desejado, sem referência aprovada.",
+          "camera": "Médio à altura dos olhos para expressão e postura.",
+          "sound": "Português, frase roteirizada exata; desempenho e escuta pendentes.",
+          "graphics": "Sem gráficos; legenda só após transcrição/tempos reais verificados.",
+          "technique": "sem efeito",
+          "reason": "A atenção é da voz e expressão; não há evento que justifique acento visual.",
+          "review": "0 s: identidade; 4 s: palavras e expressão."
+        },
+        {
+          "function": "Concluir a ideia",
+          "action": "Personagem diz: Assim consigo escolher minha próxima tarefa.",
+          "states": "Mesma postura/mãos → pausa final; sem troca de roupa ou cenário.",
+          "camera": "Sustentar ou cortar para plano correspondente somente se o material permitir.",
+          "sound": "Preservar palavras, respiração e cauda; sem música presumida.",
+          "graphics": "Sem gráficos, mantendo a possibilidade de legenda verificada.",
+          "technique": "sem efeito",
+          "reason": "Preservar raciocínio e pausa; não criar emoção ou experiência real inexistentes.",
+          "review": "8 s: emenda sonora; 12 s: frase e pausa completas."
+        }
+      ],
+      "editorial": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\depoimento\\plano-editorial-v1.md",
+      "sha256": "9f2b26b232c77c7cf7307991f34f48f82564b5833221e34b9912c4aeaaf1d7ac",
+      "techniques": [
+        "sem efeito",
+        "sem efeito"
+      ],
+      "review_plans": [
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\depoimento\\review-01.json",
+          "sha256": "53e0be7861dd79fa78987b0c0259ac1812d8074705daa757dab3fc237a5b7bd8",
+          "planned_clip_timeline_start_seconds": 0,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 0,
+              "clip_local_seconds": 0,
+              "expected": "identidade"
+            },
+            {
+              "planned_timeline_seconds": 4,
+              "clip_local_seconds": 4,
+              "expected": "palavras e expressão."
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\depoimento\\review-02.json",
+          "sha256": "93cfab20c8de47d508d0994a72d2ed819c8fb7921fbed351be513addee9524e7",
+          "planned_clip_timeline_start_seconds": 8,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 8,
+              "clip_local_seconds": 0,
+              "expected": "emenda sonora"
+            },
+            {
+              "planned_timeline_seconds": 12,
+              "clip_local_seconds": 4,
+              "expected": "frase e pausa completas."
+            }
+          ]
+        }
+      ],
+      "result": "planned_and_structurally_validated",
+      "observation": "pending_no_media",
+      "approval": "pending"
+    },
+    {
+      "id": "publicidade",
+      "fictional_brief": "Brief fictício: apresentação ilustrativa de objeto de cerâmica sem marca, 16 s, horizontal; mostrar forma e alça, sem alegação de desempenho.",
+      "message": "Perceber o objeto inteiro e um detalhe de sua construção.",
+      "codex_style_choice": "Luz difusa e aproximação gráfica moderada; escolha do Codex.",
+      "planned_scenes": [
+        {
+          "function": "Apresentar forma",
+          "action": "Mostrar um objeto sobre mesa, sem mãos extras.",
+          "states": "Objeto imóvel, alça à direita → mesmo estado.",
+          "camera": "Médio fixo com bordas e reflexo legíveis.",
+          "sound": "Sem fala; música somente se fornecida/aprovada.",
+          "graphics": "Sem texto de benefício ou marca inventada.",
+          "technique": "sem efeito",
+          "reason": "Estabelecer forma/cor antes de selecionar detalhe.",
+          "review": "0 s: contagem; 4 s: forma, cor e alça."
+        },
+        {
+          "function": "Evidenciar detalhe",
+          "action": "Sustentar a alça e o encontro com o corpo do objeto.",
+          "states": "Mesmo objeto/alça/geografia → mesmo estado; mudança de enquadramento declarada.",
+          "camera": "Planejar detalhe ou reenquadramento se a fonte tiver resolução útil.",
+          "sound": "Continuidade sonora sem impacto presumido.",
+          "graphics": "Sem gráfico cobrindo a alça.",
+          "technique": "native.reframe",
+          "reason": "Aproximar o detalhe necessário à mensagem; não usar zoom como garantia de nova informação.",
+          "review": "8 s: referência/orientação; 12 s: borda e resolução útil."
+        }
+      ],
+      "editorial": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\publicidade\\plano-editorial-v1.md",
+      "sha256": "300f2922021c507c468e2039c3057401f47468dfd50fd0f34b2d9f2d7b88de7c",
+      "techniques": [
+        "sem efeito",
+        "native.reframe"
+      ],
+      "review_plans": [
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\publicidade\\review-01.json",
+          "sha256": "85493fa0f78b998b4f7ac88c51e8cdd055b52af7ceed42a76922ffac3dd8c7c6",
+          "planned_clip_timeline_start_seconds": 0,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 0,
+              "clip_local_seconds": 0,
+              "expected": "contagem"
+            },
+            {
+              "planned_timeline_seconds": 4,
+              "clip_local_seconds": 4,
+              "expected": "forma, cor e alça."
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\publicidade\\review-02.json",
+          "sha256": "cec22c1cf7eed437cc152b189778002dff506f4bbf9692e144539f5b70e625ec",
+          "planned_clip_timeline_start_seconds": 8,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 8,
+              "clip_local_seconds": 0,
+              "expected": "referência/orientação"
+            },
+            {
+              "planned_timeline_seconds": 12,
+              "clip_local_seconds": 4,
+              "expected": "borda e resolução útil."
+            }
+          ]
+        }
+      ],
+      "result": "planned_and_structurally_validated",
+      "observation": "pending_no_media",
+      "approval": "pending"
+    },
+    {
+      "id": "narrativa",
+      "fictional_brief": "Brief fictício: passagem de uma mesa de trabalho ao entardecer para a mesma mesa à noite, 16 s, sem personagem; comunicar passagem de tempo.",
+      "message": "Perceber uma elipse temporal com geografia consistente.",
+      "codex_style_choice": "Composição correspondente e dissolução contida; escolha do Codex.",
+      "planned_scenes": [
+        {
+          "function": "Estabelecer situação",
+          "action": "Mostrar mesa e janela ao entardecer.",
+          "states": "Mesa vazia de pessoas, objetos fixos, luz diurna → mesmos objetos/geografia.",
+          "camera": "Geral fixo para reconhecer mesa e janela.",
+          "sound": "Ambiente previsto, ainda sem arquivo; observação/escuta pendentes.",
+          "graphics": "Sem gráficos.",
+          "technique": "sem efeito",
+          "reason": "Estabelecer espaço antes da mudança temporal.",
+          "review": "0 s: geografia; 4 s: luz e objetos."
+        },
+        {
+          "function": "Comunicar elipse",
+          "action": "Mostrar mesma mesa à noite, com luz de luminária planejada.",
+          "states": "Mesma geografia/objetos → noite/luz de luminária; mudança deliberada de tempo/luz, corte, não continuação.",
+          "camera": "Enquadramento correspondente com mesma orientação.",
+          "sound": "Planejar passagem sonora explicitamente; dissolução visual não altera áudio.",
+          "graphics": "Sem gráficos.",
+          "technique": "gl.fade",
+          "reason": "A passagem gradual pode comunicar tempo decorrido; exige duas fontes cobrindo a janela e comparação com corte seco.",
+          "review": "8 s: início/saída da passagem; 12 s: geometria e luz noturna."
+        }
+      ],
+      "editorial": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\narrativa\\plano-editorial-v1.md",
+      "sha256": "ebc0b530c54b0e27a1d57b6529435a695f3084b4bde5834317f7399f445789c1",
+      "techniques": [
+        "sem efeito",
+        "gl.fade"
+      ],
+      "review_plans": [
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\narrativa\\review-01.json",
+          "sha256": "9ab8464b81d5fbcfa531c610bdaabd68dd9d40db8284a14a2034fe3bbeb99130",
+          "planned_clip_timeline_start_seconds": 0,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 0,
+              "clip_local_seconds": 0,
+              "expected": "geografia"
+            },
+            {
+              "planned_timeline_seconds": 4,
+              "clip_local_seconds": 4,
+              "expected": "luz e objetos."
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-contextual-direction-desk-fa8r0yh7\\narrativa\\review-02.json",
+          "sha256": "0178f0b51669ad98659aa123138233e5ec79f7a143864a7c312742dc517c612a",
+          "planned_clip_timeline_start_seconds": 8,
+          "moment_mapping": [
+            {
+              "planned_timeline_seconds": 8,
+              "clip_local_seconds": 0,
+              "expected": "início/saída da passagem"
+            },
+            {
+              "planned_timeline_seconds": 12,
+              "clip_local_seconds": 4,
+              "expected": "geometria e luz noturna."
+            }
+          ]
+        }
+      ],
+      "result": "planned_and_structurally_validated",
+      "observation": "pending_no_media",
+      "approval": "pending"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "valid_window_and_legacy_plan",
+      "result": "accepted_by_existing_validator"
+    },
+    {
+      "id": "unavailable_technique",
+      "result": "rejected_as_expected",
+      "message": "Técnica desconhecida ou ainda não habilitada com evidência."
+    },
+    {
+      "id": "insufficient_source_window",
+      "result": "rejected_as_expected",
+      "message": "Efeito fora do intervalo selecionado; fontes não serão estendidas."
+    },
+    {
+      "id": "overlapping_effects",
+      "result": "rejected_as_expected",
+      "message": "Técnicas sobrepostas ou contíguas na mesma fonte exigem uma janela de separação."
+    },
+    {
+      "id": "missing_technique_source",
+      "result": "rejected_as_expected",
+      "message": "Fonte da técnica ausente."
+    },
+    {
+      "id": "unknown_parameter",
+      "result": "rejected_as_expected",
+      "message": "Parâmetros desconhecidos."
+    },
+    {
+      "id": "missing_media",
+      "result": "rejected_as_expected",
+      "message": "Recurso ausente, alterado ou sem origem."
+    },
+    {
+      "id": "zero_budget",
+      "result": "generation_blocked",
+      "budget_credits": 0,
+      "note": "Read-only preflight of existing example; other real blockers also remain."
+    },
+    {
+      "id": "result_differs_from_intent",
+      "result": "manual_diagnosis_exercise",
+      "hypothetical_only": "If A appears detached after the planned fit, record an action/physics defect and keep expected fit; do not hide with highlight.",
+      "expected_plan_unchanged": true,
+      "note": "No actual media observed, no automated semantic detector and no review decision created."
+    }
+  ],
+  "existing_native_evidence": {
+    "current": true,
+    "gl": {
+      "enabled": 125
+    },
+    "native": {
+      "enabled": 10
+    },
+    "gl_rendered_cases": 375,
+    "native_rerendered": false
+  },
+  "status": "completed_documentary_and_structural_exercise"
+}

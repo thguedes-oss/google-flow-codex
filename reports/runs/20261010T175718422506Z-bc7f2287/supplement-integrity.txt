@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "id": "video-prompting",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "veo-reference-notebook",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "claudia-wiki",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "fal-ai-skills",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "openmontage",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "beatcut",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "gl-transitions",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "duplicate-inventory",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "passed": true
+}

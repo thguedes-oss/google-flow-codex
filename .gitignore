@@ -1,0 +1,9 @@
+vendor/
+__pycache__/
+*.py[cod]
+.work/
+projects/*/assets/*
+!projects/*/assets/README.md
+projects/*/outputs/*
+!projects/*/outputs/README.md
+library/assets/

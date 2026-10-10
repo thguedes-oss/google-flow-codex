@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "evidence_report": null,
+  "reviewer": null,
+  "decision": null,
+  "selected": false,
+  "supersedes": null,
+  "playback_completed": false,
+  "audio_review": null,
+  "audio_reason": null,
+  "intent_review": null,
+  "change_hypothesis": null,
+  "criteria": []
+}

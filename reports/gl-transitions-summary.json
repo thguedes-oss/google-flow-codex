@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "upstream_commit": "b2dfdcfbec079af4a05306d32b9366aa495c5155",
+  "inventory": 125,
+  "ported": 125,
+  "enabled": 125,
+  "incomplete": 0,
+  "unsupported": 0,
+  "native_engine": "0.3.1",
+  "cases": 375,
+  "sampled_frames": 1875,
+  "aspects": [
+    {
+      "aspect": "landscape",
+      "counts": {
+        "rendered": 125,
+        "incomplete": 0,
+        "unsupported": 0
+      },
+      "maximum_rgb_endpoint_mae": 4.508068783068783,
+      "alpha_nonzero_transparent_pixels": 0,
+      "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\landscape-2026-10-10T110436858863+0000"
+    },
+    {
+      "aspect": "portrait",
+      "counts": {
+        "rendered": 125,
+        "incomplete": 0,
+        "unsupported": 0
+      },
+      "maximum_rgb_endpoint_mae": 3.2977622627998566,
+      "alpha_nonzero_transparent_pixels": 0,
+      "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\portrait-2026-10-10T110723058268+0000"
+    },
+    {
+      "aspect": "square",
+      "counts": {
+        "rendered": 125,
+        "incomplete": 0,
+        "unsupported": 0
+      },
+      "maximum_rgb_endpoint_mae": 3.8240143369175628,
+      "alpha_nonzero_transparent_pixels": 0,
+      "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\square-2026-10-10T111023075310+0000"
+    }
+  ],
+  "static_tests": {
+    "command": "Python 3.12 -m unittest discover -s tests -p test_gl_transitions.py",
+    "passed": 7
+  },
+  "flow_generation_calls": 0,
+  "flow_credits_spent": 0,
+  "production_approval": false,
+  "visual_spot_checks": [
+    "InvertedPageCurl landscape",
+    "displacement landscape",
+    "luma landscape",
+    "fade portrait"
+  ],
+  "limitations": [
+    "Original alpha expressions are preserved; seven effects observed forcing opacity at one or both endpoints on transparent canvas regions.",
+    "AdvancedMosaic retains original endpoint grid D=0.005; tangentMotionBlur retains original endpoint blur exp(-5).",
+    "Native synthetic tests do not establish subjective quality, original-WebGL pixel identity, all parameter combinations or delivery-resolution performance.",
+    "Full motion/audio integration is verified separately by the pipeline smoke."
+  ],
+  "commands": [
+    "scripts/port_gl_transitions.py",
+    "scripts/smoke_gl_transitions.py --aspect landscape --report reports/gl-transitions-landscape.json",
+    "scripts/smoke_gl_transitions.py --aspect portrait --report reports/gl-transitions-portrait.json",
+    "scripts/smoke_gl_transitions.py --aspect square --report reports/gl-transitions-square.json",
+    "scripts/smoke_gl_transitions.py --publish-catalog"
+  ]
+}

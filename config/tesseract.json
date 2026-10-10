@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "platform": "windows-x86_64",
+  "tools_directory": ".work/tesseract/tools",
+  "export_profiles": {
+    "720p": {"cli_resolution": "1080p", "native_short_edge": 720},
+    "1080p": {"cli_resolution": "1080p", "native_short_edge": 1080},
+    "4k": {"cli_resolution": "1080p", "native_short_edge": 2160}
+  },
+  "export_profile_note": "Tesseract 0.3.1 Windows observado: os rótulos da CLI escalam o canvas. 1080p preserva as dimensões; 4k duplica cada eixo. Usar canvas de entrega e conferir dimensões de cada arquivo. Não apresentar tamanho de saída como aumento do detalhe da fonte.",
+  "tools": {
+    "tesseract": {
+      "version": "0.3.1",
+      "repository": "mirage-hq/Tesseract",
+      "archive": "tesseract-0.3.1-windows-x86_64.zip",
+      "sha256": "bc1f403670cada8b38ef88a1626ad130ebbbd37f161cbf5b0ae0fcb407fb9244",
+      "executable": "tsrct.exe"
+    },
+    "converter": {
+      "version": "0.2.1",
+      "repository": "mirage-hq/Tesseract-Converter",
+      "archive": "Tesseract-Converter-0.2.1-windows-x86_64.zip",
+      "sha256": "1cc9c04f6efdb5ae256a92947e45053dab64d98c3318f1b8fa866f92f24a0f4e",
+      "executable": "tsrct-conv.exe"
+    }
+  }
+}

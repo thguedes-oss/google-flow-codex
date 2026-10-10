@@ -1,0 +1,28 @@
+{
+  "project": "C:\\Users\\thgue\\Documents\\ChatGPT\\FLOW\\projects\\exemplo-duas-cenas",
+  "planning_passed": true,
+  "generation_ready": false,
+  "errors": [],
+  "blockers": [
+    "@Lia: referência visual ainda não aprovada.",
+    "@Lia: arquivo visual ausente.",
+    "@Cafe: referência visual ainda não aprovada.",
+    "@Cafe: arquivo visual ausente.",
+    "@Caneca: referência visual ainda não aprovada.",
+    "@Caneca: arquivo visual ausente.",
+    "Cena 01: vinculação real de @Lia no Flow ainda não registrada.",
+    "Cena 01: vinculação real de @Cafe no Flow ainda não registrada.",
+    "Cena 01: vinculação real de @Caneca no Flow ainda não registrada.",
+    "Cena 02: vinculação real de @Lia no Flow ainda não registrada.",
+    "Cena 02: vinculação real de @Cafe no Flow ainda não registrada.",
+    "Cena 02: vinculação real de @Caneca no Flow ainda não registrada.",
+    "Orçamento de geração é zero.",
+    "Custo por resultado ainda não confirmado na interface.",
+    "Autorização de produção pelo usuário não registrada.",
+    "Preflight específico da interface ainda não registrado para hoje.",
+    "Configuração/prompts atuais ainda não vinculados ao preflight da interface."
+  ],
+  "credits_spent": 0,
+  "planned_video_credits": null,
+  "plan_sha256": "0c3ef7595f491dee06dd707860d8f6fdc276e28e2a42c1d2bb6db1bff58fee7e"
+}

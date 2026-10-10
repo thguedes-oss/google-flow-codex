@@ -1,0 +1,19 @@
+{
+  "segment_id": "1.1",
+  "segment_length": 8,
+  "characters": ["@Lia"],
+  "location": "@Cafe",
+  "panel_aspect_ratio": "16:9",
+  "style": "Photographic live action with natural proportions. Preserve the approved identity, straight shoulder-length black hair and plain navy long-sleeved shirt of @Lia.",
+  "location_description": "@Cafe is an empty cafe with a wooden rectangular table in the foreground, a window on image-left, a pale green rear wall and one plant in the rear image-right corner.",
+  "lighting": "Soft daylight from the window on image-left, consistent across all panels.",
+  "camera_plan": "Static frontal medium shot at eye height. Show head, chest, both hands, mug and set anchors in every panel.",
+  "continuity": ["@Lia is seated. Her right hand holds exactly one plain white @Caneca at chest height, with its handle facing image-right. Her left hand rests on the table in every panel.", "Neutral expression and forward gaze in the first and final panels."],
+  "operator_notes": ["PREPARATION ONLY: zero generation credits authorised. Do not submit this prompt now.", "Attach the approved @Caneca prop reference as well as @Lia and @Cafe. These assets are currently pending."],
+  "approval_checks": ["One @Lia and one @Caneca in each panel.", "Approved face, hair and navy shirt preserved.", "Window image-left and plant rear image-right preserved.", "Right hand holds @Caneca at chest height; left hand rests on table; mug handle faces image-right."],
+  "panels": [
+    {"moment": "Opening, 0 seconds", "framing": "Static frontal medium shot", "action": "@Lia faces forward with a neutral expression, holding @Caneca in her right hand at chest height.", "forbidden_actions": ["No drinking, hand transfer or additional people."]},
+    {"moment": "Middle, about 5 seconds", "framing": "Static frontal medium shot", "action": "@Lia turns her head slightly toward the window on image-left. Torso, hands and @Caneca remain stationary.", "forbidden_actions": ["No torso turn, mug movement or camera movement."]},
+    {"moment": "Ending, 8 seconds", "framing": "Static frontal medium shot", "action": "@Lia faces forward with a neutral expression. Right hand holds @Caneca at chest height; left hand rests on the table.", "forbidden_actions": ["No smile, drinking, extra objects or changed hand positions."]}
+  ]
+}

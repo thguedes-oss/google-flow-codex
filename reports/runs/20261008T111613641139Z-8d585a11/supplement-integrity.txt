@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "id": "video-prompting",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "veo-reference-notebook",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "claudia-wiki",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "passed": true
+}

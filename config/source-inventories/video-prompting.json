@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "source_id": "video-prompting",
+  "commit": "8d72999ebe8bde390a658d3f6f8a79558b73bd5c",
+  "coverage": "all-git-tracked-files",
+  "duplicate_policy": "Manter todas as origens e caminhos, inclusive SHA-256 repetidos.",
+  "files": [
+    {
+      "path": ".devcontainer/Dockerfile",
+      "sha256": "4430f6e43e6c415ae00318b20d1c02def84e3dd6009a161a1d7d30ab83946423",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".devcontainer/devcontainer-lock.json",
+      "sha256": "ab0a57adf77b9deb8342d2ea563c9203fac87e2cbb129d76b32d4a2a9b6c2673",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "sha256": "bc497c3c344065e54ae0c90a32580945904811cd1672faf45d25364471bbc618",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "8ff4c43a7389c1f9824c8093e76dad24c7b707de8770383b30c0eb53885fbf7b",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+      "category": "licenca",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Preservar atribuição e limites jurídicos; não confundir licença raiz com dependências de terceiros."
+    },
+    {
+      "path": "README.md",
+      "sha256": "9fbc783b37a731c1fdfdf70a78c4d16ece22362581a26356571ee66dfea4670a",
+      "category": "documentacao",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "video-prompting/SKILL.md",
+      "sha256": "b82b7ece36550df9bea30849e65003d99de6b96076a0c95802ef141d2299cfca",
+      "category": "documentacao",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "video-prompting/references/models/ltx2-3/prompting.md",
+      "sha256": "8356b38c887a1e40f23edca71c88f7441e7fee1916d9d146e4e293fc1527d021",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo ltx específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/ltx2-5/prompting.md",
+      "sha256": "69370d73aff0a0ab583f7f43714b460b15ae547930b8ffb61a4e16509efcd8cc",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo ltx específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/ltx2/example_prompts/ltx2_examples.md",
+      "sha256": "496d5407b7afc9a4953c8caaf9f77bd3de44192694f7ca2457d91eb597de98ba",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo ltx específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/ltx2/prompting.md",
+      "sha256": "7f628e01cb4e4a33be9f23d20176a100c4b660842a7aaaf7b5751daddcaadc9c",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo ltx específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/minimax-h3/example_prompts/full_reference_performance_transfer.md",
+      "sha256": "4978e2c0ed6db93af1e06469e62faf824fa6a54ab53aa8914d586744ca981caa",
+      "category": "documentacao",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "video-prompting/references/models/minimax-h3/example_prompts/motion_graphics_trailer.md",
+      "sha256": "445b570d5319c9583037a352bff1e345b91276d88a5dd309838daf0b46fabfcd",
+      "category": "graficos",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/graficos.md",
+      "reason": "Extrair somente princípios conceituais de graficos em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "video-prompting/references/models/minimax-h3/prompting.md",
+      "sha256": "daefe9e78976c157bd7e2744ce8f09a8646594d6a0d1fb88fd470d1dc24e459b",
+      "category": "documentacao",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Extrair somente princípios conceituais de documentacao em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "video-prompting/references/models/ovi/example_prompts/gpt_examples_10s_i2v.csv",
+      "sha256": "e7b38a0dd2cae8b69e6d0ca2f793df84fd0cce8a5bd46851d4af94341ae3c471",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "video-prompting/references/models/ovi/example_prompts/gpt_examples_10s_t2v.csv",
+      "sha256": "cd8428643a9a30dd131991746a8257f3ce342bc2191a31c473f4e85304fdeb42",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "video-prompting/references/models/ovi/example_prompts/gpt_examples_i2v.csv",
+      "sha256": "6c52fff9fb2523936c0cfe0e5d632acb2e388506543809407167f2bac554c7d1",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "video-prompting/references/models/ovi/example_prompts/gpt_examples_t2v.csv",
+      "sha256": "a35ef589316d5415645408e78b97a522f85214ec6a4b0e1622ededc61d30b197",
+      "category": "infraestrutura",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "video-prompting/references/models/ovi/prompting.md",
+      "sha256": "b46e26d5548207f8864bdaa686054f8952772298da366c991286da209629644f",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo ovi específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/seedance2-5/prompting.md",
+      "sha256": "4946f512b270458765392d5d31c95191951ffe8f669611bc10d3aee4f80908cc",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo seedance específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/seedance2/example_prompts/seedance2_examples.md",
+      "sha256": "47919ee04de099bbca56452036333cb34acf1268066a84a7335a0ff08c7daf5e",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo seedance específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/seedance2/prompting.md",
+      "sha256": "5f48db9bfc03809771b4074bc855a0002f294988941f03c36085efadaf87313a",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo seedance específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/veo3/prompting.md",
+      "sha256": "f2c8ccbfd58b2335debfb118d3ae1624c0e01b121b9711cdacc5d7681061f6d8",
+      "category": "geracao-flow",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/geracao-flow.md",
+      "reason": "Extrair somente princípios conceituais de geracao-flow em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    },
+    {
+      "path": "video-prompting/references/models/wan-animate-2/prompting.md",
+      "sha256": "93011592db9e443fcbf31441d49964566140709347d7126eb3bffd7ee0e8cadb",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo wan-animate específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/models/wan22/prompting.md",
+      "sha256": "0d89ac2e8107212b23e357d43bd0a713fabe51c39b9765a2e8c93046568a3b71",
+      "category": "integracao-ou-engine-excluida",
+      "observed_license": "Apache-2.0",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Conteúdo wan22 específico de provedor, modelo, instalação, publicação ou outra engine; não vira requisito nem comando local."
+    },
+    {
+      "path": "video-prompting/references/workflows/character-sheets.md",
+      "sha256": "5969f8c8ef9f29ac73ff1f36a0ba068be3df1734a44798a55aea03d417eb94c7",
+      "category": "continuidade",
+      "observed_license": "Apache-2.0",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/continuidade.md",
+      "reason": "Extrair somente princípios conceituais de continuidade em síntese própria; comandos, prompts operacionais e capacidades upstream exigem revisão local."
+    }
+  ]
+}

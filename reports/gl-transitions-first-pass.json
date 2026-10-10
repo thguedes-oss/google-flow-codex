@@ -1,0 +1,4459 @@
+{
+  "schema_version": 1,
+  "engine": "0.3.1",
+  "started_at": "2026-10-10T10:57:41.734837+00:00",
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f",
+  "synthetic_only": true,
+  "flow_credits": 0,
+  "playback_completed": false,
+  "audio_listened": false,
+  "results": [
+    {
+      "id": "gl.BlockDissolve",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BlockDissolve\\frame-0.png",
+          "sha256": "c721fdc3bfb6924ad51dc9d030b8121aa429bffc5e64eea1d84875f4162f1012",
+          "mae_from": 0.2928298611111111,
+          "mae_to": 85.51840711805555,
+          "rgb_mean": 124.5449537037037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BlockDissolve\\frame-0.5.png",
+          "sha256": "2fb8cca70ef26cffe3fcc5989556f7980766cbac10e3991100a736caafa35047",
+          "mae_from": 43.7039453125,
+          "mae_to": 43.40573784722222,
+          "rgb_mean": 125.00502893518518,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BlockDissolve\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BlockDissolve\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.2928298611111111,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.AdvancedMosaic",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\AdvancedMosaic\\frame-0.png",
+          "sha256": "9ce4660c95439f9f293e89f452a88b51779653663bd25ed8445571fbce856d48",
+          "mae_from": 1.8043359375,
+          "mae_to": 85.324765625,
+          "rgb_mean": 124.43692708333333,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\AdvancedMosaic\\frame-0.5.png",
+          "sha256": "63a838a31c13bcd64b0dc41b1b87f4d146f12cb44446a75d296461367de2c37f",
+          "mae_from": 65.61648871527778,
+          "mae_to": 61.28356770833334,
+          "rgb_mean": 129.26884837962962,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\AdvancedMosaic\\frame-1.png",
+          "sha256": "5ee11123745df3c5592117bcb576cf5aec1c81a85d40671856115f1925ad638e",
+          "mae_from": 85.94954861111111,
+          "mae_to": 1.5034244791666667,
+          "rgb_mean": 123.47484375,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\AdvancedMosaic\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        1.8043359375,
+        1.5034244791666667
+      ]
+    },
+    {
+      "id": "gl.angular",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\angular\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\angular\\frame-0.5.png",
+          "sha256": "c3b188f8e8fe1c4869663727e06ec6c3551ae13345816b36548c56f60de775b4",
+          "mae_from": 44.591484375,
+          "mae_to": 42.51819878472222,
+          "rgb_mean": 131.1168634259259,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\angular\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\angular\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.BookFlip",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BookFlip\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BookFlip\\frame-0.5.png",
+          "sha256": "0928208ef3af8ca2c47fa0765b5ae0eda4f376a466e370bc29cd0a5663eac716",
+          "mae_from": 42.51819878472222,
+          "mae_to": 44.591484375,
+          "rgb_mean": 116.47140625,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BookFlip\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BookFlip\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Bounce",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Bounce\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Bounce\\frame-0.5.png",
+          "sha256": "ca1e6e58581fe9d574cf9b6fac6e57996399088733cfa773cdf506a4ff03a5f5",
+          "mae_from": 87.6829079861111,
+          "mae_to": 2.1029730902777777,
+          "rgb_mean": 121.82041666666667,
+          "alpha_min": 196,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Bounce\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Bounce\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.BowTieVertical",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieVertical\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieVertical\\frame-0.5.png",
+          "sha256": "007e21bbd721bd61662a6d8210e63ceef95b4f7f2a1bb848e60f319a58404ce1",
+          "mae_from": 42.86928385416667,
+          "mae_to": 44.240399305555556,
+          "rgb_mean": 124.59751736111112,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieVertical\\frame-1.png",
+          "sha256": "b20a494d472f67a8714916f1a6ce6a579af429360e380f37a197fecd6c4f55ad",
+          "mae_from": 86.24551649305556,
+          "mae_to": 0.0023263888888888887,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieVertical\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0023263888888888887
+      ]
+    },
+    {
+      "id": "gl.BowTieHorizontal",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieHorizontal\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieHorizontal\\frame-0.5.png",
+          "sha256": "091ba58c6b893c2d20fcc95daa64cf543503cb186750143f078b345d8922eb32",
+          "mae_from": 43.01677951388889,
+          "mae_to": 44.09290364583333,
+          "rgb_mean": 122.94614583333333,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieHorizontal\\frame-1.png",
+          "sha256": "6f09681a1b209dc6a436d36e861319bc3078aa404d9ae0ba4819a0f6f0c0db46",
+          "mae_from": 86.24634548611111,
+          "mae_to": 0.0014973958333333334,
+          "rgb_mean": 123.53228587962963,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieHorizontal\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0014973958333333334
+      ]
+    },
+    {
+      "id": "gl.BowTieWithParameter",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieWithParameter\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieWithParameter\\frame-0.5.png",
+          "sha256": "5158aca6d83733665bb78566cea2de614fab21c9af0662a23920db6fe02c8c8d",
+          "mae_from": 43.48170138888889,
+          "mae_to": 43.62798177083334,
+          "rgb_mean": 124.6218287037037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieWithParameter\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\BowTieWithParameter\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Box",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.burn",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn\\frame-0.5.png",
+          "sha256": "6f1d269d9330194301ab9729e54ebbeb7dcb379ae2c5f02065a389fc11e30e5f",
+          "mae_from": 56.36063368055556,
+          "mae_to": 54.51463107638889,
+          "rgb_mean": 175.22650462962963,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.burn0",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn0\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn0\\frame-0.5.png",
+          "sha256": "fdc43aeeca078b142c640f133f68047dfc0e7ddc23a18fdcb7f3db76591f8d19",
+          "mae_from": 59.798298611111115,
+          "mae_to": 30.442434895833333,
+          "rgb_mean": 125.21618055555555,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn0\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\burn0\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.ButterflyWaveScrawler",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ButterflyWaveScrawler\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ButterflyWaveScrawler\\frame-0.5.png",
+          "sha256": "97f36ecc7f5f8ff3c3bab08a9d0667e41f5fed50978a3e01b7dc0073e59e3473",
+          "mae_from": 70.69300347222222,
+          "mae_to": 58.51451822916667,
+          "rgb_mean": 123.43924768518518,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ButterflyWaveScrawler\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ButterflyWaveScrawler\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.cannabisleaf",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cannabisleaf\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cannabisleaf\\frame-0.5.png",
+          "sha256": "3d775de471ab9814b8428f1641dfcf954fd27a2ccc0291776bd21ecc21a09561",
+          "mae_from": 12.248485243055555,
+          "mae_to": 74.86119791666667,
+          "rgb_mean": 124.62509837962963,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cannabisleaf\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cannabisleaf\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.circle",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circle\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circle\\frame-0.5.png",
+          "sha256": "2837612625a98929e0d69624654c16870c5d4ecae9eb530c9d8f1e8e2289b998",
+          "mae_from": 90.70663194444444,
+          "mae_to": 82.27834635416667,
+          "rgb_mean": 25.0,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circle\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circle\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.CircleCrop",
+      "status": "incomplete",
+      "error": "Black midpoint; native behavior requires examination."
+    },
+    {
+      "id": "gl.chessboard",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\chessboard\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\chessboard\\frame-0.5.png",
+          "sha256": "77322b4e4f9dd2fa481b076d9bde242a5512466b59a710d792675c67e5de1676",
+          "mae_from": 43.41125434027778,
+          "mae_to": 43.698428819444445,
+          "rgb_mean": 123.77093171296296,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\chessboard\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\chessboard\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.circleopen",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circleopen\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circleopen\\frame-0.5.png",
+          "sha256": "d57c700b94170cb26ea3ebc4fd66b57912d4a09d9d340f5f25f9c95d1f6253f1",
+          "mae_from": 34.135755208333336,
+          "mae_to": 52.97392795138889,
+          "rgb_mean": 124.94116898148148,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circleopen\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\circleopen\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.colorphase",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\colorphase\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\colorphase\\frame-0.5.png",
+          "sha256": "9e49512944f1a3e3c7cfcde83707b8c1b4d39ad1a4e329e03f9abb1d2b7db804",
+          "mae_from": 43.20796006944445,
+          "mae_to": 43.90172309027778,
+          "rgb_mean": 124.89805555555556,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\colorphase\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\colorphase\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.ColourDistance",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ColourDistance\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ColourDistance\\frame-0.5.png",
+          "sha256": "ed44b58b0c62e48fbab5dbe4513db03febf7354111a07ea47c8c0c312581158d",
+          "mae_from": 3.7108029513888887,
+          "mae_to": 83.39888020833334,
+          "rgb_mean": 123.69347800925927,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ColourDistance\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ColourDistance\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.coord-from-in",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\coord-from-in\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\coord-from-in\\frame-0.5.png",
+          "sha256": "4d610f69a39a84ca15449a70b1091f36cbe9d2ad9dd47dce3968054c5e3b2337",
+          "mae_from": 130.16010416666666,
+          "mae_to": 84.59483940972223,
+          "rgb_mean": 124.99111111111111,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\coord-from-in\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\coord-from-in\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.CrazyParametricFun",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\CrazyParametricFun\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\CrazyParametricFun\\frame-0.5.png",
+          "sha256": "0596f1df8e556a7a3e54e9233e0b127c565ea4b499a83ea9be1e0735783ce6c9",
+          "mae_from": 89.65769097222223,
+          "mae_to": 63.0778515625,
+          "rgb_mean": 126.16450231481481,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\CrazyParametricFun\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\CrazyParametricFun\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.crosshatch",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosshatch\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosshatch\\frame-0.5.png",
+          "sha256": "edbc078742c933fac1691355a1a1543ae6f9e106594882a1e4eae98134e8e5a2",
+          "mae_from": 53.78602430555556,
+          "mae_to": 33.323658854166666,
+          "rgb_mean": 124.79824074074074,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosshatch\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosshatch\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.crosswarp",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosswarp\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosswarp\\frame-0.5.png",
+          "sha256": "3746de2ab0930c1ad8883d8b4c14b6de7cf5338d1b74ea7494c1e8ca0c947758",
+          "mae_from": 54.24788628472222,
+          "mae_to": 49.65474826388889,
+          "rgb_mean": 110.64902199074074,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosswarp\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\crosswarp\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.CrossZoom",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.cube",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cube\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cube\\frame-0.5.png",
+          "sha256": "f98c1900e5185747b60b74ccee826cb8fe2696cb71466370fbeba873f2b40c9b",
+          "mae_from": 92.93401909722222,
+          "mae_to": 86.30775607638888,
+          "rgb_mean": 70.12064814814815,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cube\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\cube\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.DefocusBlur",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DefocusBlur\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DefocusBlur\\frame-0.5.png",
+          "sha256": "74ec3a6c67a5926b5a0853865356bc5781daed1e3efe22275729202cfc8b67b0",
+          "mae_from": 46.902065972222225,
+          "mae_to": 44.04704427083333,
+          "rgb_mean": 123.77127314814815,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DefocusBlur\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DefocusBlur\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Directional",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Directional\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Directional\\frame-0.5.png",
+          "sha256": "dec8cba4c05a9c157a5416f0745573291ee0e00bfaece4d6eb6fb60ffaf79548",
+          "mae_from": 54.699305555555554,
+          "mae_to": 53.975177951388886,
+          "rgb_mean": 123.01732638888889,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Directional\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Directional\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.directional-easing",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directional-easing\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directional-easing\\frame-0.5.png",
+          "sha256": "9e24f99182d813c8f118d52a140ba576052453da8880650efefed557cc171fe9",
+          "mae_from": 79.88428819444445,
+          "mae_to": 27.789743923611113,
+          "rgb_mean": 124.1689699074074,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directional-easing\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directional-easing\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.displacement",
+      "status": "unsupported",
+      "reason": "External auxiliary sampler has no resource binding in the two-texture contract. Requires third texture: displacementMap"
+    },
+    {
+      "id": "gl.DirectionalScaled",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DirectionalScaled\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DirectionalScaled\\frame-0.5.png",
+          "sha256": "6080a7be558ebd70b2742a5ebe189214e038e01a7907d5d0486565f7532635a9",
+          "mae_from": 111.95743489583333,
+          "mae_to": 111.93969618055556,
+          "rgb_mean": 60.14581597222222,
+          "alpha_min": 0,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DirectionalScaled\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DirectionalScaled\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.directionalwarp",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwarp\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwarp\\frame-0.5.png",
+          "sha256": "3725bca72c211bdaca0b7bb3d3127c8212fea8d4f4a96c7e884b464d50bf3c64",
+          "mae_from": 45.371371527777775,
+          "mae_to": 45.392816840277774,
+          "rgb_mean": 112.10935185185186,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwarp\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwarp\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.directionalwipe",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwipe\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwipe\\frame-0.5.png",
+          "sha256": "e59e72116c82d9df5f045bcf302c5d3d2eb7002d805fa261c0e4421f2a215f9a",
+          "mae_from": 44.25914930555555,
+          "mae_to": 42.85053385416666,
+          "rgb_mean": 135.3213773148148,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwipe\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\directionalwipe\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.dissolve",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\dissolve\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\dissolve\\frame-0.5.png",
+          "sha256": "1a178ff316bdc027dd49e79e28bc26a08cb67bbc9213afc52a0626d4b443faa7",
+          "mae_from": 7.756328125,
+          "mae_to": 87.77912760416666,
+          "rgb_mean": 123.90278935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\dissolve\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\dissolve\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.DoomScreenTransition",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DoomScreenTransition\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DoomScreenTransition\\frame-0.5.png",
+          "sha256": "c2c80a37ec8fd01307db5f212e5955f49f18c00fed16d2aed26e4a8932422654",
+          "mae_from": 87.10968315972222,
+          "mae_to": 0.0,
+          "rgb_mean": 123.85956597222223,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DoomScreenTransition\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DoomScreenTransition\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.doorway",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\doorway\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\doorway\\frame-0.5.png",
+          "sha256": "ce4df2f1d3d80cb0bb8fa8c85931eb1c42c8fcc8e73e327cdcc1370d7f2a6895",
+          "mae_from": 91.45232204861111,
+          "mae_to": 83.89144965277778,
+          "rgb_mean": 98.02210069444445,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\doorway\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\doorway\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Dreamy",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Dreamy\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Dreamy\\frame-0.5.png",
+          "sha256": "7a8eef6871df7ba0bb52c2cfeb5989c6a4d680eb38a051bb1538f12c5dbfb0ae",
+          "mae_from": 44.61061197916667,
+          "mae_to": 44.20921875,
+          "rgb_mean": 123.71396412037036,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Dreamy\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Dreamy\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.DreamyZoom",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DreamyZoom\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DreamyZoom\\frame-0.5.png",
+          "sha256": "ca6880d01595c76d10c6efe5cdf81be25f21c7edf0006b98cbc42f21de51b840",
+          "mae_from": 98.45347222222222,
+          "mae_to": 98.35532552083333,
+          "rgb_mean": 255.0,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DreamyZoom\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\DreamyZoom\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Drop_Zone_Flicker",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Drop_Zone_Flicker\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Drop_Zone_Flicker\\frame-0.5.png",
+          "sha256": "48be581de2e54c177bc7dc1dc024d3043adea3e81901034f3cbaf650d3cfd39b",
+          "mae_from": 86.133046875,
+          "mae_to": 2.739240451388889,
+          "rgb_mean": 123.44464120370371,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Drop_Zone_Flicker\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Drop_Zone_Flicker\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.EdgeTransition",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.fade",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\frame-0.5.png",
+          "sha256": "3d73a3efcb19220fe7b088e17ce99c2a78df6b796051a8db9120f9a3a502edfe",
+          "mae_from": 43.556263020833335,
+          "mae_to": 43.55342013888889,
+          "rgb_mean": 123.66865162037037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.fadecolor",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadecolor\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadecolor\\frame-0.5.png",
+          "sha256": "eddfb42a2113a95e16a85ff324ed9d4081c366da0dc8f696184106e6c3d123e2",
+          "mae_from": 88.68587673611111,
+          "mae_to": 87.59365017361111,
+          "rgb_mean": 9.080300925925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadecolor\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadecolor\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.fadegrayscale",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadegrayscale\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadegrayscale\\frame-0.5.png",
+          "sha256": "998c11b70ec4de88c3cc04ff163d7a293464ce5289597713dc937ff979c785d1",
+          "mae_from": 77.02691840277778,
+          "mae_to": 63.037122395833336,
+          "rgb_mean": 123.14858796296296,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadegrayscale\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fadegrayscale\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.FilmBurn",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.flyeye",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\flyeye\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\flyeye\\frame-0.5.png",
+          "sha256": "b2380a80fb8a82248d586353b32d66ba33bf47cf2c7dbf07c335784fb2e1618b",
+          "mae_from": 47.89759982638889,
+          "mae_to": 46.63853298611111,
+          "rgb_mean": 124.86159143518519,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\flyeye\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\flyeye\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Fold",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Fold\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Fold\\frame-0.5.png",
+          "sha256": "4e84b5ee7be1006e54936f5cc66366adc827fc74e0d42021509bffdb09cb1376",
+          "mae_from": 91.21490885416667,
+          "mae_to": 93.21559027777778,
+          "rgb_mean": 123.73942708333334,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Fold\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Fold\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.fragment",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fragment\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fragment\\frame-0.5.png",
+          "sha256": "5ed9f68415b62586941264af50fe5db0f4e4a45b7ec3df87d30e3c274632828a",
+          "mae_from": 89.34354600694445,
+          "mae_to": 8.918480902777778,
+          "rgb_mean": 124.92174189814814,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fragment\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fragment\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.GlitchDisplace",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.GlitchMemories",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GlitchMemories\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GlitchMemories\\frame-0.5.png",
+          "sha256": "4ff8c1c32024adc4a17118c6cefd344f3cd6631d869701dffffaae8054ed88e9",
+          "mae_from": 45.828159722222225,
+          "mae_to": 45.46462239583333,
+          "rgb_mean": 123.7219212962963,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GlitchMemories\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GlitchMemories\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.GridFlip",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GridFlip\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GridFlip\\frame-0.5.png",
+          "sha256": "ebd861d00948aa317055dbfc8c3d0ee3d55fb0ce797c303a436e90dff7006d6a",
+          "mae_from": 91.01401041666666,
+          "mae_to": 46.64033420138889,
+          "rgb_mean": 64.58662037037037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GridFlip\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\GridFlip\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.heart",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\heart\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\heart\\frame-0.5.png",
+          "sha256": "733a7ef621e1b39051c5fc12d6e6ef25199a46e91a71d4d77b84fb1ad199a176",
+          "mae_from": 64.67920138888888,
+          "mae_to": 22.43048177083333,
+          "rgb_mean": 124.71059027777778,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\heart\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\heart\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.hexagonalize",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\hexagonalize\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\hexagonalize\\frame-0.5.png",
+          "sha256": "d823842006765ba9cf862f0b6deac90b401d1733828dc4ba4118b8f8b4f6ec13",
+          "mae_from": 48.05599392361111,
+          "mae_to": 47.266032986111114,
+          "rgb_mean": 124.2565798611111,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\hexagonalize\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\hexagonalize\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.HorizontalClose",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalClose\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalClose\\frame-0.5.png",
+          "sha256": "9cfaa75c36055e5f10d985215e940bb0a4ff925fd0f10f088e85f012c5f956f3",
+          "mae_from": 22.490768229166665,
+          "mae_to": 64.61891493055556,
+          "rgb_mean": 123.56078125,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalClose\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalClose\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.HorizontalOpen",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalOpen\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalOpen\\frame-0.5.png",
+          "sha256": "7af87c7a3ea42119cc54667be8adc81debb8c2a4734b9bd3e9ac1b8380f90f52",
+          "mae_from": 64.62503038194444,
+          "mae_to": 22.48465277777778,
+          "rgb_mean": 123.99367476851852,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalOpen\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HorizontalOpen\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.HSVfade",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HSVfade\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HSVfade\\frame-0.5.png",
+          "sha256": "cf46bd49b25b3deb044cbda781ee08bcb15a409d601c36674bd80c2f1587f704",
+          "mae_from": 77.35449652777778,
+          "mae_to": 64.31657552083334,
+          "rgb_mean": 125.34046296296296,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HSVfade\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\HSVfade\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.InvertedPageCurl",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\InvertedPageCurl\\frame-0.png",
+          "sha256": "8109ffd561bd9bf7b025a25f260ce25b7299e62f855deaba05f969be39a5d8bd",
+          "mae_from": 0.22480902777777778,
+          "mae_to": 85.68061197916667,
+          "rgb_mean": 124.25885416666667,
+          "alpha_min": 2,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\InvertedPageCurl\\frame-0.5.png",
+          "sha256": "7a3047a45f3e0247aefee84458d8c922dffc6fb1fdf88bb5dca7f1c13f4aaa4b",
+          "mae_from": 91.14141493055556,
+          "mae_to": 22.49990017361111,
+          "rgb_mean": 136.75616319444444,
+          "alpha_min": 34,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\InvertedPageCurl\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\InvertedPageCurl\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.22480902777777778,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.luma",
+      "status": "unsupported",
+      "reason": "External auxiliary sampler has no resource binding in the two-texture contract. Requires third texture: luma"
+    },
+    {
+      "id": "gl.kaleidoscope",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.LeftRight",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LeftRight\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LeftRight\\frame-0.5.png",
+          "sha256": "5cef9c543a461803b3e946c8f3e80c23eb66c70d2f814da2a3bf12430821b57a",
+          "mae_from": 87.92374565972223,
+          "mae_to": 105.94424479166666,
+          "rgb_mean": 99.8370775462963,
+          "alpha_min": 128,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LeftRight\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LeftRight\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.LinearBlur",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LinearBlur\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LinearBlur\\frame-0.5.png",
+          "sha256": "c35e6279b3cab001048fe6b152f94bf22ecc3824be9ad557415dd2a8ed759e32",
+          "mae_from": 47.851961805555554,
+          "mae_to": 44.2905078125,
+          "rgb_mean": 123.95462962962964,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LinearBlur\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\LinearBlur\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.luminance_melt",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\luminance_melt\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\luminance_melt\\frame-0.5.png",
+          "sha256": "7d07605c5221fe1af33c8b1b5fa90e6e6423ef25a1f566414de4d9606a2f5843",
+          "mae_from": 38.580638020833334,
+          "mae_to": 48.52904513888889,
+          "rgb_mean": 121.92661458333333,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\luminance_melt\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\luminance_melt\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.morph",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\morph\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\morph\\frame-0.5.png",
+          "sha256": "341210116ab9208b467c271fab099b665427a9e94b8c95a9bc41054366c45291",
+          "mae_from": 51.11809461805556,
+          "mae_to": 45.387630208333334,
+          "rgb_mean": 123.76728587962963,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\morph\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\morph\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Mosaic",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Mosaic\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Mosaic\\frame-0.5.png",
+          "sha256": "de89157ec4c457eab0ebc1f0b8d4668fffae4c2351e3bfca8d384153df655d88",
+          "mae_from": 96.78071614583334,
+          "mae_to": 80.02129340277777,
+          "rgb_mean": 123.52726273148149,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Mosaic\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Mosaic\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.mosaic_transition",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\mosaic_transition\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\mosaic_transition\\frame-0.5.png",
+          "sha256": "c27658e8eabe44b06e483da9ff01b754759678410627efd5201fc0d09016c3a9",
+          "mae_from": 36.266527777777775,
+          "mae_to": 63.82732204861111,
+          "rgb_mean": 125.75666666666666,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\mosaic_transition\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\mosaic_transition\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.multiply_blend",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\multiply_blend\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\multiply_blend\\frame-0.5.png",
+          "sha256": "c31a7bcb490c8077318a62713c00b244f9f33447b4fa7f71081c1d35eb5aa735",
+          "mae_from": 45.14263454861111,
+          "mae_to": 45.24078125,
+          "rgb_mean": 63.538524305555555,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\multiply_blend\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\multiply_blend\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.old_tv_lost_signal",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\old_tv_lost_signal\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\old_tv_lost_signal\\frame-0.5.png",
+          "sha256": "a518374eb58a81a2ed9dc151aef65c3efa7ae9a7f317a3dc853fb2c4271b9155",
+          "mae_from": 44.25720920138889,
+          "mae_to": 44.171779513888886,
+          "rgb_mean": 123.76177662037037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\old_tv_lost_signal\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\old_tv_lost_signal\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Overexposure",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Overexposure\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Overexposure\\frame-0.5.png",
+          "sha256": "27fc1c610b5f8c31297c0cc28823756c4d04fdcfb8b0689f70e76283cafbe7a3",
+          "mae_from": 49.74374565972222,
+          "mae_to": 49.64559895833333,
+          "rgb_mean": 190.05369791666666,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Overexposure\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Overexposure\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.parametric_glitch",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\parametric_glitch\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\parametric_glitch\\frame-0.5.png",
+          "sha256": "1a4d369cc0b01d1994ea8eb4465785f7e50a24b30413f4edbcf153c61f8ea983",
+          "mae_from": 58.56300347222222,
+          "mae_to": 43.25877170138889,
+          "rgb_mean": 130.90001157407409,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\parametric_glitch\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\parametric_glitch\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.perlin",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\perlin\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\perlin\\frame-0.5.png",
+          "sha256": "e53f0484dcdf4a382951bec18b41190efd4d96cfd3184e55b124243df9b641c6",
+          "mae_from": 57.48728732638889,
+          "mae_to": 29.622395833333332,
+          "rgb_mean": 132.86014467592594,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\perlin\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\perlin\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.pinwheel",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pinwheel\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pinwheel\\frame-0.5.png",
+          "sha256": "bf0f9cad49c97df6e8d47c2363281771b57928c1e3f4a9689bda2d94ccc13e6a",
+          "mae_from": 58.54708333333333,
+          "mae_to": 28.56259982638889,
+          "rgb_mean": 123.45271990740741,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pinwheel\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pinwheel\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.pixelize",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pixelize\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pixelize\\frame-0.5.png",
+          "sha256": "d8e1246327882c20f643dc5734252a0a738cbc6c28b5f6057a479673bebad030",
+          "mae_from": 46.75539930555556,
+          "mae_to": 48.08634982638889,
+          "rgb_mean": 124.35083333333333,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pixelize\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\pixelize\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.polar_function",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\polar_function\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\polar_function\\frame-0.5.png",
+          "sha256": "0a041633319dc75a0cc1224f27208178afe912ab39f14b534e61192b691e2fb5",
+          "mae_from": 62.718120659722224,
+          "mae_to": 24.3915625,
+          "rgb_mean": 125.09558449074073,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\polar_function\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\polar_function\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.PolkaDotsCurtain",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PolkaDotsCurtain\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PolkaDotsCurtain\\frame-0.5.png",
+          "sha256": "b4ba878e1f5b2bfea8feaaa564875a693c17f3d1f8eb59d7cde062607e13fbf6",
+          "mae_from": 77.27434895833333,
+          "mae_to": 9.83533420138889,
+          "rgb_mean": 129.78465277777778,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PolkaDotsCurtain\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PolkaDotsCurtain\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.powerKaleido",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.PuzzleRight",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PuzzleRight\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PuzzleRight\\frame-0.5.png",
+          "sha256": "76d80634de694fa517a9b9d4776b75a642430deb64a52cba07e05df0c45e90d4",
+          "mae_from": 90.67705295138889,
+          "mae_to": 42.177899305555556,
+          "rgb_mean": 70.65578125,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PuzzleRight\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\PuzzleRight\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Radial",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Radial\\frame-0.png",
+          "sha256": "f332e61fa41d6500f8f620127a36ac4d052a44206b0b74cab8727997b03766ec",
+          "mae_from": 0.10216579861111111,
+          "mae_to": 85.70907118055555,
+          "rgb_mean": 124.5544386574074,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Radial\\frame-0.5.png",
+          "sha256": "a5ffff4541c806fe0331befb6f7bc6713b4032896d14deca770f34dfbbe56b7a",
+          "mae_from": 49.29376302083333,
+          "mae_to": 37.81592013888889,
+          "rgb_mean": 119.83480902777778,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Radial\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Radial\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.10216579861111111,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.randomNoisex",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomNoisex\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomNoisex\\frame-0.5.png",
+          "sha256": "b35960dd0c40bde5b9b9ef6eceb60431d17c2e79517fef677abb8c35792f8e40",
+          "mae_from": 43.46909288194445,
+          "mae_to": 43.640590277777775,
+          "rgb_mean": 123.73788773148148,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomNoisex\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomNoisex\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.randomsquares",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomsquares\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomsquares\\frame-0.5.png",
+          "sha256": "20d0d38ee433efccb555884c29ba0d7ba6388784d08623d7d4a8e9811ae1481f",
+          "mae_from": 43.43518663194445,
+          "mae_to": 43.67449652777778,
+          "rgb_mean": 122.87919560185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomsquares\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\randomsquares\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Rectangle",
+      "status": "incomplete",
+      "error": "Black midpoint; native behavior requires examination."
+    },
+    {
+      "id": "gl.RectangleCrop",
+      "status": "incomplete",
+      "error": "Black midpoint; native behavior requires examination."
+    },
+    {
+      "id": "gl.Revolve_Left",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Revolve_Left\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Revolve_Left\\frame-0.5.png",
+          "sha256": "6044834c9a1951d09ceaa13fca3a952b0d60cc29fe6e67aa997de83781a3cc79",
+          "mae_from": 103.5299045138889,
+          "mae_to": 92.47710503472223,
+          "rgb_mean": 113.68738425925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Revolve_Left\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Revolve_Left\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.ripple",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ripple\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ripple\\frame-0.5.png",
+          "sha256": "3aef4ba5fb3913ec7a7f2be801a238646f2a73af315639721ae756d6cbd4f475",
+          "mae_from": 29.17095920138889,
+          "mae_to": 59.346640625,
+          "rgb_mean": 123.7935011574074,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ripple\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ripple\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Rolls",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.rotate_scale_fade",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotate_scale_fade\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotate_scale_fade\\frame-0.5.png",
+          "sha256": "4857d6965d337d91fb8da975a48f3b3cc1fcd2453f485ba8d8fe3f2dc2981c93",
+          "mae_from": 123.2129861111111,
+          "mae_to": 100.48325086805555,
+          "rgb_mean": 127.38039351851852,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotate_scale_fade\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotate_scale_fade\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.RotateScaleVanish",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\RotateScaleVanish\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\RotateScaleVanish\\frame-0.5.png",
+          "sha256": "5895ca21d5d6109e0368f9e6ccb234a933debf0ab33ae536387d0c0d7a690870",
+          "mae_from": 90.83429253472222,
+          "mae_to": 47.35836805555556,
+          "rgb_mean": 77.36570023148148,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\RotateScaleVanish\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\RotateScaleVanish\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.rotateTransition",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotateTransition\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotateTransition\\frame-0.5.png",
+          "sha256": "8ec2a0744f2f8489d04b72f1f223a12ee2f4bccc2b63949f9ba60cab25b6a395",
+          "mae_from": 129.70391927083332,
+          "mae_to": 101.68036458333333,
+          "rgb_mean": 123.66865162037037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotateTransition\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\rotateTransition\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.scale-in",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\scale-in\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\scale-in\\frame-0.5.png",
+          "sha256": "d00a77e6418656ac4b3f5ace4bcbdff8c2e2ae21d8475e567917687c6606d2b7",
+          "mae_from": 39.449930555555554,
+          "mae_to": 58.689388020833334,
+          "rgb_mean": 127.13751157407407,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\scale-in\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\scale-in\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.SimpleFlip",
+      "status": "incomplete",
+      "error": "Black midpoint; native behavior requires examination."
+    },
+    {
+      "id": "gl.SimpleZoom",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoom\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoom\\frame-0.5.png",
+          "sha256": "ac2c90633058b14715ed28250b012d00663c82f0fcd604aca5bbdd9a650aa20e",
+          "mae_from": 50.2951953125,
+          "mae_to": 80.85322916666667,
+          "rgb_mean": 127.21186921296297,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoom\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoom\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.SimpleZoomOut",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoomOut\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoomOut\\frame-0.5.png",
+          "sha256": "3e8cf73e65df3735a086d894d20ee2b137e246de5eec8ac63560b799590d88c7",
+          "mae_from": 23.765295138888888,
+          "mae_to": 70.2757248263889,
+          "rgb_mean": 126.35472222222222,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoomOut\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\SimpleZoomOut\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Slides",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.splitSlideInHorizontal",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInHorizontal\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInHorizontal\\frame-0.5.png",
+          "sha256": "8aba5e4f24b049885191010ce8e7ec098013e065a7b0684dc8044fa057a3790f",
+          "mae_from": 53.69012586805555,
+          "mae_to": 92.95912326388888,
+          "rgb_mean": 124.25955439814815,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInHorizontal\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInHorizontal\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.splitSlideInOutHorizontal",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutHorizontal\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutHorizontal\\frame-0.5.png",
+          "sha256": "8678038f225d517cd9c44df64f0995e04024b558870d498a2df4878478530c93",
+          "mae_from": 123.34949652777777,
+          "mae_to": 105.1325217013889,
+          "rgb_mean": 128.12914351851853,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutHorizontal\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutHorizontal\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.splitSlideInOutVertical",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutVertical\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutVertical\\frame-0.5.png",
+          "sha256": "7f98dff1c4d6078f0bb46f1e5bc5dc61e7a152ff992c4e79d4c9ea595f5e1061",
+          "mae_from": 54.82896701388889,
+          "mae_to": 54.104839409722224,
+          "rgb_mean": 128.12914351851853,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutVertical\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInOutVertical\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.splitSlideInVertical",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInVertical\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInVertical\\frame-0.5.png",
+          "sha256": "f113d96b76f8429f5a1435d72ae99defdbdd7c0f9a16cd736986a05aa8a1ed35",
+          "mae_from": 44.88422309027778,
+          "mae_to": 55.412638888888885,
+          "rgb_mean": 124.25955439814815,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInVertical\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideInVertical\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.splitSlideOutHorizontal",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutHorizontal\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutHorizontal\\frame-0.5.png",
+          "sha256": "421c34777626c67e73ffe4228b9147a3c36c203e4612e09a9032091ea7cc704e",
+          "mae_from": 111.17609809027778,
+          "mae_to": 57.109149305555555,
+          "rgb_mean": 124.25955439814815,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutHorizontal\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutHorizontal\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.splitSlideOutVertical",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutVertical\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutVertical\\frame-0.5.png",
+          "sha256": "45481598f6a2416d74ce2560294a88f4c37cf1a8bee607295a9e9b2a2280c0b0",
+          "mae_from": 56.13676649305555,
+          "mae_to": 43.62795138888889,
+          "rgb_mean": 124.25955439814815,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutVertical\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\splitSlideOutVertical\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.squareswire",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squareswire\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squareswire\\frame-0.5.png",
+          "sha256": "f0cf74a60c8fdf018a6f964e464555fc81c2afe71efb7192ef1fc373aed6b98b",
+          "mae_from": 25.156579861111112,
+          "mae_to": 61.95310329861111,
+          "rgb_mean": 132.8148263888889,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squareswire\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squareswire\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.squeeze",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squeeze\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squeeze\\frame-0.5.png",
+          "sha256": "1f8428719d8915ebdb4ed655b1a510c378a5dd70aaf149cfb515a267cd737dec",
+          "mae_from": 53.56920572916667,
+          "mae_to": 42.481484375,
+          "rgb_mean": 120.0718113425926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squeeze\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\squeeze\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.StarWipe",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StarWipe\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StarWipe\\frame-0.5.png",
+          "sha256": "03f7cccb3cd55203fc4dbd3f749df44721a2a8c1c0183f9c18acacde077e1efa",
+          "mae_from": 87.11531684027777,
+          "mae_to": 0.31669270833333335,
+          "rgb_mean": 124.25772569444445,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StarWipe\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StarWipe\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.static_wipe",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\static_wipe\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\static_wipe\\frame-0.5.png",
+          "sha256": "5a9bc5ae9e739d13c0b9b2fd764dcc55fad3a236051915f7688af1004f25dbb0",
+          "mae_from": 68.4344140625,
+          "mae_to": 57.015659722222225,
+          "rgb_mean": 123.53715856481482,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\static_wipe\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\static_wipe\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.StaticFade",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StaticFade\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StaticFade\\frame-0.5.png",
+          "sha256": "60f25ca517e79b90b045abcbab7de9feab426c1f79ca383b97ace72dbda30806",
+          "mae_from": 90.05895833333334,
+          "mae_to": 73.1446484375,
+          "rgb_mean": 101.99375,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StaticFade\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StaticFade\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.StereoViewer",
+      "status": "incomplete",
+      "error": "Black midpoint; native behavior requires examination."
+    },
+    {
+      "id": "gl.StripDatamoshGlitch",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StripDatamoshGlitch\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StripDatamoshGlitch\\frame-0.5.png",
+          "sha256": "e706d2f86cc138ab1d324be723481511e40622e2c56f7372766f711fa380bdfb",
+          "mae_from": 58.32205729166667,
+          "mae_to": 53.15967447916667,
+          "rgb_mean": 112.42616898148148,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StripDatamoshGlitch\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\StripDatamoshGlitch\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.swap",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\swap\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\swap\\frame-0.5.png",
+          "sha256": "8105078941ef411dc3e37841949d46a6b8c4dd8fdafc1aa646ae7342a1ae12af",
+          "mae_from": 88.4740017361111,
+          "mae_to": 88.50187065972223,
+          "rgb_mean": 63.405266203703704,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\swap\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\swap\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.Swirl",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Swirl\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Swirl\\frame-0.5.png",
+          "sha256": "bdd36422e50102a3276cd64c97d39b790bec4d569693af762269f72b21f084fd",
+          "mae_from": 87.29871961805556,
+          "mae_to": 75.0859201388889,
+          "rgb_mean": 125.62902199074074,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Swirl\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\Swirl\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.tangentMotionBlur",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.TilesWave",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TilesWave\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TilesWave\\frame-0.5.png",
+          "sha256": "c3b188f8e8fe1c4869663727e06ec6c3551ae13345816b36548c56f60de775b4",
+          "mae_from": 44.591484375,
+          "mae_to": 42.51819878472222,
+          "rgb_mean": 131.1168634259259,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TilesWave\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TilesWave\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.TopBottom",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TopBottom\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TopBottom\\frame-0.5.png",
+          "sha256": "b0ce6882ee1092a5d3f1dd1485923654cb9c1540b46d1f39e299b89e56f12629",
+          "mae_from": 78.89173611111111,
+          "mae_to": 63.920933159722225,
+          "rgb_mean": 103.14690972222222,
+          "alpha_min": 128,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TopBottom\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TopBottom\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.TVStatic",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TVStatic\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TVStatic\\frame-0.5.png",
+          "sha256": "586c1548cadb5cd0ad94d50da6c258e79c705cb4a444eb957a56060f881e5ffb",
+          "mae_from": 91.08766493055556,
+          "mae_to": 75.87253038194444,
+          "rgb_mean": 126.95020833333334,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TVStatic\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\TVStatic\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.undulatingBurnOut",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\undulatingBurnOut\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\undulatingBurnOut\\frame-0.5.png",
+          "sha256": "2ca8d90b8a9c9cfe6c456251b8c062a302961c61266ddbf863e321e6974f0eea",
+          "mae_from": 54.10928385416667,
+          "mae_to": 34.124097222222225,
+          "rgb_mean": 123.74813078703704,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\undulatingBurnOut\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\undulatingBurnOut\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.VerticalClose",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalClose\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalClose\\frame-0.5.png",
+          "sha256": "d99f95b433beb0f759d050c662b0938e34522665e766a4f3f18f3fbc6d30404d",
+          "mae_from": 22.94909722222222,
+          "mae_to": 64.1605859375,
+          "rgb_mean": 123.48913194444444,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalClose\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalClose\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.VerticalOpen",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalOpen\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalOpen\\frame-0.5.png",
+          "sha256": "0abbfe81cf41ee4de632d384922b29de45509cabede07bfbc450a69041a192e0",
+          "mae_from": 64.16456163194445,
+          "mae_to": 22.94512152777778,
+          "rgb_mean": 124.07531828703704,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalOpen\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\VerticalOpen\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.WaterDrop",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\WaterDrop\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\WaterDrop\\frame-0.5.png",
+          "sha256": "81d872a218a300293020811b73df7aafaf2f18b7b17c344fd457864656485f94",
+          "mae_from": 63.22513454861111,
+          "mae_to": 42.76736979166667,
+          "rgb_mean": 123.73921875,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\WaterDrop\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\WaterDrop\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.wind",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wind\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wind\\frame-0.5.png",
+          "sha256": "2c9b727b37706142e46346a129b06f7a42ffbeac30c7e981e7cc65db52dfcf92",
+          "mae_from": 44.02405381944445,
+          "mae_to": 43.08562934027778,
+          "rgb_mean": 137.59291666666667,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wind\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wind\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.windowblinds",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowblinds\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowblinds\\frame-0.5.png",
+          "sha256": "ca8e0c60c9657afb60b917afff865bdfd1c39ef03081ee6d3938b1ef784f0912",
+          "mae_from": 54.47864583333333,
+          "mae_to": 32.63103732638889,
+          "rgb_mean": 123.72378472222222,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowblinds\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowblinds\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.windowslice",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowslice\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowslice\\frame-0.5.png",
+          "sha256": "ce09c24f32c4fdd311f416e7275b59b4e917a1076f0b39d80531787867bbb760",
+          "mae_from": 44.39218315972222,
+          "mae_to": 42.7175,
+          "rgb_mean": 136.12416087962964,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowslice\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\windowslice\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.wipeDown",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeDown\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeDown\\frame-0.5.png",
+          "sha256": "a223bed4e9d87fce55b39d70d0688b1f72a3044bb2aa41415eaecf5fb995e1bc",
+          "mae_from": 43.68421440972222,
+          "mae_to": 43.42546875,
+          "rgb_mean": 124.57094328703704,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeDown\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeDown\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.wipeLeft",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeLeft\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeLeft\\frame-0.5.png",
+          "sha256": "0928208ef3af8ca2c47fa0765b5ae0eda4f376a466e370bc29cd0a5663eac716",
+          "mae_from": 42.51819878472222,
+          "mae_to": 44.591484375,
+          "rgb_mean": 116.47140625,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeLeft\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeLeft\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.wipeRight",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeRight\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeRight\\frame-0.5.png",
+          "sha256": "c3b188f8e8fe1c4869663727e06ec6c3551ae13345816b36548c56f60de775b4",
+          "mae_from": 44.591484375,
+          "mae_to": 42.51819878472222,
+          "rgb_mean": 131.1168634259259,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeRight\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeRight\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.wipeUp",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeUp\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeUp\\frame-0.5.png",
+          "sha256": "5a30d0d3aa85f009f3df4e9d4fde12c4fc0a41b98cdb68424290346527621e13",
+          "mae_from": 43.42546875,
+          "mae_to": 43.68421440972222,
+          "rgb_mean": 123.01732638888889,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeUp\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\wipeUp\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.x_axis_translation",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\x_axis_translation\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\x_axis_translation\\frame-0.5.png",
+          "sha256": "273ceaddaef6fe96e47fceb9adc9f5db828d6ae30b273a5f708c41ce64cca1f6",
+          "mae_from": 88.54007378472222,
+          "mae_to": 77.4290451388889,
+          "rgb_mean": 112.9532349537037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\x_axis_translation\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\x_axis_translation\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.ZoomInCircles",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ZoomInCircles\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ZoomInCircles\\frame-0.5.png",
+          "sha256": "fa886449af995ecd0f3b383bd16e605babaa227fd568068845f6a09b93340c4f",
+          "mae_from": 12.863628472222222,
+          "mae_to": 90.29518663194445,
+          "rgb_mean": 124.14023148148148,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ZoomInCircles\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\ZoomInCircles\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.zoomInOut",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\zoomInOut\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\zoomInOut\\frame-0.5.png",
+          "sha256": "9faacef6d365bf671c09cc1fde2263370d7b2f9475b842ba8bb55402b7f42668",
+          "mae_from": 89.26595486111111,
+          "mae_to": 67.07544704861111,
+          "rgb_mean": 127.66666666666667,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\zoomInOut\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\zoomInOut\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gl.ZoomLeftWipe",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    },
+    {
+      "id": "gl.ZoomRigthWipe",
+      "status": "incomplete",
+      "error": "Pass-through detected at midpoint; shader/input binding unproved."
+    }
+  ],
+  "finished_at": "2026-10-10T11:03:57.995406+00:00",
+  "counts": {
+    "rendered": 106,
+    "incomplete": 17,
+    "unsupported": 2
+  }
+}

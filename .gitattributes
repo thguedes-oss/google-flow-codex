@@ -1,0 +1,6 @@
+# Preserve os bytes de fontes, prompts, inventários e evidências protegidos por hash.
+* -text
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.wav binary

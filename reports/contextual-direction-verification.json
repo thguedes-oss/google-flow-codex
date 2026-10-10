@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-10T12:58:39.659629+00:00",
+  "changed_documents": [
+    "AGENTS.md",
+    "README.md",
+    "workflow/continuidade.md",
+    "workflow/direcao.md",
+    "workflow/operacao.md",
+    "workflow/pos-producao.md",
+    "workflow/revisao.md",
+    "workflow/conhecimento/pre-producao.md",
+    "templates/creative-brief.md",
+    "templates/decisoes.md",
+    "workflow/direcao-contextual.md",
+    "templates/plano-editorial.md",
+    "reports/contextual-direction-implementation.md"
+  ],
+  "local_links_checked": 117,
+  "link_errors": [],
+  "protected_files": 324,
+  "protected_file_changes": [],
+  "document_hashes": {
+    "AGENTS.md": "8cc24d6a3a2c4a94301fcd707f187a47cb5c8d18fe0aa4f3dfa35a5d5403eb2e",
+    "README.md": "f393284304b641e08b7f523614d00bf7022c22e063af231e4278b6a5d8efe7d3",
+    "workflow/continuidade.md": "14f615a9cb26aa2e0cc170c39344566cd2fcb63630a6e76af9be13f967970393",
+    "workflow/direcao.md": "48692ee37111a694949186627b5f66ab9668063b9b688e81fc6ca8409a469fc6",
+    "workflow/operacao.md": "383c68b22da88d90d047f2e1e7562d7d304dfac60c276b61b1f7be79335a4186",
+    "workflow/pos-producao.md": "6742b68a7bd020fcffaf47df5f775f45f657f8725e7c6bfff4b22d7befdbe0b3",
+    "workflow/revisao.md": "9ff408f016f29d5b35bd11b63d58fb07bfdb56c2ce87d70c30702137329e1100",
+    "workflow/conhecimento/pre-producao.md": "ac8011c070ba3ccb3e5bae1aedd7f00687944a58cc929a20d70c259ef9ba809b",
+    "templates/creative-brief.md": "3803ceb6b61ab59e1e1659bc70d72995b170b2138b02f6299bbadc17b9614d54",
+    "templates/decisoes.md": "40f3035147fac5fd938d740f20335ed1b4e74baa093d81ccde3fd57bebe47789",
+    "workflow/direcao-contextual.md": "055a26069817588897f15d41ac9ccead65e9f58c9b582f9704af24afe4e30f22",
+    "templates/plano-editorial.md": "ea0b93871f4113ebcff48229ad32385a083f96b4c5aa3281b4568c43d52f6e4e",
+    "reports/contextual-direction-implementation.md": "09b4c2c28fbdd5c8383ba99ae2aa1f2ebbeaaf34ee3d09ffcbe368b2e711c1a5"
+  },
+  "passed": true,
+  "note": "Links and exact bytes only; not a semantic quality/approval test."
+}

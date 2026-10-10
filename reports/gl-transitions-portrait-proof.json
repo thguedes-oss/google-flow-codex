@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "engine": "0.3.1",
+  "started_at": "2026-10-10T11:02:50.400789+00:00",
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\portrait-2026-10-10T110251317133+0000",
+  "synthetic_only": true,
+  "flow_credits": 0,
+  "playback_completed": false,
+  "audio_listened": false,
+  "results": [
+    {
+      "id": "gl.fade",
+      "implementation_sha256": "4cd23afd7672f1f3103a3090c0b505ef825aee66369b545946f3be0bd626d811",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "filmstrip_cell": 0,
+          "mae_from": 0.0,
+          "mae_to": 48.07319414607949,
+          "rgb_mean": 67.13113139992839,
+          "alpha_min": 0,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.25,
+          "filmstrip_cell": 1,
+          "mae_from": 12.359445488721805,
+          "mae_to": 37.1124127282492,
+          "rgb_mean": 66.40130683852489,
+          "alpha_min": 0,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "filmstrip_cell": 2,
+          "mae_from": 25.167440923737917,
+          "mae_to": 25.15561895810956,
+          "rgb_mean": 65.17294128177586,
+          "alpha_min": 0,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.75,
+          "filmstrip_cell": 3,
+          "mae_from": 37.27299274973147,
+          "mae_to": 12.413876208378088,
+          "rgb_mean": 64.47401539563194,
+          "alpha_min": 0,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "filmstrip_cell": 4,
+          "mae_from": 49.1750067132116,
+          "mae_to": 0.0,
+          "rgb_mean": 63.577586824203365,
+          "alpha_min": 0,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\portrait-2026-10-10T110251317133+0000\\fade\\shader.tsrct",
+      "filmstrip": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\portrait-2026-10-10T110251317133+0000\\fade\\filmstrip.png",
+      "filmstrip_sha256": "f967642f89b7f5b22ca51ddf66ad55b96fc7bdab306b6dcacc4e3b96611a0583",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ],
+      "dimensions": {
+        "width": 180,
+        "height": 320
+      },
+      "intermediate_black_detected": false
+    }
+  ],
+  "finished_at": "2026-10-10T11:03:06.684941+00:00",
+  "counts": {
+    "rendered": 1,
+    "incomplete": 0,
+    "unsupported": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-10T11:14:40.951518+00:00",
+  "fixture_kind": "synthetic_temporary_only",
+  "generation_calls": 0,
+  "flow_credits_spent": 0,
+  "audio_listened": false,
+  "playback_completed": false,
+  "status": "failed",
+  "error": "Window/clock/endpoint mismatch: [0.0, 0.0, 0.0, 126.93679269547324, 126.92238940329219, 126.95415380658436], [0.0, 136.65888631687244], [0.0, 136.85474537037038]",
+  "production_files_unchanged": true,
+  "finished_at": "2026-10-10T11:15:23.179444+00:00",
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-technique-integration-45urchjw"
+}

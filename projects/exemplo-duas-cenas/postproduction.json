@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "kind": "edit",
+  "title": "Lia no café — montagem pendente",
+  "delivery": {
+    "width": null,
+    "height": null,
+    "duration_ms": null,
+    "resolution": null,
+    "fps": null,
+    "audio_expected": null
+  },
+  "clips": [],
+  "resources": [],
+  "images": [],
+  "rectangles": [],
+  "texts": [],
+  "audio": [],
+  "native_actions": []
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "source_id": "beatcut",
+  "commit": "a297f6120bfcd5aadd099ee104299293629b0dd6",
+  "coverage": "all-git-tracked-files",
+  "duplicate_policy": "Manter todas as origens e caminhos, inclusive SHA-256 repetidos.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "fe76a406cd0014e1abf1f728a5d3c717a6d0b3f1750d4b88d3b4b07927b623f2",
+      "category": "infraestrutura",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "e955c16113b8844296e71a2cc995325a3e719de252fe526085dc88a6fda89ecd",
+      "category": "documentacao",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "README.md",
+      "sha256": "f488d5b55965154e5875ed76d6692ae02f7e7920d711269dea3be35b90f8e929",
+      "category": "documentacao",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "app.py",
+      "sha256": "64fa89ef8a971138274089d6b8c98881643b401e384b505509b7af7032bf11df",
+      "category": "infraestrutura",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "docs/gallery/beatcut_output.mp4",
+      "sha256": "4726f5f06e7857f8752d49083af8fce6aeaabd3456c43ef10301f10475d0be04",
+      "category": "midia-ou-modelo",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "docs/gallery/home.png",
+      "sha256": "dbe0506657ccb78a6ee0b0f4a4c3fda30dbd2f7e87e327a11e53ce436b59e5a4",
+      "category": "midia-ou-modelo",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "docs/gallery/output.png",
+      "sha256": "612e5004bd8df6c18e865325778097c9e09e66786434deb800ce84c4740cf47d",
+      "category": "midia-ou-modelo",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "docs/gallery/usecase.gif",
+      "sha256": "548a2a5159a3f7cc96b8fd60ae6d77d80b755ec976fd0c5085dc05d60ae43203",
+      "category": "midia-ou-modelo",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "docs/plans/2026-03-04-beatcut-scaffold.md",
+      "sha256": "9cf300fe5cd39b890f347bf109ca6da1fc72e6c377000ba758c712fbed9c2a90",
+      "category": "audio",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/audio.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "docs/plans/2026-03-04-sync-mode-design.md",
+      "sha256": "366870c42ef32d76cc00d770bf37b78b20449237eddea7d1fe383b0e0e08d580",
+      "category": "audio",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/audio.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "docs/plans/2026-03-04-sync-mode.md",
+      "sha256": "83500c24d5f2100b08d34f8383c4b90bc8ad84162f771fcd44f6a6d672fe4774",
+      "category": "audio",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/audio.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "docs/plans/2026-03-10-todo-features-design.md",
+      "sha256": "84f023861f440a9bfd947651b4309b3ff94954ddbffdc69e9304fe011393082a",
+      "category": "documentacao",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "docs/plans/2026-03-10-todo-features-plan.md",
+      "sha256": "8bf52b3893462655239750625a166c21a343512e966f6155fe095328400fb931",
+      "category": "documentacao",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "docs/todo/todo.md",
+      "sha256": "138cd911868bc11e49ece6849c09134e770b97fe9ce1c4d42458ec4de455282e",
+      "category": "documentacao",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Consulta conceitual sobre cortes, energia e ritmo; ausência de licença impede copiar implementação ou textos; implementação local própria."
+    },
+    {
+      "path": "processor.py",
+      "sha256": "b121728177b5b745079b5e9ec46eeec6414994ce61ec8ef3e9c86b35166a94b7",
+      "category": "ritmo-implementacao-consulta",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/montagem.md",
+      "reason": "Observar conceitos de detecção e alinhamento de cortes; sem licença identificada, não copiar código nem executar aplicação."
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "89e26dc574def1b9a77263ce7068e739bcb9d7d8cf9949673ce5098934ed8cc7",
+      "category": "infraestrutura",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "static/app.js",
+      "sha256": "c234506a8effe6ed0eaa43b2b05c3acc9d4a91da9afe353f54e36caf4df17e22",
+      "category": "infraestrutura",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "static/favicon.svg",
+      "sha256": "6de605a5359e5856b3bce9b8f43ce61770807f479e67a03790bcdaa2a48b412b",
+      "category": "midia-ou-modelo",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Mídia/demonstração/modelo upstream não aprovado como ativo de produção; não promover nem carregar modelos."
+    },
+    {
+      "path": "static/style.css",
+      "sha256": "4c7581962043b70cf16fb561683da5e19d1173bb23a62e0ba51ceb484d73edf0",
+      "category": "infraestrutura",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "templates/index.html",
+      "sha256": "1031b8f865da16c452d95316127b8faaf0cf5c445b4d90b60cd7a66bcb02b2c2",
+      "category": "infraestrutura",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "excluido",
+      "destination": "workflow/tecnicas.md",
+      "reason": "Arquivo de aplicação, configuração ou distribuição; não integra a operação Flow/Tesseract e não será executado."
+    },
+    {
+      "path": "tests/test_processor.py",
+      "sha256": "94d64437c0e1d5dd0155dd17f8a803cd75b1400a03a09a801f9ba2ca28576866",
+      "category": "ritmo-implementacao-consulta",
+      "observed_license": "Não identificada; consulta, sem copiar código",
+      "applicability": "consulta",
+      "destination": "workflow/conhecimento/montagem.md",
+      "reason": "Observar conceitos de detecção e alinhamento de cortes; sem licença identificada, não copiar código nem executar aplicação."
+    }
+  ]
+}

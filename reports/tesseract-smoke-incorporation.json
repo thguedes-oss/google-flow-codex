@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-10T11:27:41.108758+00:00",
+  "generation_calls": 0,
+  "flow_credits_spent": 0,
+  "fixture_kind": "synthetic_temporary_only",
+  "adobe_application_verified": false,
+  "playback_completed": false,
+  "audio_listened": false,
+  "checks": [
+    "native_project_prepared_and_reopened",
+    "mp4_dimensions_fps_duration_audio_and_full_decode",
+    "synthetic_audio_non_silent_and_not_clipped",
+    "source_trim_and_timeline_cut_match_encoded_frames",
+    "after-effects_package_created_adobe_unverified",
+    "premiere_native_cuts_audio_package_created_adobe_unverified",
+    "editable_static_design_png_dimensions_and_reopen",
+    "approved_image_animatic_export",
+    "editable_title_fade_visible_in_encoded_frames",
+    "portrait_square_1080_and_4k_exact_canvas_profiles",
+    "original_generation_manifest_and_ledgers_preserved"
+  ],
+  "audio_peak_measured": 0.09142784029245377,
+  "inspect_structure_keys": [
+    "$schema",
+    "composition",
+    "dimensions",
+    "duration",
+    "formatVersion"
+  ],
+  "cut_mean_absolute_pixel_differences": [
+    9.373549479166666,
+    9.080188802083333
+  ],
+  "conversion_failures": [
+    {
+      "target": "premiere",
+      "source_kind": "hybrid_text_graphics",
+      "status": "failed",
+      "error": "tsrct-conv.exe terminou com código 1: {\"command\":\"convert\",\"level\":\"info\",\"message\":\"info: FX schema versions: Tesseract file fxSchemaVersion=67, converter fxSchemaVersion=70. A schema difference may be relevant when investigating conversion or editing failures.\",\"schemaVersion\":1,\"type\":\"diagnostic\"}\n{\"causes\":[\"convert C:\\\\Users\\\\thgue\\\\AppData\\\\Local\\\\Temp\\\\flow-tesseract-technical-2f6qx79f\\\\projects\\\\vídeo técnico com espaços\\\\outputs\\\\postproduction\\\\native-smoke\\\\Project.tsrct\",\"package artifact must use a portable ASCII relative path without reserved device names: media/ae-0001/compositions.aep\"],\"command\":\"convert\",\"message\":\"convert C:\\\\Users\\\\thgue\\\\AppData\\\\Local\\\\Temp\\\\flow-tesseract-technical-2f6qx79f\\\\projects\\\\vídeo técnico com espaços\\\\outputs\\\\postproduction\\\\native-smoke\\\\Project.tsrct: package artifact must use a portable ASCII relative path without reserved device names: media/ae-0001/compositions.aep\",\"phase\":\"failed\",\"schemaVersion\":1,\"type\":\"error\"}",
+      "partial_output_is_deliverable": false
+    }
+  ],
+  "conversions": {
+    "after-effects": {
+      "schema_version": 1,
+      "status": "converted_adobe_unverified",
+      "target": "after-effects",
+      "converter_version": "0.2.1",
+      "revision_sha256": "4b061bbc83873b94f20fb6099d56ff094c79830cc1247d14732b7818cecf2878",
+      "adobe_verified": false,
+      "result": {
+        "artifactStatus": "published",
+        "artifacts": [
+          {
+            "kind": "project",
+            "path": "project.aep"
+          },
+          {
+            "kind": "media",
+            "path": "media/000000-asset-0.wav"
+          },
+          {
+            "kind": "media",
+            "path": "media/000001-asset-1.mp4"
+          },
+          {
+            "kind": "media",
+            "path": "media/000002-asset-2.mp4"
+          },
+          {
+            "kind": "media",
+            "path": "fonts/704eada12961a27fd271f7d3b09e2066520e758390c1776744eff430fee30f6e.ttf"
+          },
+          {
+            "kind": "media",
+            "path": "fonts/manifest.json"
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "AE-EXPORT",
+            "context": null,
+            "kind": "warning",
+            "message": "warning: [AE-EXPORT]: Experimental fresh native Solid/vector/Text/footage export: Adobe open/render acceptance is unverified. Root output uses 24fps and square pixels; generated precompositions inherit the selected root frame rate. Current integral motion-blur/shutter settings are authored on root and generated precompositions. Other FX document metadata is not restored. Solid RGB narrows to native f32 precision."
+          },
+          {
+            "code": "AE-EXPORT",
+            "context": null,
+            "kind": "warning",
+            "message": "warning: [AE-EXPORT]: Representable vector-only Groups are authored as nested native vector groups; identity mixed-content wrappers may be normalized away. Exact precomposition clocks/collapse/clipping and unsupported native records remain diagnosed rather than guessed. Native layer/source IDs are newly allocated; no original AEP is replayed."
+          },
+          {
+            "code": "AE-EXPORT",
+            "context": "FX layer 5",
+            "kind": "warning",
+            "message": "warning: [AE-EXPORT] FX layer 5: Experimental Box Text uses cache-free independent Adobe-native semantic defaults and native automatic-leading storage. Unknown requested-font vendor metadata is omitted. Native font-table defaults are not validated against FX fallback/custom-font resolution or actual font binaries. Bounded native acceptance/readback does not establish full-project render, alpha, edited box reflow or actual-font fidelity. Fractional Tracking rounds to native integers at document keys"
+          },
+          {
+            "code": "AE-EXPORT",
+            "context": null,
+            "kind": "warning",
+            "message": "warning: [AE-EXPORT]: Embedded fonts used by exported Text are copied byte-for-byte into fonts/ with manifest.json. Install these fonts before opening/rendering in After Effects; a package-relative fonts folder does not activate them. Font redistribution remains subject to their licenses."
+          }
+        ],
+        "input": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\native-smoke\\Project.tsrct",
+        "message": "Saved experimental project.aep (supported editable subset; see omissions; Adobe acceptance unverified).",
+        "mode": "write",
+        "output": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\native-smoke\\conversions\\ff7ff7f2b0d44a6791f9687f74489e90\\package"
+      },
+      "files": [
+        {
+          "path": "package/fonts/manifest.json",
+          "sha256": "29f235ff420dda279621dd5641f0c8f9135233d213b9267b52f51322b512cdcb"
+        },
+        {
+          "path": "package/media/000000-asset-0.wav",
+          "sha256": "718807b3b122e6ebd675dc291b90babacf784242ac6392df4ec397b22c9834fb"
+        },
+        {
+          "path": "package/media/000001-asset-1.mp4",
+          "sha256": "4bd382a74b6dec22ccb7f44d2919962acb72b4e108aa89b73f5cc3e95a0fcf23"
+        },
+        {
+          "path": "package/media/000002-asset-2.mp4",
+          "sha256": "41b280cefd4296ae0128d5279bfaac49ed310b440b0f091e76eff01d8cca2b30"
+        },
+        {
+          "path": "package/project.aep",
+          "sha256": "e15ed21506ab2ea0ba11a60801a9832319edb5ef09ec592fd5c09cbef9ec43c3"
+        }
+      ],
+      "warnings_log": "logs/stderr.txt"
+    },
+    "premiere-native": {
+      "schema_version": 1,
+      "status": "converted_adobe_unverified",
+      "target": "premiere",
+      "converter_version": "0.2.1",
+      "revision_sha256": "73251cd0cfaefd29b969ef57008290217811fe92781b18dbb70dcfcaacd95762",
+      "adobe_verified": false,
+      "result": {
+        "artifactStatus": "published",
+        "artifacts": [
+          {
+            "kind": "project",
+            "path": "project.prproj"
+          },
+          {
+            "kind": "media",
+            "path": "media\\synthetic-tone.wav"
+          },
+          {
+            "kind": "media",
+            "path": "media\\synthetic-0.mp4"
+          },
+          {
+            "kind": "media",
+            "path": "media\\synthetic-1.mp4"
+          }
+        ],
+        "diagnostics": [],
+        "input": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\premiere-native-smoke\\Project.tsrct",
+        "message": "Saved Premiere project.",
+        "mode": "write",
+        "output": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\premiere-native-smoke\\conversions\\badd78a67a30424dbfaf83daf1bf74bf\\package"
+      },
+      "files": [
+        {
+          "path": "package/media/synthetic-0.mp4",
+          "sha256": "4bd382a74b6dec22ccb7f44d2919962acb72b4e108aa89b73f5cc3e95a0fcf23"
+        },
+        {
+          "path": "package/media/synthetic-1.mp4",
+          "sha256": "41b280cefd4296ae0128d5279bfaac49ed310b440b0f091e76eff01d8cca2b30"
+        },
+        {
+          "path": "package/media/synthetic-tone.wav",
+          "sha256": "718807b3b122e6ebd675dc291b90babacf784242ac6392df4ec397b22c9834fb"
+        },
+        {
+          "path": "package/project.prproj",
+          "sha256": "374d4ce88df968883d21a93896b45fc7f9ce32ea377669c426e94f39aa934b19"
+        }
+      ],
+      "warnings_log": "logs/stderr.txt"
+    }
+  },
+  "animated_title_white_pixels_start_and_half_second": [
+    0,
+    4838
+  ],
+  "export_profiles_verified": [
+    {
+      "resolution": "720p",
+      "width": 1280,
+      "height": 720,
+      "fps": 24
+    },
+    {
+      "resolution": "720p",
+      "width": 720,
+      "height": 1280,
+      "fps": 30
+    },
+    {
+      "resolution": "720p",
+      "width": 720,
+      "height": 720,
+      "fps": 60
+    },
+    {
+      "resolution": "1080p",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24
+    },
+    {
+      "resolution": "4k",
+      "width": 3840,
+      "height": 2160,
+      "fps": 24
+    }
+  ],
+  "status": "passed_with_limitations",
+  "temporary_previews": [
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\native-smoke\\renders\\eb54d80e56ba46c8bc655297649171c1\\Preview.png",
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\native-smoke\\renders\\eb54d80e56ba46c8bc655297649171c1\\Filmstrip.png",
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\design-smoke\\renders\\79921aac9ac142bb944710f12bcc9772\\Preview.png",
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f\\projects\\vídeo técnico com espaços\\outputs\\postproduction\\animatic-smoke\\renders\\a2fd04845dcc4973a4d1c39d022bac2a\\Preview.png"
+  ],
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-tesseract-technical-2f6qx79f",
+  "production_files_unchanged": true,
+  "finished_at": "2026-10-10T11:29:16.066883+00:00"
+}

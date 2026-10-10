@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-10T17:57:40.775182+00:00",
+  "passed": true,
+  "errors": [],
+  "inventory_files": 2459,
+  "documentary_classification": {
+    "excluido": 1815,
+    "consulta": 519,
+    "catalogo": 125
+  },
+  "duplicate_groups": 437,
+  "native": {
+    "enabled": 10
+  },
+  "gl": {
+    "enabled": 125
+  },
+  "gl_rendered_cases": 375,
+  "production_media_generated": 0,
+  "flow_credits_spent": 0,
+  "note": "Cobertura documental, execução técnica e aprovação visual são avaliações separadas."
+}

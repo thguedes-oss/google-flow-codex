@@ -1,0 +1,76 @@
+Executor local: mesma suíte upstream; Git Bash explícito no Windows.
+Testing Google Flow Scripting Skill v1.6.0
+
+  PASS  all_fail_fixtures_registered
+  PASS  fail_backward_refs.md
+  PASS  fail_bare_handle_after_declaration.md
+  PASS  fail_beats_duplicate.md
+  PASS  fail_beats_gap.md
+  PASS  fail_beats_malformed.md
+  PASS  fail_beats_out_of_order.md
+  PASS  fail_flow_quality_references.md
+  PASS  fail_markdown_heading.md
+  PASS  fail_middle_segment.md
+  PASS  fail_no_audio.md
+  PASS  fail_no_notext.md
+  PASS  fail_omni_extend_api.md
+  PASS  fail_omni_first_last_flow.md
+  PASS  fail_reference_missing_at.md
+  PASS  fail_reference_space.md
+  PASS  fail_specs.md
+  PASS  fail_storyboard_10s_3x3.md
+  PASS  fail_storyboard_contract.md
+  PASS  fail_storyboard_duplicate_panel.md
+  PASS  fail_storyboard_missing_panel.md
+  PASS  fail_storyboard_video_beats.md
+  PASS  fail_text_policy_not_first.md
+  PASS  fail_token_bleed.md
+  PASS  fail_veo_reference_four_second.md
+  PASS  fail_veo_ten_second.md
+  PASS  pass_api_omni_three_second.md
+  PASS  pass_audio_disabled.md
+  PASS  pass_clean.md
+  PASS  pass_documentation.md
+  PASS  pass_example_fence.md
+  PASS  pass_flow_omni_four_second.md
+  PASS  pass_flow_veo_lite_extend_8.md
+  PASS  pass_intentional_silence.md
+  PASS  pass_intentional_text.md
+  PASS  pass_multiple_segments.md
+  PASS  pass_omni_variable_intervals.md
+  PASS  pass_storyboard_10s_2x2.md
+  PASS  pass_storyboard_nine_explicit.md
+  PASS  pass_storyboard_panels.md
+  PASS  pass_ten_second.md
+  PASS  json_output_is_machine_readable
+  PASS  source_package_verifies
+  PASS  package_contains_no_em_dashes
+  PASS  storyboard_rule_is_hard_coded
+  PASS  release_history_is_complete
+  PASS  github_actions_tests_workflow_exists
+  PASS  github_actions_release_workflow_exists
+  PASS  python_sources_compile
+  PASS  install_shell_syntax
+  PASS  update_shell_syntax
+  PASS  semantic_version_comparison
+  PASS  offline_update_check_detects_new_version
+  PASS  release_starter_dry_run_is_non_destructive
+  PASS  validator_rejects_em_dash
+  PASS  validator_flags_veo_api_prompt_estimate
+  PASS  storyboard_generator_creates_separated_2x2_package
+  PASS  generated_storyboard_package_passes_validator
+  PASS  nine_panel_generation_requires_explicit_opt_in
+  PASS  zip_path_traversal_is_rejected
+  PASS  tar_links_are_rejected
+  PASS  installer_dry_run_writes_nothing
+  PASS  installer_creates_updateable_native_skill
+  PASS  installation_manifest_detects_untracked_files
+  PASS  installer_backs_up_existing_skill
+  PASS  release_builder_creates_versioned_assets
+  PASS  release_checksums_match_assets
+  PASS  release_archive_manifest_verifies
+  PASS  local_release_update_is_verified_and_backed_up
+  PASS  updater_refuses_git_working_tree
+
+70 passed, 0 failed
+All regression, integration, update, release, and integrity checks passed.

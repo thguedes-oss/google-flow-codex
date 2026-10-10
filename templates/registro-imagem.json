@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "asset_id": "personagem-exemplo",
+  "version": "v1",
+  "kind": "character",
+  "tool": "image_gen",
+  "generated_at": null,
+  "prompt": null,
+  "observed_description": null,
+  "inputs": [],
+  "reported_cost": null
+}

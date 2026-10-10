@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project": "C:\\Users\\thgue\\Documents\\ChatGPT\\FLOW\\projects\\exemplo-duas-cenas",
+  "passed": true,
+  "counts": {
+    "attempts": 0,
+    "snapshots": 0,
+    "decisions": 0,
+    "evidence_reports": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "note": "Auditoria local de geração e revisão de clipes; não repara registros, não aprova mídia e não acessa o Flow."
+}

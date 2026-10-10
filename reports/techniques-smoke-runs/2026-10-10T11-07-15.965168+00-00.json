@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-10T11:05:33.273488+00:00",
+  "generation_calls": 0,
+  "flow_credits_spent": 0,
+  "fixture_kind": "synthetic_temporary_only",
+  "playback_completed": false,
+  "audio_listened": false,
+  "cases": [
+    {
+      "id": "native.flash",
+      "fps": 24,
+      "duration_frames": 1,
+      "white_frame_indices": [
+        3
+      ],
+      "video_sha256": "8ccdd10936efcf063969b34b00d241e5f543568281186e7f4ff1b8c3279e7908",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 24,
+      "duration_frames": 2,
+      "white_frame_indices": [
+        3,
+        4
+      ],
+      "video_sha256": "a1a88f9861085a6d6735722a0b1b6283adaa7886fb28eba3d106f6cadabd0cb4",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 30,
+      "duration_frames": 1,
+      "white_frame_indices": [
+        3
+      ],
+      "video_sha256": "efed116e2e945e90bcd40d26e71e1b5fae7acfbb1b21005b39b294b720558838",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 30,
+      "duration_frames": 2,
+      "white_frame_indices": [
+        3,
+        4
+      ],
+      "video_sha256": "6ed7e3cc85bcd64e15a66a0312a66e8d30d7b5494e7ca0357f751178190e5c7c",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 60,
+      "duration_frames": 1,
+      "white_frame_indices": [
+        3
+      ],
+      "video_sha256": "4f6b7ce3d86b535983911f129ced46321376a0d0ff6fbbbddcb2b8e09d142079",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 60,
+      "duration_frames": 2,
+      "white_frame_indices": [
+        3,
+        4
+      ],
+      "video_sha256": "ea831d029d20693c5c2c7077498a901269379d90778cc365b5e4b29f16c4dc28",
+      "status": "passed"
+    },
+    {
+      "id": "native.fade",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        125.4349279835391,
+        72.46161265432099,
+        0.3761574074074074,
+        0.34040637860082307
+      ],
+      "video_sha256": "9b62f03d26b34429f7d54191fc47873b9775771bbd33057d722faf6e62c69c00",
+      "status": "passed"
+    },
+    {
+      "id": "native.transform",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        0.0,
+        34.510288065843625,
+        69.36066100823045,
+        0.3402134773662551
+      ],
+      "video_sha256": "8d8d5a8a09d9e6f2f1431961f30a810a01eed100bb97a6540fe7858c775f69d9",
+      "status": "passed"
+    },
+    {
+      "id": "native.reframe",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        75.58519804526749,
+        77.01311728395062,
+        76.69958847736625,
+        0.41473765432098764
+      ],
+      "video_sha256": "33f0d0fd4fec65a6b6d0ecc4841be401a0b3dde7697e9367552db4962b0f0c48",
+      "status": "passed"
+    },
+    {
+      "id": "native.overlay",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        16.206661522633745,
+        16.313078703703702,
+        16.413194444444443,
+        0.11239711934156378
+      ],
+      "video_sha256": "0f5ab746ac6fc04c4ba37470b948c417cf0db8b63b41d671a8b6706fa9fc4150",
+      "status": "passed"
+    },
+    {
+      "id": "native.collage",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        52.193029835390945,
+        52.335519547325106,
+        52.6536779835391,
+        0.299511316872428
+      ],
+      "video_sha256": "4d75c1ab666b4d7646cf01153b91577bedd251d874d6dc176107b77c2ec75724",
+      "status": "passed"
+    },
+    {
+      "id": "native.color",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        101.84574331275721,
+        101.68782150205762,
+        101.82439557613169,
+        0.4184670781893004
+      ],
+      "video_sha256": "d43253a98406d7e12dd131f613dee114ae61f355a06b44af429f3ec11fc51335",
+      "status": "passed"
+    },
+    {
+      "id": "native.text-reveal",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        13.79906121399177,
+        13.051376028806585,
+        13.600501543209877,
+        13.831597222222221,
+        13.848443930041153
+      ],
+      "video_sha256": "b58cc380aedf79e4ba0cd3b9413e7a09174d6b135ba45c2bcf9f801860a2cd60",
+      "status": "passed"
+    },
+    {
+      "id": "native.shape-reveal",
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        13.051183127572017,
+        0.13130144032921812,
+        5.583076131687243,
+        13.016782407407407,
+        12.984567901234568
+      ],
+      "video_sha256": "a904e9651277149f5709a4244012b3aa45eb7d61dc5a385dce8dc5ec4b9b6fff",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "video_sha256": "f401948711c42f7815e9e54bb10bedf635ff719a51d8812f4953acd42bcaebcf",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "video_sha256": "6526cf5b53ae3e07e1fb5fb39dabc565e43be46b1e514626c579a005aec78894",
+      "status": "passed"
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "scripts/flow_techniques.py",
+      "sha256": "1db70260526f47edcf22319129848d8df53eafd5defebc8f45d007cc202f1e46"
+    },
+    {
+      "path": "resources/techniques/catalog.json",
+      "sha256": "d0dba2818d075d620347dde627b589d204dea6a871f185a107e6c73914d7f9c1"
+    },
+    {
+      "path": "resources/techniques/color.wgsl",
+      "sha256": "5e128e88218073ec441943e14cf9ab0c8006a1f13f6cc762489c0508a07b2be9"
+    }
+  ],
+  "status": "passed",
+  "finished_at": "2026-10-10T11:07:15.962922+00:00",
+  "production_files_unchanged": true,
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-recipes-technical-sc3xg1_v"
+}

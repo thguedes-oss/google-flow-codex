@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "engine": "0.3.1",
+  "started_at": "2026-10-10T10:57:08.821923+00:00",
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f",
+  "synthetic_only": true,
+  "flow_credits": 0,
+  "playback_completed": false,
+  "audio_listened": false,
+  "results": [
+    {
+      "id": "gl.fade",
+      "status": "rendered",
+      "frames": [
+        {
+          "time": 0,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\frame-0.png",
+          "sha256": "d715ac143ce52f69a333e550357ff97cc9ec489738bbf3f7738effd8e5c533a7",
+          "mae_from": 0.0,
+          "mae_to": 85.81123697916667,
+          "rgb_mean": 124.49457175925926,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 0.5,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\frame-0.5.png",
+          "sha256": "3d73a3efcb19220fe7b088e17ce99c2a78df6b796051a8db9120f9a3a502edfe",
+          "mae_from": 43.556263020833335,
+          "mae_to": 43.55342013888889,
+          "rgb_mean": 123.66865162037037,
+          "alpha_min": 255,
+          "alpha_max": 255
+        },
+        {
+          "time": 1,
+          "path": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\frame-1.png",
+          "sha256": "81009cddd46a1e2cab30a256ed3b825165134196a8a2130584571bf2c41c4c89",
+          "mae_from": 86.24784288194445,
+          "mae_to": 0.0,
+          "rgb_mean": 123.53028935185185,
+          "alpha_min": 255,
+          "alpha_max": 255
+        }
+      ],
+      "document": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-gl-transitions-g5k00k5f\\fade\\shader.tsrct",
+      "orientation_and_aspect_endpoint_mae": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "finished_at": "2026-10-10T10:57:18.595514+00:00",
+  "counts": {
+    "rendered": 1,
+    "incomplete": 0,
+    "unsupported": 0
+  }
+}

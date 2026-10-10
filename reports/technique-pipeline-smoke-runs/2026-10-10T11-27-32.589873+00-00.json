@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-10T11:26:39.242179+00:00",
+  "fixture_kind": "synthetic_temporary_only",
+  "generation_calls": 0,
+  "flow_credits_spent": 0,
+  "audio_listened": false,
+  "playback_completed": false,
+  "implementation_files": [
+    {
+      "path": "scripts/tesseract_pipeline.py",
+      "sha256": "c31791670e3b113614eae91f2c210206c80921b5b2aab883c4371e1cda15b2f5"
+    },
+    {
+      "path": "scripts/flow_techniques.py",
+      "sha256": "81aa3cf2b0baa91051ab2dd8a1cacffd012e07a21f99e4c99c645c5db06e535c"
+    },
+    {
+      "path": "scripts/smoke_technique_pipeline.py",
+      "sha256": "27a40b0db808240800f16710a41af6d2f676e7c458c163afa2726db19c06cb20"
+    }
+  ],
+  "window_outside_mae": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "endpoint_mae": [
+    0.0,
+    0.17611882716049382
+  ],
+  "midpoint_distance_to_sources": [
+    53.65554269547325,
+    81.7096836419753
+  ],
+  "foreground_graphic_mae": 1.6666666666666667,
+  "decoded_audio_byte_identical": true,
+  "helper_volumes": [
+    0,
+    0
+  ],
+  "frozen_technique_files": [
+    {
+      "path": "resources/gl-transitions/catalog.json",
+      "sha256": "c9c7d2b1730591139bd5cade2817324b82f350d98bb78abab3250372b9038104"
+    },
+    {
+      "path": "resources/gl-transitions/wgsl/fade.wgsl",
+      "sha256": "4cd23afd7672f1f3103a3090c0b505ef825aee66369b545946f3be0bd626d811"
+    },
+    {
+      "path": "resources/techniques/catalog.json",
+      "sha256": "01c30a4b9b3030893a72ffaf403424335faa9535bcd985ebae7ca4d14c71f8dc"
+    },
+    {
+      "path": "resources/techniques/color.wgsl",
+      "sha256": "5e128e88218073ec441943e14cf9ab0c8006a1f13f6cc762489c0508a07b2be9"
+    },
+    {
+      "path": "scripts/flow_techniques.py",
+      "sha256": "81aa3cf2b0baa91051ab2dd8a1cacffd012e07a21f99e4c99c645c5db06e535c"
+    }
+  ],
+  "video_sha256": "6394a0bf94b2561acae2beccd102068d2936d29f3e2535a6df3d94a00e11822b",
+  "alpha_min": 127,
+  "alpha_max": 127,
+  "alpha_preview_sha256": "51df1dd2e1d77c317210427d2e85bce3e1996b5b23ee2760c60fa97776292560",
+  "native_color_alpha_min": 127,
+  "native_color_alpha_max": 127,
+  "fixture_generation_records_unchanged": true,
+  "status": "passed",
+  "temporary_previews": [
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-technique-integration-8a4sik0z\\alpha.png",
+    "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-technique-integration-8a4sik0z\\projects\\technical\\outputs\\postproduction\\transition\\Project.tsrct"
+  ],
+  "production_files_unchanged": true,
+  "finished_at": "2026-10-10T11:27:32.589873+00:00",
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-technique-integration-8a4sik0z"
+}

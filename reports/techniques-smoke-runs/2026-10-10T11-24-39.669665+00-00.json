@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-10T11:21:35.285442+00:00",
+  "generation_calls": 0,
+  "flow_credits_spent": 0,
+  "fixture_kind": "synthetic_temporary_only",
+  "playback_completed": false,
+  "audio_listened": false,
+  "cases": [
+    {
+      "id": "native.flash",
+      "fps": 24,
+      "duration_frames": 1,
+      "white_frame_indices": [
+        3
+      ],
+      "video_sha256": "8ccdd10936efcf063969b34b00d241e5f543568281186e7f4ff1b8c3279e7908",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 24,
+      "duration_frames": 2,
+      "white_frame_indices": [
+        3,
+        4
+      ],
+      "video_sha256": "a1a88f9861085a6d6735722a0b1b6283adaa7886fb28eba3d106f6cadabd0cb4",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 30,
+      "duration_frames": 1,
+      "white_frame_indices": [
+        3
+      ],
+      "video_sha256": "efed116e2e945e90bcd40d26e71e1b5fae7acfbb1b21005b39b294b720558838",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 30,
+      "duration_frames": 2,
+      "white_frame_indices": [
+        3,
+        4
+      ],
+      "video_sha256": "6ed7e3cc85bcd64e15a66a0312a66e8d30d7b5494e7ca0357f751178190e5c7c",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 60,
+      "duration_frames": 1,
+      "white_frame_indices": [
+        3
+      ],
+      "video_sha256": "4f6b7ce3d86b535983911f129ced46321376a0d0ff6fbbbddcb2b8e09d142079",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "fps": 60,
+      "duration_frames": 2,
+      "white_frame_indices": [
+        3,
+        4
+      ],
+      "video_sha256": "ea831d029d20693c5c2c7077498a901269379d90778cc365b5e4b29f16c4dc28",
+      "status": "passed"
+    },
+    {
+      "id": "native.fade",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        125.4349279835391,
+        72.46161265432099,
+        0.3761574074074074,
+        0.34040637860082307
+      ],
+      "video_sha256": "9b62f03d26b34429f7d54191fc47873b9775771bbd33057d722faf6e62c69c00",
+      "status": "passed"
+    },
+    {
+      "id": "native.transform",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        0.0,
+        34.510288065843625,
+        69.36066100823045,
+        0.3402134773662551
+      ],
+      "video_sha256": "8d8d5a8a09d9e6f2f1431961f30a810a01eed100bb97a6540fe7858c775f69d9",
+      "status": "passed"
+    },
+    {
+      "id": "native.reframe",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        75.58519804526749,
+        77.01311728395062,
+        76.69958847736625,
+        0.41473765432098764
+      ],
+      "video_sha256": "33f0d0fd4fec65a6b6d0ecc4841be401a0b3dde7697e9367552db4962b0f0c48",
+      "status": "passed"
+    },
+    {
+      "id": "native.overlay",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        16.206661522633745,
+        16.313078703703702,
+        16.413194444444443,
+        0.11239711934156378
+      ],
+      "video_sha256": "0f5ab746ac6fc04c4ba37470b948c417cf0db8b63b41d671a8b6706fa9fc4150",
+      "status": "passed"
+    },
+    {
+      "id": "native.collage",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        119.57079475308642,
+        119.7253086419753,
+        119.89454732510288,
+        0.43852880658436216
+      ],
+      "video_sha256": "436472248fff9134b6f850a3655bea987cd7b26d6ab8f12f5a667d095dbeb603",
+      "status": "passed"
+    },
+    {
+      "id": "native.color",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        101.84574331275721,
+        101.68782150205762,
+        101.82439557613169,
+        0.4184670781893004
+      ],
+      "video_sha256": "d43253a98406d7e12dd131f613dee114ae61f355a06b44af429f3ec11fc51335",
+      "status": "passed"
+    },
+    {
+      "id": "native.text-reveal",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        1.4847608024691359,
+        1.4221322016460904,
+        0.09786522633744855,
+        0.12506430041152264
+      ],
+      "video_sha256": "b58cc380aedf79e4ba0cd3b9413e7a09174d6b135ba45c2bcf9f801860a2cd60",
+      "status": "passed"
+    },
+    {
+      "id": "native.shape-reveal",
+      "format": "landscape",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        12.981031378600823,
+        8.830182613168724,
+        0.15907921810699588,
+        0.16261574074074073
+      ],
+      "video_sha256": "a904e9651277149f5709a4244012b3aa45eb7d61dc5a385dce8dc5ec4b9b6fff",
+      "status": "passed"
+    },
+    {
+      "id": "native.fade",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        60.35789609053498,
+        34.815329218106996,
+        0.16763117283950618,
+        0.16248713991769548
+      ],
+      "video_sha256": "4f4fb4b8597f46dc4f076216e100a67d49bd58ba70f42291b8aa12add36b1cd9",
+      "status": "passed"
+    },
+    {
+      "id": "native.transform",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        0.0,
+        18.541409465020575,
+        37.802404835390945,
+        0.14744084362139917
+      ],
+      "video_sha256": "e850c0adcb59bd798ac9823e9f808c3c8fbd909b9749f49d83e49f3ba4a1d9b1",
+      "status": "passed"
+    },
+    {
+      "id": "native.reframe",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        41.04468878600823,
+        42.359825102880656,
+        42.27076903292181,
+        0.1597222222222222
+      ],
+      "video_sha256": "ffd6274bcfc7789d826455de9c6d944f72b6e5b3c87a29a3bc4a1919dd4c1815",
+      "status": "passed"
+    },
+    {
+      "id": "native.overlay",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        14.857124485596708,
+        14.853459362139917,
+        15.019740226337449,
+        0.060570987654320986
+      ],
+      "video_sha256": "1bfd4c9928ad34d80b23d908b093f675470b979679c36ff465ab44e209acffd7",
+      "status": "passed"
+    },
+    {
+      "id": "native.collage",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        59.19219393004115,
+        59.273726851851855,
+        59.376864711934154,
+        0.1888503086419753
+      ],
+      "video_sha256": "8d21c05bddcd55330c79d62b0fb35a3905b6a1c0c38b3466def62432b0c42027",
+      "status": "passed"
+    },
+    {
+      "id": "native.color",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        55.04963991769547,
+        54.91621656378601,
+        55.134194958847736,
+        0.16049382716049382
+      ],
+      "video_sha256": "268555004d3257e0791949b1a309bb02771236022c751dd3194a9d3871e82b32",
+      "status": "passed"
+    },
+    {
+      "id": "native.text-reveal",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        1.4187885802469136,
+        1.239133230452675,
+        0.07047325102880658,
+        0.07407407407407407
+      ],
+      "video_sha256": "de4bc5b6c7a51283d1edb46561f30613d3d4ad55ca0f227218ddc78d2528b354",
+      "status": "passed"
+    },
+    {
+      "id": "native.shape-reveal",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        13.020126028806585,
+        8.66017232510288,
+        0.15573559670781892,
+        0.16210133744855967
+      ],
+      "video_sha256": "ac488ba5465a61ed58313e69f7362e8271048c016c27c0c830684b214a984ad2",
+      "status": "passed"
+    },
+    {
+      "id": "native.fade",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        107.23823302469135,
+        61.857831790123456,
+        0.3065200617283951,
+        0.3044624485596708
+      ],
+      "video_sha256": "442963bb22247148018572ea3bd934264adb33b41742d1e80d9f23aae74e3472",
+      "status": "passed"
+    },
+    {
+      "id": "native.transform",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        0.0,
+        33.73881172839506,
+        67.44071502057614,
+        0.27848508230452673
+      ],
+      "video_sha256": "ed4f60916654af4972678b008d39723179283ca7452d585f4518afd71041829f",
+      "status": "passed"
+    },
+    {
+      "id": "native.reframe",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        42.51286008230453,
+        45.34870113168724,
+        44.686149691358025,
+        0.28742283950617287
+      ],
+      "video_sha256": "63d179062374c9627bc923c424b9b48a656ae1e356e2101d02eec35bab434abb",
+      "status": "passed"
+    },
+    {
+      "id": "native.overlay",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        26.481095679012345,
+        26.59908693415638,
+        26.7411908436214,
+        0.11638374485596707
+      ],
+      "video_sha256": "d221cfb0b7f4fa506644de4264584152e638cc9cb7459af02a290ccc6d7df312",
+      "status": "passed"
+    },
+    {
+      "id": "native.collage",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        105.36259002057614,
+        105.51864711934157,
+        105.6471836419753,
+        0.3649048353909465
+      ],
+      "video_sha256": "c73d9143e6bc19cc7c7d54ee5cca4f3aa59db518f847c45cc8b4a53969409a18",
+      "status": "passed"
+    },
+    {
+      "id": "native.color",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        98.27899948559671,
+        98.02064043209876,
+        98.27874228395062,
+        0.2700617283950617
+      ],
+      "video_sha256": "c2b520b68759c41520e345f948671f087913028437995d658ce50b9cf548ff68",
+      "status": "passed"
+    },
+    {
+      "id": "native.text-reveal",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        2.5845550411522633,
+        2.5759387860082303,
+        0.1423611111111111,
+        0.1480838477366255
+      ],
+      "video_sha256": "94c6d545e3924410f3401ecdf62b2352223499458c7617d99570686f3e903f89",
+      "status": "passed"
+    },
+    {
+      "id": "native.shape-reveal",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "sample_frames": [
+        0,
+        3,
+        6,
+        10,
+        12
+      ],
+      "baseline_mae": [
+        0.0,
+        23.21945730452675,
+        15.818094135802468,
+        0.2846579218106996,
+        0.3012474279835391
+      ],
+      "video_sha256": "caa63b8004b696d53acff3f2ad9431a80e2dae71e6d599f31c62864516767eca",
+      "status": "passed"
+    },
+    {
+      "id": "native.audio-gain",
+      "rms_sample_times_seconds": [
+        0.075,
+        0.13,
+        0.27,
+        0.4,
+        0.52
+      ],
+      "rms": [
+        0.038044338807984183,
+        0.004593782199075304,
+        0.021853566378113788,
+        0.03785102651909173,
+        0.036172531926913935
+      ],
+      "status": "passed",
+      "video_sha256": "9f4d896bd7a0c2c5fc015c10460fddbd3d1a37044f5994461a5123ade88d8d92"
+    },
+    {
+      "id": "native.flash",
+      "format": "portrait",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "video_sha256": "f401948711c42f7815e9e54bb10bedf635ff719a51d8812f4953acd42bcaebcf",
+      "status": "passed"
+    },
+    {
+      "id": "native.flash",
+      "format": "square",
+      "dimensions": [
+        720,
+        720
+      ],
+      "video_sha256": "6526cf5b53ae3e07e1fb5fb39dabc565e43be46b1e514626c579a005aec78894",
+      "status": "passed"
+    }
+  ],
+  "recipe_files": [
+    {
+      "path": "scripts/flow_techniques.py",
+      "sha256": "81aa3cf2b0baa91051ab2dd8a1cacffd012e07a21f99e4c99c645c5db06e535c"
+    },
+    {
+      "path": "resources/techniques/catalog.json",
+      "sha256": "01c30a4b9b3030893a72ffaf403424335faa9535bcd985ebae7ca4d14c71f8dc"
+    },
+    {
+      "path": "resources/techniques/color.wgsl",
+      "sha256": "5e128e88218073ec441943e14cf9ab0c8006a1f13f6cc762489c0508a07b2be9"
+    }
+  ],
+  "status": "passed",
+  "finished_at": "2026-10-10T11:24:39.668663+00:00",
+  "production_files_unchanged": true,
+  "temporary_directory": "C:\\Users\\thgue\\AppData\\Local\\Temp\\flow-recipes-technical-xvm2pbtm"
+}
